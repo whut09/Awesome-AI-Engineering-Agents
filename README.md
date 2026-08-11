@@ -1,156 +1,214 @@
 # Awesome AI Engineering Agents
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Last Commit](https://img.shields.io/github/last-commit/whut09/Awesome-AI-Engineering-Agents)
+![Updated](https://img.shields.io/badge/updated-2026--08-blue)
 ![License](https://img.shields.io/github/license/whut09/Awesome-AI-Engineering-Agents)
 
-A curated list of papers and open-source projects that apply artificial
-intelligence to four engineering roles: **optical engineering**, **hardware
-engineering**, **structural design**, and **FPGA engineering**.
+A focused collection of **2020+** papers and open-source projects that apply AI
+to engineering work. The four tracks are optical engineering, electronics and
+hardware design, structural/CAD engineering, and FPGA implementation.
 
-本项目收集 AI 在光学、硬件、结构设计与 FPGA 四类工程岗位中的代表性论文和开源项目。
-它关注能够参与建模、仿真、优化、生成设计、验证或部署的实际方法与工具，而不是泛化的
-AI 新闻或产品列表。
+本项目只保留 2020 年以后发表的论文，以及在 2020 年以后仍有实质维护或新版本的工程项目。
+条目按实际工作流组织：设计、仿真、分析、审查、生成、综合与布线。基础工具只有在当前
+AI 工程流程中仍然必要时保留，并在表格中注明用途和许可证。
 
 > [!NOTE]
-> A repository is listed as open source only when it publishes an explicit
-> license. Always verify the current license and third-party asset terms before
-> commercial use.
+> An open-source project must publish an explicit license. Paper code or
+> datasets without a declared license are listed separately and are not called
+> open source. Always check bundled models, datasets, and vendor EULAs.
 
 ## Contents
 
 - [Optical Engineering](#optical-engineering)
-- [Hardware Engineering](#hardware-engineering)
-- [Structural Design](#structural-design)
+- [Hardware and PCB Design](#hardware-and-pcb-design)
+- [Structural and CAD Engineering](#structural-and-cad-engineering)
 - [FPGA Engineering](#fpga-engineering)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Optical Engineering
 
-AI-assisted lens and optical-system design, differentiable wave propagation,
-computational imaging, holography, and photonic neural networks.
+### Design, Simulation, and Inverse Design Papers
 
-### Papers
-
-| Year | Venue | Paper | Focus |
+| Year | Venue | Paper | Workflow |
 |:---:|:---:|:---|:---|
+| 2026 | arXiv | [OptiAgent: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | Agentic optical design |
+| 2025 | DATE | [MAPS: Multi-Fidelity AI-Augmented Photonic Simulation and Inverse Design Infrastructure](https://arxiv.org/abs/2503.01046) | Photonic simulation and inverse design |
+| 2024 | Advanced Engineering Informatics | [Artificial intelligence in optical lens design](https://doi.org/10.1007/s10462-024-10842-y) | Lens-design survey |
+| 2024 | arXiv | [TorchOptics: An open-source Python library for differentiable Fourier optics](https://arxiv.org/abs/2411.18591) | Differentiable wave optics |
 | 2024 | Nature Communications | [Curriculum learning for ab initio deep learned refractive optics](https://doi.org/10.1038/s41467-024-50835-7) | Automatic lens design |
-| 2024 | arXiv | [TorchOptics: An open-source Python library for differentiable Fourier optics](https://arxiv.org/abs/2411.18591) | Differentiable optics |
 | 2023 | ASPLOS | [LightRidge: An End-to-end Agile Design Framework for Diffractive Optical Neural Networks](https://doi.org/10.1145/3623278.3624757) | Diffractive optical neural networks |
-| 2021 | Nature | [Parallel convolutional processing using an integrated photonic tensor core](https://doi.org/10.1038/s41586-020-03070-1) | Optical AI accelerator |
-| 2020 | TOG | [Neural Holography with Camera-in-the-loop Training](https://doi.org/10.1145/3414685.3417802) | Learned hologram generation |
+| 2020 | TOG | [Neural Holography with Camera-in-the-loop Training](https://doi.org/10.1145/3414685.3417802) | Hologram generation and calibration |
 | 2020 | CVPR | [Deep Optics for Single-Shot High-Dynamic-Range Imaging](https://doi.org/10.1109/CVPR42600.2020.00145) | Learned optical coding |
-| 2018 | Science | [All-optical machine learning using diffractive deep neural networks](https://doi.org/10.1126/science.aat8084) | Diffractive optical computing |
-| 2018 | TOG | [End-to-end optimization of optics and image processing for achromatic extended depth of field and super-resolution imaging](https://doi.org/10.1145/3197517.3201333) | Joint optics and image processing |
 
 ### Open-Source Projects
 
-| Project | What it provides | Stack | License |
-|:---|:---|:---:|:---:|
-| [DeepLens](https://github.com/singer-yang/DeepLens) | Differentiable geometric optics and automatic lens design | Python / PyTorch | Apache-2.0 |
-| [DeepTrack 2.0](https://github.com/softmatterlab/DeepTrack2) | Deep learning for microscopy, particle tracking, and optical characterization | Python / TensorFlow | MIT |
-| [diffractsim](https://github.com/rafael-fuente/diffractsim) | GPU-accelerated diffraction simulation with differentiable backends | Python / JAX | MPL-2.0 |
-| [TorchOptics](https://github.com/matthewfilipovich/torchoptics) | Differentiable Fourier-optics simulation for PyTorch | Python / PyTorch | MIT |
-| [waveprop](https://github.com/ebezzam/waveprop) | Differentiable free-space wave propagation and holography models | Python / PyTorch | MIT |
+| Project | Engineering use | License |
+|:---|:---|:---:|
+| [DeepLens](https://github.com/singer-yang/DeepLens) | Differentiable geometric optics and automatic lens design | Apache-2.0 |
+| [DeepTrack 2.0](https://github.com/softmatterlab/DeepTrack2) | Microscopy, particle tracking, and optical characterization | MIT |
+| [diffractsim](https://github.com/rafael-fuente/diffractsim) | Differentiable diffraction simulation | MPL-2.0 |
+| [Dolphindes](https://github.com/physical-design-bounds/dolphindes) | Bounds and optimization for photonic inverse design | MIT |
+| [MAPS](https://github.com/ScopeX-ASU/MAPS) | Multi-fidelity AI photonic simulation and inverse design | MIT |
+| [pinn-shaper](https://github.com/rafael-fuente/pinn-shaper) | PINN-based flat-optics beam shaping | MPL-2.0 |
+| [TorchOptics](https://github.com/matthewfilipovich/torchoptics) | PyTorch Fourier-optics simulation and optimization | MIT |
+| [waveprop](https://github.com/ebezzam/waveprop) | Free-space propagation and holography models | MIT |
 
-## Hardware Engineering
+## Hardware and PCB Design
 
-AI accelerator architecture, design-space exploration, performance and energy
-modeling, and hardware-aware neural-network optimization. FPGA-specific work is
-kept in the [FPGA Engineering](#fpga-engineering) section.
+This track covers IC/SoC physical design, analog layout, PCB schematic and
+routing, design-rule checking, thermal analysis, and drawing review. FPGA RTL
+generation and implementation are in [FPGA Engineering](#fpga-engineering).
+
+### Schematic, PCB, and CAD Generation Papers
+
+| Year | Venue | Paper | Workflow |
+|:---:|:---:|:---|:---|
+| 2026 | arXiv | [SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations](https://arxiv.org/abs/2605.30345) | Schematic generation |
+| 2026 | arXiv | [PCBSchemaGen: Constraint-Guided Schematic Design via LLM](https://arxiv.org/abs/2602.00510) | Constraint-guided schematic design |
+| 2026 | ICLR | [PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing](https://jdzhu19.github.io/publication/conference_2026iclr_li/conference_2026ICLR_Li.pdf) | PCB placement and routing benchmark |
+| 2024 | IEEE | [AI-Optimized Placement and Routing for PCB Design](https://ieeexplore.ieee.org/document/10568665) | PCB placement and routing |
+| 2024 | arXiv | [LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation](https://arxiv.org/abs/2401.12224) | EDA survey |
+| 2024 | arXiv | [CadVLM: Bridging Language and Vision in the Generation of Parametric CAD](https://arxiv.org/abs/2409.17457) | Drawing and CAD understanding |
+| 2023 | TCAD | [TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks](https://ieeexplore.ieee.org/abstract/document/10042057) | Thermal-aware routing |
+| 2023 | ASP-DAC | [DPRoute: Deep Learning Framework for Package Routing](https://doi.org/10.1145/3566097.3567902) | Package and board routing |
+| 2023 | NeurIPS Workshop | [CAD-LLM: Large Language Model for CAD Generation](https://neurips.cc/virtual/2023/75064) | Text-to-CAD |
+| 2022 | DAC | [Automated Accelerator Optimization Aided by Graph Neural Networks](https://doi.org/10.1145/3489517.3530409) | Hardware design-space exploration |
+| 2022 | ML4CAD | [A Thermal Machine Learning Solver for Chip Simulation](https://doi.org/10.1145/3551901.3556484) | Thermal simulation |
+| 2021 | NeurIPS | [On Joint Learning for Solving Placement and Routing in Chip Design](https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf) | Joint placement and routing |
+| 2021 | DAC | [AutoSVA: Democratizing Formal Verification of RTL Module Interactions](https://doi.org/10.1109/DAC18074.2021.9586118) | Design review and formal checks |
+| 2020 | ICCAD | [A Customized Graph Neural Network Model for Guiding Analog IC Placement](https://doi.org/10.1145/3400302.3415624) | Analog placement |
+
+### Open-Source Projects
+
+| Project | Engineering use | License |
+|:---|:---|:---:|
+| [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | Analog schematic-to-layout automation | BSD-3-Clause |
+| [DeepPCB KiCad plugin](https://github.com/instadeepai/deeppcb-kicad-plugin) | AI-assisted PCB layout workflows in KiCad | Apache-2.0 |
+| [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU-accelerated placement optimization | BSD-3-Clause |
+| [KiCad](https://github.com/KiCad/kicad-source-mirror) | Schematic capture, PCB layout, DRC, and 3D inspection foundation | GPL-3.0 |
+| [KiCad Copilot](https://github.com/biosshot/kicad-copilot) | LLM assistant for KiCad projects | MIT |
+| [MAGICAL](https://github.com/magical-eda/MAGICAL) | Machine-learning-assisted analog layout | BSD-3-Clause |
+| [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | Automated RTL-to-GDS design flow | Apache-2.0 |
+| [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | Placement, routing, timing, and physical-design automation | BSD-3-Clause |
+| [PCBFlow](https://github.com/NijoP/pcbflow) | Programmatic PCB generation and layout | MIT |
+| [SchGen](https://github.com/microsoft/SchGen) | Semantic-grounded-code PCB schematic generation | MIT |
+
+### Datasets and Code with Unclear Licensing
+
+- [CircuitNet](https://circuitnet.github.io/) — EDA datasets for
+  congestion, timing, power, and IR-drop prediction. The repository does not
+  currently expose a standard software license; verify terms before reuse.
+- [PCBSchemaGen](https://github.com/Sthyao/PCBSchemaGen) — research code for the
+  2026 schematic-generation paper; no explicit repository license was found.
+
+## Structural and CAD Engineering
+
+The structural track includes generative CAD, topology and thickness-aware
+design, load/stress prediction, finite-element surrogates, physics-informed
+simulation, and drawing/BIM review.
 
 ### Papers
 
-| Year | Venue | Paper | Focus |
+| Year | Venue | Paper | Workflow |
 |:---:|:---:|:---|:---|
-| 2020 | ICLR | [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://openreview.net/forum?id=HylxE1HKwS) | Hardware-aware specialization |
-| 2019 | MICRO | [Understanding Reuse, Performance, and Hardware Cost of DNN Dataflow](https://doi.org/10.1145/3352460.3358252) | Accelerator dataflow modeling |
-| 2019 | ISPASS | [Timeloop: A Systematic Approach to DNN Accelerator Evaluation](https://doi.org/10.1109/ISPASS.2019.00042) | Architecture exploration |
-| 2019 | ICLR | [ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware](https://openreview.net/forum?id=HylVB3AqYm) | Hardware-aware NAS |
-| 2019 | CVPR | [HAQ: Hardware-Aware Automated Quantization with Mixed Precision](https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_HAQ_Hardware-Aware_Automated_Quantization_With_Mixed_Precision_CVPR_2019_paper.html) | Hardware-aware quantization |
-| 2017 | ISCA | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://doi.org/10.1145/3079856.3080246) | AI accelerator architecture |
-| 2016 | ISCA | [Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks](https://doi.org/10.1109/ISCA.2016.40) | Spatial accelerator dataflow |
+| 2026 | arXiv | [Developing Large Language Model for BIM-based Design with Domain Knowledge](https://arxiv.org/abs/2602.20812) | BIM design assistant |
+| 2025 | arXiv | [Optimize Any Topology: A Foundation Model for Shape- and Resolution-Agnostic Topology Optimization](https://arxiv.org/abs/2510.23667) | Foundation model for topology optimization |
+| 2025 | arXiv | [Generative Topology Optimization: Exploring Diverse Solutions in Engineering Design](https://arxiv.org/abs/2502.13174) | Diverse generative design |
+| 2025 | NeurIPS | [GeoCAD: Local Geometry-Controllable CAD Generation with Large Language Models](https://arxiv.org/abs/2505.21877) | Parametric CAD generation |
+| 2024 | arXiv | [Structural Design Through Reinforcement Learning](https://arxiv.org/abs/2407.07288) | Structural member/layout design |
+| 2024 | arXiv | [Multi-scale Topology Optimization using Neural Networks](https://arxiv.org/abs/2404.08708) | Multi-scale topology optimization |
+| 2024 | arXiv | [A Dual Physics-Informed Neural Network for Topology Optimization](https://arxiv.org/abs/2410.14342) | Physics-constrained optimization |
+| 2024 | arXiv | [NITO: Neural Implicit Fields for Resolution-free Topology Optimization](https://arxiv.org/abs/2402.05073) | Resolution-free topology |
+| 2023 | FEAD | [A Finite-Element-Informed Neural Network for Parametric Simulation in Structural Mechanics](https://doi.org/10.1016/j.finel.2022.103904) | Load and response surrogate |
+| 2023 | NeurIPS Workshop | [TopologyGAN: Topology Optimization Using Generative Adversarial Networks](https://arxiv.org/abs/2003.04685) | Generative topology optimization |
+| 2022 | SMO | [Deep Learning Accelerated Topology Optimization with Inherent Control of Image Quality](https://doi.org/10.1007/s00158-022-03433-4) | Fast topology generation |
+| 2022 | SMO | [Accelerated Topology Optimization Design of 3D Structures Based on Deep Learning](https://doi.org/10.1007/s00158-022-03194-0) | 3D structural design |
+| 2021 | Nature Machine Intelligence | [Learning Nonlinear Operators via DeepONet](https://doi.org/10.1038/s42256-021-00302-5) | Simulation surrogate and operator learning |
 
 ### Open-Source Projects
 
-| Project | What it provides | Stack | License |
-|:---|:---|:---:|:---:|
-| [Apache TVM](https://github.com/apache/tvm) | ML compiler with target-aware scheduling and hardware backends | C++ / Python | Apache-2.0 |
-| [gem5](https://github.com/gem5/gem5) | Modular computer-architecture simulator used for AI hardware research | C++ / Python | BSD-3-Clause |
-| [Gemmini](https://github.com/ucb-bar/gemmini) | Generator for full-system DNN accelerators based on RISC-V | Scala / Chisel | BSD-3-Clause |
-| [MAESTRO](https://github.com/maestro-project/maestro) | Analytical cost model for DNN dataflows and mappings | C++ | MIT |
-| [ProxylessNAS](https://github.com/mit-han-lab/ProxylessNAS) | Reference implementation of hardware-aware neural architecture search | Python / PyTorch | MIT |
-| [Timeloop](https://github.com/NVlabs/timeloop) | DNN accelerator mapping and design-space exploration | C++ / Python | BSD-3-Clause |
+| Project | Engineering use | License |
+|:---|:---|:---:|
+| [DeepXDE](https://github.com/lululxvi/deepxde) | PINNs and operator learning for PDE and mechanics problems | LGPL-2.1 |
+| [DiffFE-Physics-Lab](https://github.com/danieleschmidt/DiffFE-Physics-Lab) | Differentiable finite elements with ML integration | MIT |
+| [FEINN](https://github.com/ThangLe-duc/FEINN) | Finite-element-informed neural networks for truss, beam, and plate response | Apache-2.0 |
+| [IF-TONIR](https://github.com/jbHu67/IF-TONIR) | Implicit neural representations for iteration-free topology optimization | GPL-2.0 |
+| [NeuralOperator](https://github.com/neuraloperator/neuraloperator) | Neural operators for fast field and response prediction | MIT |
+| [NVIDIA Warp](https://github.com/NVIDIA/warp) | Differentiable GPU simulation and optimization for mechanics | Apache-2.0 |
+| [PhysicsNeMo](https://github.com/NVIDIA/physicsnemo) | Physics-informed surrogate models for structural mechanics and CFD | Apache-2.0 |
+| [Text2BIM](https://github.com/dcy0577/Text2BIM) | Text-to-BIM generation and building-design prototyping | MIT |
+| [TopOpt.jl](https://github.com/JuliaTopOpt/TopOpt.jl) | Differentiable topology-optimization components | MIT |
 
-## Structural Design
-
-AI for topology optimization, structural response prediction, surrogate
-modeling, physics-informed learning, and generative engineering design.
-
-### Papers
-
-| Year | Venue | Paper | Focus |
-|:---:|:---:|:---|:---|
-| 2022 | Structures | [Machine learning for structural engineering: A state-of-the-art review](https://doi.org/10.1016/j.istruc.2022.02.003) | Survey |
-| 2021 | Nature Machine Intelligence | [Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators](https://doi.org/10.1038/s42256-021-00302-5) | Structural surrogate modeling |
-| 2020 | CMAME | [Physics-informed neural networks for high-speed flows](https://doi.org/10.1016/j.cma.2019.112789) | Physics-constrained simulation |
-| 2020 | NeurIPS Workshop | [TopologyGAN: Topology Optimization Using Generative Adversarial Networks Based on Physical Fields Over the Initial Domain](https://arxiv.org/abs/2003.04685) | Generative topology optimization |
-| 2019 | JCP | [Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://doi.org/10.1016/j.jcp.2018.10.045) | Physics-informed learning |
-| 2019 | Russian Numerical Analysis and Mathematical Modelling | [Neural networks for topology optimization](https://doi.org/10.1515/rnam-2019-0018) | Fast topology prediction |
-| 2018 | arXiv | [3D Topology Optimization using Convolutional Neural Networks](https://arxiv.org/abs/1808.07440) | 3D structural generation |
-
-### Open-Source Projects
-
-| Project | What it provides | Stack | License |
-|:---|:---|:---:|:---:|
-| [DeepXDE](https://github.com/lululxvi/deepxde) | PINNs and operator learning for forward and inverse PDE problems | Python | LGPL-2.1 |
-| [JAX-SSO](https://github.com/GaoyuanWu/JaxSSO) | Differentiable structural analysis and optimization | Python / JAX | MIT |
-| [NeuralOperator](https://github.com/neuraloperator/neuraloperator) | Fourier and other neural operators for surrogate simulation | Python / PyTorch | MIT |
-| [OptNet](https://github.com/locuslab/optnet) | Differentiable optimization layers for learned design pipelines | Python / PyTorch | Apache-2.0 |
-| [PhysicsNeMo](https://github.com/NVIDIA/physicsnemo) | Physics-informed and data-driven models for engineering simulation | Python / PyTorch | Apache-2.0 |
-| [TopOpt.jl](https://github.com/JuliaTopOpt/TopOpt.jl) | Differentiable topology optimization building blocks | Julia | MIT |
+> Wall-thickness checks, load-path validation, tolerance review, and drawing
+> approval are emerging industrial workflows. Contributions with a reproducible
+> paper, dataset, plugin, or benchmark are especially useful here.
 
 ## FPGA Engineering
 
-Quantized neural networks, FPGA inference accelerators, high-level synthesis,
-dataflow compilation, and deployment toolchains.
+RTL generation, simulation, assertion checking, HLS, quantization, synthesis,
+place-and-route, timing prediction, and bitstream-oriented agent workflows.
 
-### Papers
+### RTL, Verification, and HLS Papers
 
-| Year | Venue | Paper | Focus |
+| Year | Venue | Paper | Workflow |
 |:---:|:---:|:---|:---|
-| 2025 | arXiv | [A Survey on LUT-Based Deep Neural Networks Implemented in FPGAs](https://arxiv.org/abs/2506.07367) | Survey |
-| 2021 | arXiv | [hls4ml: An Open-Source Codesign Workflow to Empower Scientific Low-Power Machine Learning Devices](https://arxiv.org/abs/2103.05579) | ML-to-HLS workflow |
-| 2020 | FPL | [LogicNets: Co-Designed Neural Networks and Circuits for Extreme-Throughput Applications](https://arxiv.org/abs/2004.03021) | LUT-based neural inference |
-| 2019 | FCCM | [LUTNet: Rethinking Inference in FPGA Soft Logic](https://doi.org/10.1109/FCCM.2019.00014) | Learned FPGA LUT operators |
-| 2018 | TRETS | [FINN-R: An End-to-End Deep-Learning Framework for Fast Exploration of Quantized Neural Networks](https://doi.org/10.1145/3242897) | QNN design-space exploration |
-| 2017 | FPGA | [FINN: A Framework for Fast, Scalable Binarized Neural Network Inference](https://doi.org/10.1145/3020078.3021744) | Binary neural networks on FPGA |
-| 2016 | MICRO | [DNNWeaver: From High-Level Deep Network Models to FPGA Acceleration](https://cseweb.ucsd.edu/~hadi/doc/paper/2016-cogarch-dnn_weaver.pdf) | Accelerator generation |
+| 2026 | ASP-DAC | [LLM-Assisted Circuit Verification: A Comprehensive Survey](https://www.cse.cuhk.edu.hk/~byu/papers/C312-ASPDAC2026-Verif-slides.pdf) | Verification survey |
+| 2025 | arXiv | [REvolution: An Evolutionary Framework for RTL Generation](https://arxiv.org/abs/2510.21407) | Iterative RTL generation |
+| 2025 | TODAES | [High-level Synthesis Directives Design Optimization via Large Language Model](https://doi.org/10.1145/3747291) | HLS directive optimization |
+| 2025 | ASP-DAC | [LLSM: LLM-enhanced Logic Synthesis Model](https://doi.org/10.1145/3658617.3697618) | Logic synthesis |
+| 2025 | ASP-DAC | [AssertLLM: Generating Hardware Verification Assertions from Design Specifications](https://doi.org/10.1145/3658617.3697756) | Assertion generation |
+| 2025 | arXiv | [OpenLLM-RTL: Open Dataset and Benchmark for LLM-Aided Design RTL Generation](https://arxiv.org/abs/2503.15112) | RTL benchmark |
+| 2025 | ACM | [ResBench: A Resource-Aware Benchmark for LLM-Generated FPGA Designs](https://doi.org/10.1145/3728179.3728192) | FPGA resource benchmark |
+| 2024 | TCAD | [RTLCoder: Fully Open-Source and Efficient LLM-Assisted RTL Code Generation](https://zhiyaoxie.github.io/files/TCAD25_RTLCoder.pdf) | RTL generation |
+| 2024 | ICCAD | [OpenLLM-RTL: Open Dataset and Benchmark for LLM-Aided Design RTL Generation](https://zhiyaoxie.com/files/ICCAD24_OpenLLM.pdf) | RTL evaluation |
+| 2024 | ASP-DAC | [RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Models](https://www.aspdac.com/aspdac2024/archive/pdf/7C-1.pdf) | RTL benchmark |
+| 2024 | TODAES | [Survey of Machine Learning for Software-Assisted Hardware Design Verification](https://doi.org/10.1145/3661308) | Verification survey |
+| 2024 | arXiv | [Revisiting VerilogEval: Newer LLMs, In-Context Learning, and Specification-to-RTL Tasks](https://arxiv.org/abs/2408.11053) | Spec-to-RTL evaluation |
+| 2023 | ICCAD | [VerilogEval: Evaluating Large Language Models for Verilog Code Generation](https://arxiv.org/abs/2309.07544) | Verilog benchmark |
+| 2023 | ICCAD | [Robust GNN-based Representation Learning for HLS](https://ieeexplore.ieee.org/abstract/document/10323853) | HLS prediction |
+| 2022 | DAC | [High-Level Synthesis Performance Prediction Using GNNs](https://doi.org/10.1145/3489517.3530408) | QoR prediction |
+| 2021 | JMLR | [hls4ml: An Open-Source Codesign Workflow for Low-Power ML Devices](https://arxiv.org/abs/2103.05579) | ML-to-HLS |
+| 2020 | FPL | [LogicNets: Co-Designed Neural Networks and Circuits for Extreme-Throughput Applications](https://arxiv.org/abs/2004.03021) | LUT-based inference |
 
 ### Open-Source Projects
 
-| Project | What it provides | Stack | License |
-|:---|:---|:---:|:---:|
-| [Brevitas](https://github.com/Xilinx/brevitas) | Quantization-aware training frontend used by FINN and other accelerators | Python / PyTorch | BSD-3-Clause |
-| [FINN](https://github.com/Xilinx/finn) | End-to-end dataflow compiler for quantized neural networks on AMD/Xilinx FPGAs | Python / HLS / RTL | BSD-3-Clause |
-| [fpgaConvNet](https://github.com/AlexMontgomerie/fpgaconvnet-hls) | Streaming CNN accelerator generation and performance modeling | Python / HLS | GPL-3.0 |
-| [HeteroCL](https://github.com/cornell-zhang/heterocl) | Hardware-oriented DSL and compiler for customizable ML accelerators | Python / C++ | Apache-2.0 |
-| [hls4ml](https://github.com/fastmachinelearning/hls4ml) | Converts trained ML models into FPGA-oriented HLS implementations | Python / C++ HLS | Apache-2.0 |
-| [Vitis AI](https://github.com/Xilinx/Vitis-AI) | Quantization, compilation, runtime, and model examples for AMD devices | Python / C++ | Apache-2.0 |
+| Project | Engineering use | License |
+|:---|:---|:---:|
+| [Brevitas](https://github.com/Xilinx/brevitas) | Quantization-aware training for FPGA deployment | BSD-3-Clause |
+| [CIRCT](https://github.com/llvm/circt) | MLIR-based RTL and hardware compilation infrastructure | Apache-2.0 WITH LLVM exception |
+| [FINN](https://github.com/Xilinx/finn) | Dataflow compilation for quantized neural networks | BSD-3-Clause |
+| [F4PGA](https://github.com/f4pga/f4pga) | Open FPGA synthesis and place-and-route flows | Apache-2.0 |
+| [FPGA-Agent-skills](https://github.com/adeleempurpled290/FPGA-Agent-skills) | Guided HLS, simulation, synthesis, timing, and debug skills | GPL-2.0 |
+| [hls4ml](https://github.com/fastmachinelearning/hls4ml) | Converts trained models to HLS implementations | Apache-2.0 |
+| [nextpnr](https://github.com/YosysHQ/nextpnr) | FPGA place-and-route backend used by open flows | ISC |
+| [SiliconCompiler](https://github.com/siliconcompiler/siliconcompiler) | Portable synthesis, simulation, and FPGA APR orchestration | Apache-2.0 |
+| [TAPA](https://github.com/tuna/tapa) | Task-parallel HLS to RTL and software/RTL co-simulation | MIT |
+| [Verilator](https://github.com/verilator/verilator) | Fast SystemVerilog simulation and linting for generated RTL | LGPL-3.0 |
+| [VerilogEval](https://github.com/NVlabs/verilog-eval) | Reproducible LLM-to-Verilog evaluation harness | MIT |
+| [Vitis AI](https://github.com/Xilinx/Vitis-AI) | Quantization, compilation, runtime, and deployment on AMD devices | Apache-2.0 |
+| [Yosys](https://github.com/YosysHQ/yosys) | RTL synthesis and formal tooling for open FPGA flows | ISC |
+
+### Research Code without an Explicit License
+
+- [RTLCoder](https://github.com/hkust-zhiyao/RTL-Coder) — official code and
+  datasets for the RTLCoder/OpenLLM-RTL papers; no repository license is
+  currently declared.
 
 ## Contributing
 
-Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md)
-before opening a pull request. In short:
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
-1. Add resources to exactly one primary engineering role.
-2. Prefer peer-reviewed papers and official paper or DOI links.
-3. List only repositories with an explicit license in open-source tables.
-4. Keep papers in descending publication-year order and projects alphabetical.
-5. Explain the engineering workflow improved by the resource.
+1. Add only 2020+ papers, or projects with meaningful 2020+ maintenance.
+2. Put each item in one primary role and one concrete workflow subsection.
+3. Prefer official proceedings, DOI, arXiv, and canonical repositories.
+4. List a project in the open-source table only when its repository exposes an
+   explicit license; otherwise use the research-code note.
+5. Keep papers newest first and projects alphabetically sorted within each table.
+6. Include the engineering artifact being generated, analyzed, checked, or
+   optimized (for example RTL, PCB routing, stress field, or lens parameters).
 
 ## License
 
-Released under the [MIT License](LICENSE). Linked papers, code, datasets, and
-other third-party resources remain under their respective licenses.
+This list is released under the [MIT License](LICENSE). Linked papers, code,
+datasets, models, and vendor tools remain under their own licenses.

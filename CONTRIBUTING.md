@@ -6,31 +6,37 @@ Thank you for helping improve Awesome AI Engineering Agents.
 
 A resource should make AI materially useful in at least one of these workflows:
 
-- optical engineering;
-- hardware engineering;
-- structural design; or
-- FPGA engineering.
+- optical design, wave simulation, inverse design, or computational imaging;
+- schematic capture, PCB placement/routing, DRC, analog layout, or hardware
+  design-space exploration;
+- CAD generation, topology/shape optimization, load/stress analysis, finite
+  element surrogates, wall-thickness analysis, or drawing/BIM review; or
+- RTL generation, simulation, assertions, HLS, quantization, synthesis,
+  placement, routing, timing, or bitstream deployment.
 
-The list favors methods and tools for modeling, simulation, optimization,
-generative design, verification, or deployment. Generic AI products, news,
-course advertisements, and repositories without a clear engineering use case
-are out of scope.
+The list favors 2020+ methods and tools for modeling, simulation, optimization,
+generative design, verification, or deployment. A project created earlier may
+be kept only when it has meaningful post-2020 releases or is still a required
+open workflow dependency. Generic AI products, news, course advertisements,
+and repositories without a clear engineering use case are out of scope.
 
 ## Submission Checklist
 
 Before opening a pull request:
 
 1. Search the README for duplicates and earlier versions of the same paper.
-2. Add the resource to one primary section. Mention cross-domain relevance in
+2. For papers, use 2020 or newer publication/preprint dates. Include the year
+   and concrete engineering task in the table.
+3. Add the resource to one primary section. Mention cross-domain relevance in
    its short description instead of duplicating the entry.
-3. For papers, use the final publication year and an official proceedings or
+4. For papers, use the final publication year and an official proceedings or
    DOI link. Use arXiv when no formal publication is available.
-4. For projects, link to the canonical repository and confirm that it contains
+5. For projects, link to the canonical repository and confirm that it contains
    an explicit open-source license. Record its SPDX identifier when possible.
-5. Keep paper tables sorted by year, newest first. Keep project tables sorted
+6. Keep paper tables sorted by year, newest first. Keep project tables sorted
    alphabetically by project name.
-6. Write a factual, one-line description without promotional language.
-7. Check that every new link resolves and that Markdown tables render correctly.
+7. Write a factual, one-line description without promotional language.
+8. Check that every new link resolves and that Markdown tables render correctly.
 
 ## Pull Requests
 
