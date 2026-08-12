@@ -43,6 +43,13 @@ AI 工程流程中仍然必要时保留，并在表格中注明用途和许可�
 | 2020 | TOG | [Neural Holography with Camera-in-the-loop Training](https://doi.org/10.1145/3414685.3417802) | Hologram generation and calibration |
 | 2020 | CVPR | [Deep Optics for Single-Shot High-Dynamic-Range Imaging](https://doi.org/10.1109/CVPR42600.2020.00145) | Learned optical coding |
 
+### Agentic Optical Design Papers
+
+| Year | Paper | Workflow |
+|:---:|:---|:---|
+| 2026 | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | Multi-agent optimization modeling |
+| 2026 | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | Physics-validated optical design agent |
+
 ### Open-Source Projects
 
 | Project | Engineering use | License |
@@ -81,11 +88,29 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 | 2021 | DAC | [AutoSVA: Democratizing Formal Verification of RTL Module Interactions](https://doi.org/10.1109/DAC18074.2021.9586118) | Design review and formal checks |
 | 2020 | ICCAD | [A Customized Graph Neural Network Model for Guiding Analog IC Placement](https://doi.org/10.1145/3400302.3415624) | Analog placement |
 
+### Agentic EDA and Hardware Papers
+
+| Year | Paper | Workflow |
+|:---:|:---|:---|
+| 2026 | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA scripting agent |
+| 2026 | [EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis](https://arxiv.org/abs/2608.04032) | EDA artifact review |
+| 2026 | [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](https://arxiv.org/abs/2607.17528) | End-to-end RTL-to-GDS agents |
+| 2026 | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | Analog circuit optimization |
+| 2025 | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA flow orchestration |
+| 2025 | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA script generation |
+| 2024 | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS code and directive generation |
+| 2024 | [EDA-Aware RTL Generation with Large Language Models](https://arxiv.org/abs/2412.04485) | RTL generation with synthesis feedback |
+| 2024 | [Automatically Improving LLM-based Verilog Generation using EDA Tool Feedback](https://arxiv.org/abs/2411.11856) | Tool-grounded Verilog repair |
+| 2024 | [IICPilot: An Intelligent Integrated Circuit Backend Design Framework Using Open EDA](https://arxiv.org/abs/2407.12576) | Backend design automation |
+| 2024 | [Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination](https://arxiv.org/abs/2406.06575) | EDA design assistant |
+| 2023 | [ChatEDA: A Large Language Model Powered Autonomous Agent for EDA](https://arxiv.org/abs/2308.10204) | Autonomous EDA assistant |
+
 ### Open-Source Projects
 
 | Project | Engineering use | License |
 |:---|:---|:---:|
 | [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | Analog schematic-to-layout automation | BSD-3-Clause |
+| [CircuitLM](https://github.com/Khandakar227/circuitlm) | Multi-agent natural-language-to-schematic generation | MIT |
 | [DeepPCB KiCad plugin](https://github.com/instadeepai/deeppcb-kicad-plugin) | AI-assisted PCB layout workflows in KiCad | Apache-2.0 |
 | [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU-accelerated placement optimization | BSD-3-Clause |
 | [KiCad](https://github.com/KiCad/kicad-source-mirror) | Schematic capture, PCB layout, DRC, and 3D inspection foundation | GPL-3.0 |
@@ -103,12 +128,51 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
   currently expose a standard software license; verify terms before reuse.
 - [PCBSchemaGen](https://github.com/Sthyao/PCBSchemaGen) — research code for the
   2026 schematic-generation paper; no explicit repository license was found.
+- [Pro-CAD](https://github.com/BoYuanVisionary/Pro-CAD) — official code for
+  proactive requirements clarification and text-to-CAD generation; no explicit
+  repository license was found.
+
+### New PCB Agent and Multimodal Benchmark Papers
+
+| Year | Paper | Workflow |
+|:---:|:---|:---|
+| 2026 | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB routing reasoning |
+| 2026 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | Tool-interactive PCB agents |
+| 2026 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB layout reasoning |
+| 2026 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB design knowledge evaluation |
+| 2026 | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | Schematic review and reasoning |
+| 2026 | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | Board-level schematic benchmark |
+| 2026 | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | Multi-agent schematic generation |
+| 2025 | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | Analog schematic agent |
+| 2024 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | Netlist-to-schematic conversion |
+| 2024 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | Amplifier schematic design |
 
 ## Structural and CAD Engineering
 
 The structural track includes generative CAD, topology and thickness-aware
 design, load/stress prediction, finite-element surrogates, physics-informed
 simulation, and drawing/BIM review.
+
+### Agentic CAD and Structural Design Papers
+
+| Year | Paper | Workflow |
+|:---:|:---|:---|
+| 2026 | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | State-aware CAD repair |
+| 2026 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | Execution-trace CAD repair |
+| 2026 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | Cross-CAD-backend generation |
+| 2026 | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750) | Industrial CAD agent |
+| 2026 | [AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition](https://arxiv.org/abs/2607.02448) | Design for additive manufacturing |
+| 2026 | [Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling](https://arxiv.org/abs/2606.31252) | Parametric assembly modeling |
+| 2026 | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | CAD generation and editing |
+| 2026 | [Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design](https://arxiv.org/abs/2605.19717) | Physics-validated CAD design |
+| 2026 | [Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback](https://arxiv.org/abs/2605.17448) | FEA-in-the-loop CAD optimization |
+| 2026 | [Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data](https://arxiv.org/abs/2604.24479) | Large-scale CAD program synthesis |
+| 2026 | [ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation](https://arxiv.org/abs/2604.10992) | Articulated assembly design |
+| 2026 | [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512) | Geometry-validated CAD generation |
+| 2026 | [Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation](https://arxiv.org/abs/2602.03045) | Interactive requirements clarification |
+| 2025 | [CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent](https://arxiv.org/abs/2508.01031) | Conceptual CAD generation |
+| 2025 | [From Idea to CAD: A Language Model-Driven Multi-Agent System for Collaborative Design](https://arxiv.org/abs/2503.04417) | Collaborative CAD design |
+| 2024 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | General CAD task assistant |
 
 ### Papers
 
@@ -172,6 +236,22 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 | 2022 | DAC | [High-Level Synthesis Performance Prediction Using GNNs](https://doi.org/10.1145/3489517.3530408) | QoR prediction |
 | 2021 | JMLR | [hls4ml: An Open-Source Codesign Workflow for Low-Power ML Devices](https://arxiv.org/abs/2103.05579) | ML-to-HLS |
 | 2020 | FPL | [LogicNets: Co-Designed Neural Networks and Circuits for Extreme-Throughput Applications](https://arxiv.org/abs/2004.03021) | LUT-based inference |
+
+### New FPGA and RTL Agent Papers
+
+| Year | Paper | Workflow |
+|:---:|:---|:---|
+| 2026 | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ to HLS translation |
+| 2026 | [VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route](https://arxiv.org/abs/2607.24998) | FPGA place-and-route optimization |
+| 2026 | [CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-design Research](https://arxiv.org/abs/2606.27350) | Hardware/software co-design agents |
+| 2026 | [HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip](https://arxiv.org/abs/2605.19399) | SoC co-design benchmark |
+| 2026 | [Design Conductor 2.0: An Agent Builds a TurboQuant Inference Accelerator in 80 Hours](https://arxiv.org/abs/2605.05170) | Accelerator design agent |
+| 2026 | [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856) | Multi-agent RTL generation |
+| 2026 | [Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement](https://arxiv.org/abs/2604.14989) | RTL optimization agent |
+| 2026 | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | PPA-aware RTL generation |
+| 2026 | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA design automation |
+| 2025 | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | Algorithm-to-HLS implementation |
+| 2025 | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | Timing-aware HLS optimization |
 
 ### Open-Source Projects
 

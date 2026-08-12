@@ -42,6 +42,13 @@
 | 2020 | TOG | [Neural Holography with Camera-in-the-loop Training](https://doi.org/10.1145/3414685.3417802) | 全息图生成与闭环标定 |
 | 2020 | CVPR | [Deep Optics for Single-Shot High-Dynamic-Range Imaging](https://doi.org/10.1109/CVPR42600.2020.00145) | 学习式光学编码 |
 
+### 智能体光学设计论文
+
+| 年份 | 论文 | 工程流程 |
+|:---:|:---|:---|
+| 2026 | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | 多智能体优化建模 |
+| 2026 | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | 物理验证的光学设计智能体 |
+
 ### 开源项目
 
 | 项目 | 工程用途 | 许可证 |
@@ -79,11 +86,29 @@
 | 2021 | DAC | [AutoSVA: Democratizing Formal Verification of RTL Module Interactions](https://doi.org/10.1109/DAC18074.2021.9586118) | 设计审核与形式检查 |
 | 2020 | ICCAD | [A Customized Graph Neural Network Model for Guiding Analog IC Placement](https://doi.org/10.1145/3400302.3415624) | 模拟 IC 布局 |
 
+### 智能体 EDA 与硬件设计论文
+
+| 年份 | 论文 | 工程流程 |
+|:---:|:---|:---|
+| 2026 | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA 脚本智能体 |
+| 2026 | [EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis](https://arxiv.org/abs/2608.04032) | EDA 产物分析与审查 |
+| 2026 | [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](https://arxiv.org/abs/2607.17528) | 端到端 RTL-to-GDS 智能体 |
+| 2026 | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | 模拟电路闭环优化 |
+| 2025 | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA 流程编排 |
+| 2025 | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA 脚本生成 |
+| 2024 | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS 代码与指令生成 |
+| 2024 | [EDA-Aware RTL Generation with Large Language Models](https://arxiv.org/abs/2412.04485) | 结合综合反馈的 RTL 生成 |
+| 2024 | [Automatically Improving LLM-based Verilog Generation using EDA Tool Feedback](https://arxiv.org/abs/2411.11856) | 工具反馈驱动的 Verilog 修复 |
+| 2024 | [IICPilot: An Intelligent Integrated Circuit Backend Design Framework Using Open EDA](https://arxiv.org/abs/2407.12576) | 芯片后端设计自动化 |
+| 2024 | [Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination](https://arxiv.org/abs/2406.06575) | EDA 设计助手 |
+| 2023 | [ChatEDA: A Large Language Model Powered Autonomous Agent for EDA](https://arxiv.org/abs/2308.10204) | 自主 EDA 助手 |
+
 ### 开源项目
 
 | 项目 | 工程用途 | 许可证 |
 |:---|:---|:---:|
 | [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | 模拟电路原理图到版图自动化 | BSD-3-Clause |
+| [CircuitLM](https://github.com/Khandakar227/circuitlm) | 多智能体自然语言到电路原理图生成 | MIT |
 | [DeepPCB KiCad plugin](https://github.com/instadeepai/deeppcb-kicad-plugin) | KiCad 中的 AI 辅助 PCB 布局工作流 | Apache-2.0 |
 | [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU 加速的布局优化 | BSD-3-Clause |
 | [KiCad](https://github.com/KiCad/kicad-source-mirror) | 原理图、PCB 布局、DRC 与 3D 检查基础平台 | GPL-3.0 |
@@ -100,11 +125,49 @@
   预测的 EDA 数据集。仓库当前未提供标准软件许可证，复用前请核实条款。
 - [PCBSchemaGen](https://github.com/Sthyao/PCBSchemaGen)：2026 年原理图生成
   论文的研究代码，当前未发现明确的仓库许可证。
+- [Pro-CAD](https://github.com/BoYuanVisionary/Pro-CAD)：主动澄清需求并生成
+  CAD 的官方代码，当前未发现明确的仓库许可证。
+
+### PCB 智能体与多模态基准论文
+
+| 年份 | 论文 | 工程流程 |
+|:---:|:---|:---|
+| 2026 | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB 布线推理 |
+| 2026 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | 工具交互式 PCB 智能体 |
+| 2026 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB 布局推理 |
+| 2026 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB 设计知识评测 |
+| 2026 | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | 原理图审查与推理 |
+| 2026 | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | 板级原理图设计基准 |
+| 2026 | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | 多智能体原理图生成 |
+| 2025 | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | 模拟电路原理图智能体 |
+| 2024 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | 网表到原理图转换 |
+| 2024 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | 多级放大器原理图设计 |
 
 ## 结构与 CAD 工程
 
 本节覆盖生成式 CAD、拓扑与壁厚感知设计、载荷与应力预测、有限元代理模型、
 物理信息仿真，以及工程图和 BIM 审查。
+
+### 智能体 CAD 与结构设计论文
+
+| 年份 | 论文 | 工程流程 |
+|:---:|:---|:---|
+| 2026 | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | 状态感知的 CAD 修复 |
+| 2026 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | 执行轨迹驱动的 CAD 修复 |
+| 2026 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | 跨 CAD 后端生成 |
+| 2026 | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750) | 工业级 CAD 智能体 |
+| 2026 | [AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition](https://arxiv.org/abs/2607.02448) | 面向增材制造的设计 |
+| 2026 | [Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling](https://arxiv.org/abs/2606.31252) | 参数化装配建模 |
+| 2026 | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | CAD 生成与编辑 |
+| 2026 | [Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design](https://arxiv.org/abs/2605.19717) | 物理验证的 CAD 设计 |
+| 2026 | [Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback](https://arxiv.org/abs/2605.17448) | 有限元反馈闭环 CAD 优化 |
+| 2026 | [Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data](https://arxiv.org/abs/2604.24479) | 大规模 CAD 程序合成 |
+| 2026 | [ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation](https://arxiv.org/abs/2604.10992) | 可动装配体设计 |
+| 2026 | [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512) | 几何验证的 CAD 生成 |
+| 2026 | [Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation](https://arxiv.org/abs/2602.03045) | 交互式需求澄清 |
+| 2025 | [CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent](https://arxiv.org/abs/2508.01031) | 概念 CAD 生成 |
+| 2025 | [From Idea to CAD: A Language Model-Driven Multi-Agent System for Collaborative Design](https://arxiv.org/abs/2503.04417) | 协同 CAD 设计 |
+| 2024 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | 通用 CAD 任务助手 |
 
 ### 论文
 
@@ -167,6 +230,22 @@
 | 2022 | DAC | [High-Level Synthesis Performance Prediction Using GNNs](https://doi.org/10.1145/3489517.3530408) | 综合质量预测 |
 | 2021 | JMLR | [hls4ml: An Open-Source Codesign Workflow for Low-Power ML Devices](https://arxiv.org/abs/2103.05579) | 机器学习模型到 HLS |
 | 2020 | FPL | [LogicNets: Co-Designed Neural Networks and Circuits for Extreme-Throughput Applications](https://arxiv.org/abs/2004.03021) | 基于 LUT 的神经网络推理 |
+
+### FPGA 与 RTL 智能体论文
+
+| 年份 | 论文 | 工程流程 |
+|:---:|:---|:---|
+| 2026 | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ 到 HLS 翻译 |
+| 2026 | [VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route](https://arxiv.org/abs/2607.24998) | FPGA 布局布线优化 |
+| 2026 | [CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-design Research](https://arxiv.org/abs/2606.27350) | 软硬件协同设计智能体 |
+| 2026 | [HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip](https://arxiv.org/abs/2605.19399) | SoC 协同设计基准 |
+| 2026 | [Design Conductor 2.0: An Agent Builds a TurboQuant Inference Accelerator in 80 Hours](https://arxiv.org/abs/2605.05170) | 加速器设计智能体 |
+| 2026 | [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856) | 多智能体 RTL 生成 |
+| 2026 | [Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement](https://arxiv.org/abs/2604.14989) | RTL 优化智能体 |
+| 2026 | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | PPA 感知 RTL 生成 |
+| 2026 | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA 设计自动化 |
+| 2025 | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | 算法到 HLS 实现 |
+| 2025 | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | 时序感知 HLS 优化 |
 
 ### 开源项目
 
