@@ -1,5 +1,7 @@
 # Contributing
 
+[English](CONTRIBUTING.md) | [简体中文](CONTRIBUTING_CN.md)
+
 Thank you for helping improve Awesome AI Engineering Agents.
 
 ## What Belongs Here

@@ -1,5 +1,7 @@
 # Awesome AI Engineering Agents
 
+[English](README.md) | [简体中文](README_CN.md)
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Updated](https://img.shields.io/badge/updated-2026--08-blue)
 ![License](https://img.shields.io/github/license/whut09/Awesome-AI-Engineering-Agents)
@@ -197,7 +199,8 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 
 ## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) ([简体中文](CONTRIBUTING_CN.md))
+before opening a pull request.
 
 1. Add only 2020+ papers, or projects with meaningful 2020+ maintenance.
 2. Put each item in one primary role and one concrete workflow subsection.
