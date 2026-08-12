@@ -6,13 +6,33 @@
 ![Updated](https://img.shields.io/badge/updated-2026--08-blue)
 ![License](https://img.shields.io/github/license/whut09/Awesome-AI-Engineering-Agents)
 
-A focused collection of **2020+** papers and open-source projects that apply AI
-to engineering work. The four tracks are optical engineering, electronics and
-hardware design, structural/CAD engineering, and FPGA implementation.
+## Why This List
 
-本项目只保留 2020 年以后发表的论文，以及在 2020 年以后仍有实质维护或新版本的工程项目。
-条目按实际工作流组织：设计、仿真、分析、审查、生成、综合与布线。基础工具只有在当前
-AI 工程流程中仍然必要时保留，并在表格中注明用途和许可证。
+Foundation models have already made rapid progress in text generation, image
+and video creation, and software development. General-purpose coding agents
+and work assistants such as **Codex**, **OpenHands**, and **WorkBuddy** can now
+complete or substantially accelerate many workflows in these areas. Their
+impact is highly visible in software and digital-content jobs, but adoption is
+less uniform in engineering roles that depend on domain physics, specialized
+EDA/CAD tools, proprietary data, formal verification, manufacturing
+constraints, and responsibility for physical products.
+
+This repository looks at that gap from the perspective of an intelligent
+hardware company. It focuses on four roles where foundation models and agents
+are still moving from research prototypes into practical workflows:
+**optical engineering**, **electronics and hardware design**, **structural and
+CAD engineering**, and **FPGA engineering**. The list covers work such as lens
+design, optical simulation, schematic generation, PCB placement and routing,
+drawing review, structural and stress analysis, topology and wall-thickness
+optimization, RTL generation, verification, HLS, synthesis, timing closure,
+and FPGA place-and-route.
+
+Our goal is not only to collect resources, but also to track how AI penetrates
+these engineering positions over time: which tasks have reliable agents and
+open implementations, which remain research problems, and where human
+engineering judgment is still essential. The collection therefore prioritizes
+**2020+** papers and actively maintained open-source projects, organized by
+concrete engineering workflow rather than by model family.
 
 > [!NOTE]
 > An open-source project must publish an explicit license. Paper code or
