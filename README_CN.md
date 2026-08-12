@@ -54,12 +54,16 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 |
 |:---:|:---:|:---|:---|
-| 2026 | arXiv | [OptiAgent: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | 智能体驱动的自动光学设计 |
+| 2026 | arXiv | [End-to-End Differentiable Design of Geometric Waveguide Displays](https://arxiv.org/abs/2601.04370) | 波导显示仿真与优化 |
 | 2025 | DATE | [MAPS: Multi-Fidelity AI-Augmented Photonic Simulation and Inverse Design Infrastructure](https://arxiv.org/abs/2503.01046) | 光子仿真与逆向设计 |
 | 2024 | Advanced Engineering Informatics | [Artificial intelligence in optical lens design](https://doi.org/10.1007/s10462-024-10842-y) | AI 镜头设计综述 |
 | 2024 | arXiv | [TorchOptics: An open-source Python library for differentiable Fourier optics](https://arxiv.org/abs/2411.18591) | 可微分波动光学 |
 | 2024 | Nature Communications | [Curriculum learning for ab initio deep learned refractive optics](https://doi.org/10.1038/s41467-024-50835-7) | 自动镜头设计 |
+| 2024 | SIGGRAPH Asia | [End-to-End Hybrid Refractive-Diffractive Lens Design with Differentiable Ray-Wave Model](https://doi.org/10.1145/3680528.3687640) | 混合折射-衍射镜头优化 |
+| 2024 | Optics Express | [End-to-End Automatic Lens Design with a Differentiable Diffraction Model](https://doi.org/10.1364/OE.540590) | 衍射感知镜头优化 |
 | 2023 | ASPLOS | [LightRidge: An End-to-end Agile Design Framework for Diffractive Optical Neural Networks](https://doi.org/10.1145/3623278.3624757) | 衍射光学神经网络 |
+| 2022 | TCI | [dO: A Differentiable Engine for Deep Lens Design of Computational Imaging Systems](https://doi.org/10.1109/TCI.2022.3212837) | 可微分几何光学引擎 |
+| 2021 | TOG | [End-to-End Complex Lens Design with Differentiable Ray Tracing](https://doi.org/10.1145/3450626.3459674) | 学习式复合镜头设计 |
 | 2020 | TOG | [Neural Holography with Camera-in-the-loop Training](https://doi.org/10.1145/3414685.3417802) | 全息图生成与闭环标定 |
 | 2020 | CVPR | [Deep Optics for Single-Shot High-Dynamic-Range Imaging](https://doi.org/10.1109/CVPR42600.2020.00145) | 学习式光学编码 |
 
@@ -106,11 +110,16 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2026 | arXiv | [SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations](https://arxiv.org/abs/2605.30345) | PCB 原理图生成 |
 | 2026 | arXiv | [PCBSchemaGen: Constraint-Guided Schematic Design via LLM](https://arxiv.org/abs/2602.00510) | 约束驱动的原理图设计 |
 | 2026 | ICLR | [PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing](https://jdzhu19.github.io/publication/conference_2026iclr_li/conference_2026ICLR_Li.pdf) | PCB 布局布线基准 |
+| 2026 | ESWA | [Automation of PCB Autorouting via World-Model Reinforcement Learning and Freerouting Integration](https://doi.org/10.1016/j.eswa.2026.131424) | 基于 freerouting 反馈的 PCB 布线闭环 |
 | 2024 | IEEE | [AI-Optimized Placement and Routing for PCB Design](https://ieeexplore.ieee.org/document/10568665) | PCB 布局布线 |
+| 2024 | MLCAD | [OpenROAD-Assistant: An Open-Source Large Language Model for Physical Design Tasks](https://doi.org/10.1145/3670474.3685960) | OpenROAD 知识与脚本辅助 |
+| 2024 | MLCAD | [An ML-aided Approach to Automatically Generate Schematic Symbols in PCB EDA Tools](https://doi.org/10.1145/3670474.3685944) | PCB 原理图符号生成 |
+| 2024 | ICCCAS | [Reinforcement Learning-Based Placement Method for Printed Circuit Board](https://doi.org/10.1109/ICCCAS62034.2024.10652635) | PCB 元件布局 |
 | 2024 | arXiv | [LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation](https://arxiv.org/abs/2401.12224) | 大模型 EDA 综述 |
 | 2024 | arXiv | [CadVLM: Bridging Language and Vision in the Generation of Parametric CAD](https://arxiv.org/abs/2409.17457) | 工程图与 CAD 理解 |
 | 2023 | TCAD | [TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks](https://ieeexplore.ieee.org/abstract/document/10042057) | 热感知 PCB 布线 |
 | 2023 | ASP-DAC | [DPRoute: Deep Learning Framework for Package Routing](https://doi.org/10.1145/3566097.3567902) | 封装与电路板布线 |
+| 2023 | ISPD | [Goal Driven PCB Synthesis Using Machine Learning and CloudScale Compute](https://doi.org/10.1145/3569052.3578907) | 约束驱动的 PCB 综合 |
 | 2023 | NeurIPS Workshop | [CAD-LLM: Large Language Model for CAD Generation](https://neurips.cc/virtual/2023/75064) | 文本生成 CAD |
 | 2022 | DAC | [Automated Accelerator Optimization Aided by Graph Neural Networks](https://doi.org/10.1145/3489517.3530409) | 硬件设计空间探索 |
 | 2022 | ML4CAD | [A Thermal Machine Learning Solver for Chip Simulation](https://doi.org/10.1145/3551901.3556484) | 芯片热仿真 |
@@ -340,6 +349,17 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2025 | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM 知识与算例辅助 |
 | 2024 | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | 多智能体 OpenFOAM 工作流 |
 
+### CAE 求解器与反馈闭环论文
+
+以下论文介绍可作为结构工程智能体执行和校验后端的近期确定性求解能力。
+
+| 年份 | 会议/期刊 | 论文 | 工程流程 |
+|:---:|:---:|:---|:---|
+| 2024 | IJHPCA | [High-Performance Finite Elements with MFEM](https://doi.org/10.1177/10943420241261981) | 可扩展有限元执行后端 |
+| 2023 | CMC | [Fundamental Study on Fracture Analysis of Concrete Materials Using OpenRadioss](https://doi.org/10.1299/jsmecmd.2023.36.OS-0601) | OpenRadioss 混凝土断裂仿真 |
+| 2022 | IJHPCA | [Matrix-Free Approaches for GPU Acceleration of a High-Order Finite Element Hydrodynamics Application Using MFEM, Umpire, and RAJA](https://doi.org/10.1177/10943420221100262) | GPU 加速的仿真反馈 |
+| 2021 | CAMWA | [MFEM: A Modular Finite Element Methods Library](https://doi.org/10.1016/j.camwa.2020.06.009) | 模块化结构与多物理场求解 |
+
 ### 开源 CAE 智能体
 
 | 项目 | 工程用途 | 许可证 |
@@ -446,6 +466,21 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 | 2026 | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA 设计自动化 |
 | 2025 | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | 算法到 HLS 实现 |
 | 2025 | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | 时序感知 HLS 优化 |
+
+### FPGA 工具链与闭环论文
+
+以下系统与流程论文覆盖为 FPGA 智能体提供可执行反馈的解析器、仿真器、架构模型和
+布局布线引擎。
+
+| 年份 | 会议/期刊 | 论文 | 工程流程 |
+|:---:|:---:|:---|:---|
+| 2025 | TRETS | [VTR 9: Open-Source CAD for Fabric and Beyond FPGA Architecture Exploration](https://doi.org/10.1145/3734798) | FPGA 架构探索与布线 |
+| 2025 | FPL | [Cocotb-Pynq: Co-Simulating Python+RTL Applications Targeting Pynq Platforms with Cocotb](https://doi.org/10.1109/FPL68686.2025.00039) | Python/RTL 协同仿真 |
+| 2024 | ISEDA | [OpenPARF 3.0: Robust Multi-Electrostatics Based FPGA Macro Placement Considering Cascaded Macros Groups and Fence Regions](https://doi.org/10.1109/ISEDA62518.2024.10617535) | 约束感知 FPGA 宏单元布局 |
+| 2024 | EIECT | [Cocotb-Based Verification of Multi-Protocol Interconnection Network](https://doi.org/10.1109/EIECT64462.2024.10866829) | cocotb 驱动的功能验证 |
+| 2023 | ASICON | [OpenPARF: An Open-Source Placement and Routing Framework for Large-Scale Heterogeneous FPGAs with Deep Learning Toolkit](https://doi.org/10.1109/ASICON58565.2023.10396248) | 面向机器学习的 FPGA 布局布线 |
+| 2022 | SBCCI | [Integrating Machine-Learning Probes into the VTR FPGA Design Flow](https://doi.org/10.1109/SBCCI55532.2022.9893251) | VTR 中的机器学习探针 |
+| 2020 | WOSET | [Universal Hardware Data Model](https://woset-workshop.github.io/PDFs/2020/a10.pdf) | 面向开源 EDA 工具的 Surelog/UHDM 互操作 |
 
 ### 开源项目
 
