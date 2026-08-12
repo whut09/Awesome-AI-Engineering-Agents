@@ -30,6 +30,11 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 > 不视为开源项目。用于商业场景前，请同时核查模型、数据集、第三方资产及厂商
 > EULA 的具体条款。
 
+> [!IMPORTANT]
+> 确定性的 CAD 内核、求解器、布线器和拓扑优化器本身不等于 AI。只有当学习式或
+> 智能体组件居于核心，或工具提供了可被工程智能体实际调用的后端时才会收录；
+> 后一种情况会被明确标注。
+
 ## 目录
 
 - [光学工程](#光学工程)
@@ -125,6 +130,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU 加速的布局优化 | BSD-3-Clause |
 | [KiCad](https://github.com/KiCad/kicad-source-mirror) | 原理图、PCB 布局、DRC 与 3D 检查基础平台 | GPL-3.0 |
 | [KiCad Copilot](https://github.com/biosshot/kicad-copilot) | KiCad 项目的大模型助手 | MIT |
+| [KiCad MCP](https://github.com/lamaalrajih/kicad-mcp) | 让智能体访问 KiCad 原理图、PCB、封装及设计检查 | MIT |
 | [MAGICAL](https://github.com/magical-eda/MAGICAL) | 机器学习辅助模拟版图设计 | BSD-3-Clause |
 | [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | 自动化 RTL 到 GDS 流程 | Apache-2.0 |
 | [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 布局、布线、时序与物理设计自动化 | BSD-3-Clause |
@@ -155,6 +161,16 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2024 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | 网表到原理图转换 |
 | 2024 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | 多级放大器原理图设计 |
 
+### 商业 EDA 进展信号
+
+以下专有系统仅用于观察产业落地，不属于开源推荐；厂商能力声明仍需独立验证。
+
+| 产品 | 工程流程 | 状态 |
+|:---|:---|:---:|
+| [Cadence AuraStack AI Super Agent](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/aurastack-ai-super-agent.html) | PCB 与先进封装的规划、约束、实现、DFM 及多物理场编排 | 已发布预告 |
+| [Siemens Fuse EDA AI Agent](https://news.siemens.com/en-us/siemens-fuse-eda-ai-agent/) | 半导体、3D-IC 和 PCB 的设计、验证与签核流程 | 生产可用 |
+| [Synopsys AgentEngineer](https://www.synopsys.com/ai/agentic-ai.html) | RTL、lint、测试平台与验证流程 | 生产可用 |
+
 ## 结构与 CAD 工程
 
 本节覆盖生成式 CAD、拓扑与壁厚感知设计、载荷与应力预测、有限元代理模型、
@@ -168,6 +184,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2026 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | 执行轨迹驱动的 CAD 修复 |
 | 2026 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | 跨 CAD 后端生成 |
 | 2026 | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750) | 工业级 CAD 智能体 |
+| 2026 | [ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language](https://arxiv.org/abs/2607.05123) | 带配合约束的装配体生成 |
 | 2026 | [AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition](https://arxiv.org/abs/2607.02448) | 面向增材制造的设计 |
 | 2026 | [Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling](https://arxiv.org/abs/2606.31252) | 参数化装配建模 |
 | 2026 | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | CAD 生成与编辑 |
@@ -175,11 +192,15 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2026 | [Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback](https://arxiv.org/abs/2605.17448) | 有限元反馈闭环 CAD 优化 |
 | 2026 | [Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data](https://arxiv.org/abs/2604.24479) | 大规模 CAD 程序合成 |
 | 2026 | [ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation](https://arxiv.org/abs/2604.10992) | 可动装配体设计 |
+| 2026 | [TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning](https://arxiv.org/abs/2604.07960) | 工具增强的文本到 CAD 智能体 |
 | 2026 | [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512) | 几何验证的 CAD 生成 |
 | 2026 | [Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation](https://arxiv.org/abs/2602.03045) | 交互式需求澄清 |
 | 2025 | [CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent](https://arxiv.org/abs/2508.01031) | 概念 CAD 生成 |
+| 2025 | [cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning](https://arxiv.org/abs/2505.22914) | 从图像、点云和文本重建 CAD |
+| 2025 | [CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation](https://arxiv.org/abs/2505.04481) | 参数化 CAD 命令生成 |
 | 2025 | [From Idea to CAD: A Language Model-Driven Multi-Agent System for Collaborative Design](https://arxiv.org/abs/2503.04417) | 协同 CAD 设计 |
 | 2024 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | 通用 CAD 任务助手 |
+| 2024 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | 文本到参数化 CAD 生成 |
 
 ### 论文
 
@@ -198,6 +219,26 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2022 | SMO | [Deep Learning Accelerated Topology Optimization with Inherent Control of Image Quality](https://doi.org/10.1007/s00158-022-03433-4) | 快速拓扑生成 |
 | 2022 | SMO | [Accelerated Topology Optimization Design of 3D Structures Based on Deep Learning](https://doi.org/10.1007/s00158-022-03194-0) | 三维结构设计 |
 | 2021 | Nature Machine Intelligence | [Learning Nonlinear Operators via DeepONet](https://doi.org/10.1038/s42256-021-00302-5) | 仿真代理与算子学习 |
+
+### CAD 基准与能力边界
+
+| 年份 | 基准 | 测试内容 |
+|:---:|:---|:---|
+| 2026 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | 从简单零件到复杂拓扑的文本到 CAD 生成 |
+| 2026 | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | 随几何复杂度提升的 CAD 程序生成能力 |
+| 2026 | [BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD](https://arxiv.org/abs/2605.10865) | 工业风格 CAD 程序的可执行性与参数结构 |
+
+工程 CAD 不能只看视觉相似度，还应评估执行成功率、可编辑特征历史、约束、装配、
+可制造性，以及进入下游分析后的行为。
+
+### 智能体 CAD 项目
+
+| 项目 | 工程用途 | 许可证 |
+|:---|:---|:---:|
+| [AgentSCAD](https://github.com/Kevoyuan/AgentSCAD) | 生成和修复 OpenSCAD 模型，并执行几何与可制造性验证 | MIT |
+| [CADAM](https://github.com/Adam-CAD/CADAM) | 将文本或图像转换为可编辑的参数化 OpenSCAD、STL 和 DXF 工件 | GPL-3.0 |
+| [CAD Skills](https://github.com/earthtojake/text-to-cad) | 用于生成、检查、修改和验证 CAD/CAE/CAM 工件的智能体技能 | MIT |
+| [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | 通过 Python 生成原生几何的对话式 FreeCAD 工作台 | LGPL-2.1 |
 
 ### 开源项目
 
@@ -222,6 +263,23 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [PINNacle](https://github.com/i207M/PINNacle) | 可复现的物理信息神经 PDE 求解基准 | MIT |
 | [The Well](https://github.com/PolymathicAI/the_well) | 用于代理模型和基础模型的大规模物理仿真数据集 | BSD-3-Clause |
 
+### CAE 与仿真智能体论文
+
+| 年份 | 论文 | 工程流程 |
+|:---:|:---|:---|
+| 2025 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | 可组合的 OpenFOAM 工作流自动化 |
+| 2025 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | 自主生成并执行 CFD 算例 |
+| 2025 | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | 端到端 CFD 工作流 |
+| 2025 | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM 知识与算例辅助 |
+| 2024 | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | 多智能体 OpenFOAM 工作流 |
+
+### 开源 CAE 智能体
+
+| 项目 | 工程用途 | 许可证 |
+|:---|:---|:---:|
+| [AutoCFD](https://github.com/YYgroup/AutoCFD) | 将自然语言需求转换为可执行 OpenFOAM 算例并迭代纠错 | GPL-3.0 |
+| [MetaOpenFOAM](https://github.com/Terry-cyx/MetaOpenFOAM) | 多智能体 OpenFOAM 规划、算例生成、执行与结果分析 | GPL-3.0 |
+
 ### 智能体可调用的 CAE 基础设施
 
 这些项目本身不一定属于 AI 模型。收录它们是因为其 Python、CLI 或 MCP 接口能够
@@ -232,14 +290,31 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [build123d](https://github.com/gumyr/build123d) | 面向智能体生成 CAD 的脚本化参数实体建模 | Python | Apache-2.0 |
 | [CadQuery](https://github.com/CadQuery/cadquery) | 参数化 CAD 生成及 STEP/STL 导出 | Python | Apache-2.0 |
 | [DOLFINx](https://github.com/FEniCS/dolfinx) | 并行有限元分析与 PDE 求解 | Python / C++ | LGPL-3.0 |
+| [freecad-mcp](https://github.com/neka-nat/freecad-mcp) | 智能体控制的 FreeCAD 建模、检查、Python 与 FEM 工作流 | MCP / Python | MIT |
 | [Netgen](https://github.com/NGSolve/netgen) | 从 STEP、IGES、STL 和 CSG 自动生成四面体网格 | Python / CLI | LGPL-2.1 |
 | [ParaView-MCP](https://github.com/llnl/paraview_mcp) | 智能体控制的仿真可视化与后处理 | MCP / Python | BSD-3-Clause |
 | [SfePy](https://github.com/sfepy/sfepy) | 可脚本化的结构、热与多物理场有限元 | Python | BSD-3-Clause |
+| [sim-cli](https://github.com/svd-ai-lab/sim-cli) | 面向 COMSOL、Abaqus 与 Ansys 仿真的可重放智能体运行时 | CLI / 插件 | Apache-2.0 |
 | [viznoir](https://github.com/kimimgo/viznoir) | 面向 VTK、CGNS 和 OpenFOAM 结果的无界面 MCP 可视化 | MCP / Python | MIT |
 
 本节的“智能体可调用性”视角及部分基础设施候选参考并交叉核验了
 [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae)。该项目维护了一份覆盖面
 更广、带可调用性排名的开源 CAE、CAD、网格与可视化工具清单。
+
+AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部分 CAD 智能体、仿真智能体、
+基准和产业信号候选还参考并交叉核验了
+[Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI)。
+
+### 商业图纸审查与工程知识进展信号
+
+以下产品均为专有产品，只用于跟踪目前仍缺少可复现开源实现的任务落地情况。
+
+| 产品 | 工程流程 | 状态 |
+|:---|:---|:---:|
+| [bananaz](https://www.bananaz.ai/) | CAD、图纸、BOM、变更、标准与 DFX 审查 | 生产可用 |
+| [CoLab AutoReview](https://www.colabsoftware.com/) | 自动检查尺寸、公差、标准、BOM 与 DFM | 生产可用 |
+| [DraftAid](https://draftaid.io/) | 从三维 CAD 生成加工图纸 | 生产可用 |
+| [Leo AI](https://www.getleo.ai/) | 检索并推理 PLM、PDM、CAD 与技术数据 | 生产可用 |
 
 > 壁厚检查、载荷路径验证、公差审查和图纸审批仍是快速发展的工业应用方向。
 > 欢迎贡献带有可复现论文、数据集、插件或基准的相关工作。

@@ -39,6 +39,12 @@ concrete engineering workflow rather than by model family.
 > datasets without a declared license are listed separately and are not called
 > open source. Always check bundled models, datasets, and vendor EULAs.
 
+> [!IMPORTANT]
+> Deterministic CAD kernels, solvers, routers, and topology optimizers are
+> engineering foundations, not AI by themselves. They are included only when a
+> learned or agentic component is central, or when they expose a practical
+> backend for an engineering agent; the latter are labeled explicitly.
+
 ## Contents
 
 - [Optical Engineering](#optical-engineering)
@@ -135,6 +141,7 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 | [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU-accelerated placement optimization | BSD-3-Clause |
 | [KiCad](https://github.com/KiCad/kicad-source-mirror) | Schematic capture, PCB layout, DRC, and 3D inspection foundation | GPL-3.0 |
 | [KiCad Copilot](https://github.com/biosshot/kicad-copilot) | LLM assistant for KiCad projects | MIT |
+| [KiCad MCP](https://github.com/lamaalrajih/kicad-mcp) | Agent access to KiCad schematics, boards, footprints, and design checks | MIT |
 | [MAGICAL](https://github.com/magical-eda/MAGICAL) | Machine-learning-assisted analog layout | BSD-3-Clause |
 | [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | Automated RTL-to-GDS design flow | Apache-2.0 |
 | [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | Placement, routing, timing, and physical-design automation | BSD-3-Clause |
@@ -167,6 +174,17 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 | 2024 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | Netlist-to-schematic conversion |
 | 2024 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | Amplifier schematic design |
 
+### Commercial EDA Signals
+
+These proprietary systems are tracked as evidence of industry adoption, not as
+open-source recommendations. Vendor claims should be validated independently.
+
+| Product | Engineering workflow | Status |
+|:---|:---|:---:|
+| [Cadence AuraStack AI Super Agent](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/aurastack-ai-super-agent.html) | PCB and advanced-package planning, constraints, implementation, DFM, and multiphysics orchestration | Announced |
+| [Siemens Fuse EDA AI Agent](https://news.siemens.com/en-us/siemens-fuse-eda-ai-agent/) | Semiconductor, 3D-IC, and PCB design, verification, and sign-off workflows | Production |
+| [Synopsys AgentEngineer](https://www.synopsys.com/ai/agentic-ai.html) | RTL, lint, testbench, and verification workflows | Production |
+
 ## Structural and CAD Engineering
 
 The structural track includes generative CAD, topology and thickness-aware
@@ -181,6 +199,7 @@ simulation, and drawing/BIM review.
 | 2026 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | Execution-trace CAD repair |
 | 2026 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | Cross-CAD-backend generation |
 | 2026 | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750) | Industrial CAD agent |
+| 2026 | [ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language](https://arxiv.org/abs/2607.05123) | Assembly generation with mating constraints |
 | 2026 | [AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition](https://arxiv.org/abs/2607.02448) | Design for additive manufacturing |
 | 2026 | [Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling](https://arxiv.org/abs/2606.31252) | Parametric assembly modeling |
 | 2026 | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | CAD generation and editing |
@@ -188,11 +207,15 @@ simulation, and drawing/BIM review.
 | 2026 | [Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback](https://arxiv.org/abs/2605.17448) | FEA-in-the-loop CAD optimization |
 | 2026 | [Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data](https://arxiv.org/abs/2604.24479) | Large-scale CAD program synthesis |
 | 2026 | [ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation](https://arxiv.org/abs/2604.10992) | Articulated assembly design |
+| 2026 | [TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning](https://arxiv.org/abs/2604.07960) | Tool-using text-to-CAD agent |
 | 2026 | [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512) | Geometry-validated CAD generation |
 | 2026 | [Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation](https://arxiv.org/abs/2602.03045) | Interactive requirements clarification |
 | 2025 | [CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent](https://arxiv.org/abs/2508.01031) | Conceptual CAD generation |
+| 2025 | [cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning](https://arxiv.org/abs/2505.22914) | CAD reconstruction from images, point clouds, and text |
+| 2025 | [CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation](https://arxiv.org/abs/2505.04481) | Parametric CAD command generation |
 | 2025 | [From Idea to CAD: A Language Model-Driven Multi-Agent System for Collaborative Design](https://arxiv.org/abs/2503.04417) | Collaborative CAD design |
 | 2024 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | General CAD task assistant |
+| 2024 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | Text-to-parametric-CAD generation |
 
 ### Papers
 
@@ -211,6 +234,27 @@ simulation, and drawing/BIM review.
 | 2022 | SMO | [Deep Learning Accelerated Topology Optimization with Inherent Control of Image Quality](https://doi.org/10.1007/s00158-022-03433-4) | Fast topology generation |
 | 2022 | SMO | [Accelerated Topology Optimization Design of 3D Structures Based on Deep Learning](https://doi.org/10.1007/s00158-022-03194-0) | 3D structural design |
 | 2021 | Nature Machine Intelligence | [Learning Nonlinear Operators via DeepONet](https://doi.org/10.1038/s42256-021-00302-5) | Simulation surrogate and operator learning |
+
+### CAD Benchmarks and Reality Checks
+
+| Year | Benchmark | What it tests |
+|:---:|:---|:---|
+| 2026 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | Text-to-CAD generation from simple parts to complex topology |
+| 2026 | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | CAD program generation across increasing geometric complexity |
+| 2026 | [BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD](https://arxiv.org/abs/2605.10865) | Executability and parametric structure of industrial-style CAD programs |
+
+Visual similarity is insufficient for engineering CAD. Evaluation should also
+cover execution success, editable feature history, constraints, assemblies,
+manufacturability, and behavior under downstream analysis.
+
+### Agentic CAD Projects
+
+| Project | Engineering use | License |
+|:---|:---|:---:|
+| [AgentSCAD](https://github.com/Kevoyuan/AgentSCAD) | Generates and repairs OpenSCAD models with geometry and manufacturability validation | MIT |
+| [CADAM](https://github.com/Adam-CAD/CADAM) | Converts text or images into editable parametric OpenSCAD, STL, and DXF artifacts | GPL-3.0 |
+| [CAD Skills](https://github.com/earthtojake/text-to-cad) | Agent skills for generating, inspecting, modifying, and validating CAD/CAE/CAM artifacts | MIT |
+| [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | Conversational FreeCAD workbench that generates native geometry through Python | LGPL-2.1 |
 
 ### Open-Source Projects
 
@@ -235,6 +279,23 @@ simulation, and drawing/BIM review.
 | [PINNacle](https://github.com/i207M/PINNacle) | Reproducible benchmark for physics-informed neural PDE solvers | MIT |
 | [The Well](https://github.com/PolymathicAI/the_well) | Large-scale physics-simulation datasets for surrogate and foundation models | BSD-3-Clause |
 
+### CAE and Simulation Agent Papers
+
+| Year | Paper | Workflow |
+|:---:|:---|:---|
+| 2025 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | Composable OpenFOAM workflow automation |
+| 2025 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | Autonomous CFD case generation and execution |
+| 2025 | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | End-to-end CFD workflow |
+| 2025 | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM knowledge and case assistance |
+| 2024 | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | Multi-agent OpenFOAM workflow |
+
+### Open-Source CAE Agents
+
+| Project | Engineering use | License |
+|:---|:---|:---:|
+| [AutoCFD](https://github.com/YYgroup/AutoCFD) | Converts natural-language requirements into executable OpenFOAM cases with iterative correction | GPL-3.0 |
+| [MetaOpenFOAM](https://github.com/Terry-cyx/MetaOpenFOAM) | Multi-agent OpenFOAM planning, case generation, execution, and result analysis | GPL-3.0 |
+
 ### Agent-Ready CAE Infrastructure
 
 These projects are not necessarily AI models themselves. They are included
@@ -246,15 +307,34 @@ geometry, meshing, and post-processing backends for engineering agents.
 | [build123d](https://github.com/gumyr/build123d) | Scriptable parametric solid modeling for agent-generated CAD | Python | Apache-2.0 |
 | [CadQuery](https://github.com/CadQuery/cadquery) | Parametric CAD generation and STEP/STL export | Python | Apache-2.0 |
 | [DOLFINx](https://github.com/FEniCS/dolfinx) | Parallel finite-element analysis and PDE solving | Python / C++ | LGPL-3.0 |
+| [freecad-mcp](https://github.com/neka-nat/freecad-mcp) | Agent-controlled FreeCAD modeling, inspection, Python, and FEM workflows | MCP / Python | MIT |
 | [Netgen](https://github.com/NGSolve/netgen) | Automatic tetrahedral meshing from STEP, IGES, STL, and CSG | Python / CLI | LGPL-2.1 |
 | [ParaView-MCP](https://github.com/llnl/paraview_mcp) | Agent-controlled simulation visualization and post-processing | MCP / Python | BSD-3-Clause |
 | [SfePy](https://github.com/sfepy/sfepy) | Scriptable structural, thermal, and multiphysics FEM | Python | BSD-3-Clause |
+| [sim-cli](https://github.com/svd-ai-lab/sim-cli) | Replayable agent runtime for COMSOL, Abaqus, and Ansys simulation workflows | CLI / plugins | Apache-2.0 |
 | [viznoir](https://github.com/kimimgo/viznoir) | Headless MCP visualization for VTK, CGNS, and OpenFOAM results | MCP / Python | MIT |
 
 The agent-callability perspective and several infrastructure candidates in this
 section were cross-checked against
 [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae), which maintains a
 broader ranked collection of open CAE, CAD, meshing, and visualization tools.
+
+The AI-versus-foundation distinction, maturity-oriented curation, and several
+CAD-agent, simulation-agent, benchmark, and industry-signal candidates were
+also cross-checked against
+[Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI).
+
+### Commercial Drawing Review and Engineering Knowledge Signals
+
+These products are proprietary and are listed only to track adoption in tasks
+for which reproducible open implementations remain scarce.
+
+| Product | Engineering workflow | Status |
+|:---|:---|:---:|
+| [bananaz](https://www.bananaz.ai/) | CAD, drawing, BOM, change, standards, and DFX review | Production |
+| [CoLab AutoReview](https://www.colabsoftware.com/) | Automated dimensions, tolerances, standards, BOM, and DFM review | Production |
+| [DraftAid](https://draftaid.io/) | Generation of fabrication drawings from 3D CAD | Production |
+| [Leo AI](https://www.getleo.ai/) | Retrieval and reasoning over PLM, PDM, CAD, and technical data | Production |
 
 > Wall-thickness checks, load-path validation, tolerance review, and drawing
 > approval are emerging industrial workflows. Contributions with a reproducible
