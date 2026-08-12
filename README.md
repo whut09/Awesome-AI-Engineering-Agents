@@ -6,6 +6,28 @@
 ![Updated](https://img.shields.io/badge/updated-2026--08-blue)
 ![License](https://img.shields.io/github/license/whut09/Awesome-AI-Engineering-Agents)
 
+**English**
+
+An open, continuously updated map of AI agents, foundation models, papers, and
+open-source engineering tools for physical-product development. It follows AI
+adoption across four engineering tracks: optical design and simulation,
+electronics and PCB design, structural/CAD/CAE workflows, and FPGA design.
+Entries are organized around real tasks such as lens optimization, schematic
+and PCB review, routing, CAD generation, stress and topology analysis, drawing
+inspection, RTL generation, verification, synthesis, timing closure, and
+place-and-route. The collection emphasizes 2020+ research and usable open
+source components, including deterministic tools that agents can call for
+execution, simulation, verification, optimization, and artifact delivery.
+
+**中文**
+
+面向实体产品研发的 AI 智能体、基础模型、论文与开源工程工具持续更新清单，
+重点跟踪四类工程岗位中的 AI 渗透：光学设计与仿真、电子与 PCB 设计、结构/CAD/CAE
+工作流，以及 FPGA 设计。条目按照真实任务组织，覆盖镜头优化、原理图与 PCB 审查、
+自动布线、CAD 生成、受力与拓扑分析、图纸检查、RTL 生成、验证、综合、时序收敛和
+布局布线等。清单优先收录 2020 年以来的研究和可使用的开源组件，也收录能够被智能体
+调用、用于执行、仿真、验证、优化和交付工程成果的确定性工具。
+
 ## Why This List
 
 Foundation models have already made rapid progress in text generation, image
