@@ -6,7 +6,10 @@ Thank you for helping improve Awesome AI Engineering Agents.
 
 ## What Belongs Here
 
-A resource should make AI materially useful in at least one of these workflows:
+A resource should support an engineering agent in at least one of these
+workflows. It may be a native AI/agent project or a deterministic component
+that the agent can invoke for generation, analysis, simulation, verification,
+optimization, or delivery:
 
 - optical design, wave simulation, inverse design, or computational imaging;
 - schematic capture, PCB placement/routing, DRC, analog layout, or hardware
@@ -16,11 +19,12 @@ A resource should make AI materially useful in at least one of these workflows:
 - RTL generation, simulation, assertions, HLS, quantization, synthesis,
   placement, routing, timing, or bitstream deployment.
 
-The list favors 2020+ methods and tools for modeling, simulation, optimization,
-generative design, verification, or deployment. A project created earlier may
-be kept only when it has meaningful post-2020 releases or is still a required
-open workflow dependency. Generic AI products, news, course advertisements,
-and repositories without a clear engineering use case are out of scope.
+The list favors 2020+ methods and actively maintained tools for modeling,
+simulation, optimization, generative design, verification, or deployment. A
+project created earlier may be kept when it has meaningful post-2020 releases
+or remains a useful open component in an agent toolchain. Generic AI products,
+news, course advertisements, and repositories without a clear engineering use
+case are out of scope.
 
 ## Submission Checklist
 
@@ -35,6 +39,7 @@ Before opening a pull request:
    DOI link. Use arXiv when no formal publication is available.
 5. For projects, link to the canonical repository and confirm that it contains
    an explicit open-source license. Record its SPDX identifier when possible.
+   Do not list a fork separately unless it has material, maintained changes.
 6. Keep paper tables sorted by year, newest first. Keep project tables sorted
    alphabetically by project name.
 7. Write a factual, one-line description without promotional language.

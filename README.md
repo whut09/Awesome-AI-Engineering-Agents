@@ -40,10 +40,16 @@ concrete engineering workflow rather than by model family.
 > open source. Always check bundled models, datasets, and vendor EULAs.
 
 > [!IMPORTANT]
-> Deterministic CAD kernels, solvers, routers, and topology optimizers are
-> engineering foundations, not AI by themselves. They are included only when a
-> learned or agentic component is central, or when they expose a practical
-> backend for an engineering agent; the latter are labeled explicitly.
+> This is an engineering-agent stack, not an AI-model-only list. Deterministic
+> CAD/EDA tools, optical simulators, solvers, linters, formal engines,
+> synthesizers, and place-and-route systems are in scope whenever an agent can
+> invoke them to create, analyze, simulate, verify, optimize, or deliver an
+> engineering artifact. Native AI/agent projects and conventional toolchain
+> components are listed separately so their roles remain clear.
+
+Canonical upstream repositories are preferred over forks and mirrors. A fork
+is listed separately only when it contains material, maintained changes that
+are relevant to engineering agents.
 
 ## Contents
 
@@ -80,7 +86,7 @@ concrete engineering workflow rather than by model family.
 
 | Project | Engineering use | License |
 |:---|:---|:---:|
-| [DeepLens](https://github.com/singer-yang/DeepLens) | Differentiable geometric optics and automatic lens design | Apache-2.0 |
+| [DeepLens](https://github.com/vccimaging/DeepLens) | Differentiable geometric optics and automatic lens design | Apache-2.0 |
 | [DeepTrack 2.0](https://github.com/softmatterlab/DeepTrack2) | Microscopy, particle tracking, and optical characterization | MIT |
 | [diffractsim](https://github.com/rafael-fuente/diffractsim) | Differentiable diffraction simulation | MPL-2.0 |
 | [Dolphindes](https://github.com/physical-design-bounds/dolphindes) | Bounds and optimization for photonic inverse design | MIT |
@@ -88,6 +94,18 @@ concrete engineering workflow rather than by model family.
 | [pinn-shaper](https://github.com/rafael-fuente/pinn-shaper) | PINN-based flat-optics beam shaping | MPL-2.0 |
 | [TorchOptics](https://github.com/matthewfilipovich/torchoptics) | PyTorch Fourier-optics simulation and optimization | MIT |
 | [waveprop](https://github.com/ebezzam/waveprop) | Free-space propagation and holography models | MIT |
+
+### Agent Toolchain Components
+
+These libraries provide deterministic simulation, propagation, ray-tracing,
+and analysis capabilities that an optical agent can call and validate against.
+
+| Project | Agent role | Interface | License |
+|:---|:---|:---:|:---:|
+| [HCIPy](https://github.com/ehpor/hcipy) | Optical propagation and high-contrast imaging simulation | Python | MIT |
+| [POPPY](https://github.com/spacetelescope/poppy) | Physical-optics propagation and point-spread-function analysis | Python | BSD-3-Clause |
+| [prysm](https://github.com/brandondube/prysm) | Physical optics, phase retrieval, aberration analysis, and ray tracing | Python | MIT |
+| [ray-optics](https://github.com/ricktu288/ray-optics) | Scriptable geometric-optics scene construction and ray simulation | Web / JavaScript | Apache-2.0 |
 
 ## Hardware and PCB Design
 
@@ -147,6 +165,17 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 | [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | Placement, routing, timing, and physical-design automation | BSD-3-Clause |
 | [PCBFlow](https://github.com/NijoP/pcbflow) | Programmatic PCB generation and layout | MIT |
 | [SchGen](https://github.com/microsoft/SchGen) | Semantic-grounded-code PCB schematic generation | MIT |
+
+### Agent Toolchain Components
+
+| Project | Agent role | Interface | License |
+|:---|:---|:---:|:---:|
+| [eda-agent](https://github.com/salitronic/eda-agent) | Agent-controlled Altium, KiCad, and EasyEDA Pro schematic/PCB editing, review, audits, placement, and panelization | MCP / EDA APIs | Apache-2.0 |
+| [freerouting](https://github.com/freerouting/freerouting) | PCB autorouting backend for DSN/SES-based board workflows | CLI / GUI | GPL-3.0 |
+| [KLayout](https://github.com/KLayout/klayout) | Scriptable GDS/OASIS layout viewing, editing, DRC, and extraction | Python / Ruby / GUI | GPL-3.0 |
+| [LibrePCB](https://github.com/LibrePCB/LibrePCB) | Schematic capture, PCB layout, library management, and manufacturing export | GUI / CLI | GPL-3.0 |
+| [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) | Static timing analysis and timing-report feedback for chip-design agents | Tcl / CLI | GPL-3.0 |
+| [SKiDL](https://github.com/devbisme/skidl) | Programmatic circuit and netlist generation with electrical-rule checks | Python | MIT |
 
 ### Datasets and Code with Unclear Licensing
 
@@ -356,6 +385,19 @@ geometry, meshing, and post-processing backends for engineering agents.
 | [sim-cli](https://github.com/svd-ai-lab/sim-cli) | Replayable agent runtime for COMSOL, Abaqus, and Ansys simulation workflows | CLI / plugins | Apache-2.0 |
 | [viznoir](https://github.com/kimimgo/viznoir) | Headless MCP visualization for VTK, CGNS, and OpenFOAM results | MCP / Python | MIT |
 
+### Additional CAD, Meshing, and Solver Components
+
+| Project | Agent role | Interface | License |
+|:---|:---|:---:|:---:|
+| [CalculiX](https://github.com/Dhondtguido/CalculiX) | Linear/nonlinear structural, thermal, and dynamic finite-element analysis | CLI / files | GPL-2.0 |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Parametric solid modeling, drawing, assembly, and FEM automation | Python / GUI | LGPL-2.1 |
+| [MFEM](https://github.com/MFEM/mfem) | Scalable finite-element backend for structural and multiphysics workflows | C++ / Python | BSD-3-Clause |
+| [meshio](https://github.com/nschloe/meshio) | Conversion between common finite-element and mesh formats | Python / CLI | MIT |
+| [OpenFOAM](https://github.com/OpenFOAM/OpenFOAM-dev) | CFD and multiphysics case generation, execution, and result production | CLI / files | GPL-3.0 |
+| [OpenRadioss](https://github.com/OpenRadioss/OpenRadioss) | Explicit finite-element solver for impact, crash, drop, and dynamic-event analysis | CLI / files | AGPL-3.0 |
+| [PyVista](https://github.com/pyvista/pyvista) | Mesh analysis, field inspection, and 3D simulation-result validation | Python | MIT |
+| [trimesh](https://github.com/mikedh/trimesh) | Mesh loading, repair, measurements, collision, and geometric validation | Python | MIT |
+
 The agent-callability perspective and several infrastructure candidates in this
 section were cross-checked against
 [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae), which maintains a
@@ -449,6 +491,23 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 | [VerilogEval](https://github.com/NVlabs/verilog-eval) | Reproducible LLM-to-Verilog evaluation harness | MIT |
 | [Vitis AI](https://github.com/Xilinx/Vitis-AI) | Quantization, compilation, runtime, and deployment on AMD devices | Apache-2.0 |
 | [Yosys](https://github.com/YosysHQ/yosys) | RTL synthesis and formal tooling for open FPGA flows | ISC |
+
+### Agent Toolchain Components
+
+These tools can form the executable feedback loop for an FPGA agent, from RTL
+parsing and lint through simulation, formal verification, synthesis, timing,
+and architecture-aware placement and routing.
+
+| Project | Agent role | Interface | License |
+|:---|:---|:---:|:---:|
+| [cocotb](https://github.com/cocotb/cocotb) | Python testbench generation, simulation control, and regression checking | Python / VPI | BSD-3-Clause |
+| [GHDL](https://github.com/ghdl/ghdl) | VHDL analysis, elaboration, simulation, and synthesis integration | CLI | GPL-2.0 |
+| [Icarus Verilog](https://github.com/steveicarus/iverilog) | Verilog/SystemVerilog compilation and simulation | CLI | GPL-2.0 |
+| [OpenPARF](https://github.com/PKU-IDEA/OpenPARF) | Large-scale heterogeneous FPGA placement and routing with a deep-learning toolkit | Python / C++ | BSD-3-Clause |
+| [Surelog](https://github.com/chipsalliance/Surelog) | SystemVerilog preprocessing, parsing, elaboration, UHDM, and AST access | CLI / C++ / Python | Apache-2.0 |
+| [SymbiYosys](https://github.com/YosysHQ/sby) | Orchestration of Yosys-based bounded, unbounded, and cover formal checks | CLI | ISC |
+| [Verible](https://github.com/chipsalliance/verible) | SystemVerilog parsing, linting, formatting, and language-server checks | CLI / LSP | Apache-2.0 |
+| [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | FPGA architecture exploration and Verilog-to-routing flow with VPR | CLI | Mixed, primarily MIT |
 
 ### Research Code without an Explicit License
 

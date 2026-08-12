@@ -31,9 +31,13 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 > EULA 的具体条款。
 
 > [!IMPORTANT]
-> 确定性的 CAD 内核、求解器、布线器和拓扑优化器本身不等于 AI。只有当学习式或
-> 智能体组件居于核心，或工具提供了可被工程智能体实际调用的后端时才会收录；
-> 后一种情况会被明确标注。
+> 本项目整理的是工程智能体技术栈，而不是只收录 AI 模型。只要智能体能够调用
+> CAD/EDA 工具、光学仿真器、求解器、检查器、形式验证引擎、综合器或布局布线器，
+> 完成工程对象的生成、分析、仿真、验证、优化或交付，它们就属于收录范围。
+> 原生 AI/智能体项目与传统工具链组件会分表展示，避免混淆各自角色。
+
+链接优先指向上游主仓库，而不是 fork 或镜像。只有 fork 包含与工程智能体相关、
+持续维护的实质改动时，才会单独收录。
 
 ## 目录
 
@@ -70,7 +74,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 项目 | 工程用途 | 许可证 |
 |:---|:---|:---:|
-| [DeepLens](https://github.com/singer-yang/DeepLens) | 可微分几何光学与自动镜头设计 | Apache-2.0 |
+| [DeepLens](https://github.com/vccimaging/DeepLens) | 可微分几何光学与自动镜头设计 | Apache-2.0 |
 | [DeepTrack 2.0](https://github.com/softmatterlab/DeepTrack2) | 显微成像、粒子跟踪与光学表征 | MIT |
 | [diffractsim](https://github.com/rafael-fuente/diffractsim) | 可微分衍射仿真 | MPL-2.0 |
 | [Dolphindes](https://github.com/physical-design-bounds/dolphindes) | 光子逆向设计的性能边界与优化 | MIT |
@@ -78,6 +82,17 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [pinn-shaper](https://github.com/rafael-fuente/pinn-shaper) | 基于 PINN 的平面光学光束整形 | MPL-2.0 |
 | [TorchOptics](https://github.com/matthewfilipovich/torchoptics) | 基于 PyTorch 的傅里叶光学仿真与优化 | MIT |
 | [waveprop](https://github.com/ebezzam/waveprop) | 自由空间传播与全息模型 | MIT |
+
+### 智能体工具链组件
+
+这些库提供可被光学智能体调用并用于结果校验的确定性仿真、传播、光线追迹和分析能力。
+
+| 项目 | 智能体中的作用 | 接口 | 许可证 |
+|:---|:---|:---:|:---:|
+| [HCIPy](https://github.com/ehpor/hcipy) | 光学传播与高对比度成像仿真 | Python | MIT |
+| [POPPY](https://github.com/spacetelescope/poppy) | 物理光学传播与点扩散函数分析 | Python | BSD-3-Clause |
+| [prysm](https://github.com/brandondube/prysm) | 物理光学、相位恢复、像差分析与光线追迹 | Python | MIT |
+| [ray-optics](https://github.com/ricktu288/ray-optics) | 可脚本化的几何光学场景构建与光线仿真 | Web / JavaScript | Apache-2.0 |
 
 ## 硬件与 PCB 设计
 
@@ -136,6 +151,17 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 布局、布线、时序与物理设计自动化 | BSD-3-Clause |
 | [PCBFlow](https://github.com/NijoP/pcbflow) | 程序化 PCB 生成与布局 | MIT |
 | [SchGen](https://github.com/microsoft/SchGen) | 基于语义代码表示的 PCB 原理图生成 | MIT |
+
+### 智能体工具链组件
+
+| 项目 | 智能体中的作用 | 接口 | 许可证 |
+|:---|:---|:---:|:---:|
+| [eda-agent](https://github.com/salitronic/eda-agent) | 智能体控制 Altium、KiCad 和 EasyEDA Pro，完成原理图/PCB 编辑、审查、审核、布局与拼板 | MCP / EDA API | Apache-2.0 |
+| [freerouting](https://github.com/freerouting/freerouting) | 面向 DSN/SES 电路板流程的 PCB 自动布线后端 | CLI / GUI | GPL-3.0 |
+| [KLayout](https://github.com/KLayout/klayout) | 可脚本化的 GDS/OASIS 版图查看、编辑、DRC 与提取 | Python / Ruby / GUI | GPL-3.0 |
+| [LibrePCB](https://github.com/LibrePCB/LibrePCB) | 原理图、PCB 布局、库管理与制造文件导出 | GUI / CLI | GPL-3.0 |
+| [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) | 为芯片设计智能体提供静态时序分析和报告反馈 | Tcl / CLI | GPL-3.0 |
+| [SKiDL](https://github.com/devbisme/skidl) | 程序化生成电路和网表，并执行电气规则检查 | Python | MIT |
 
 ### 许可证不明确的数据集与代码
 
@@ -338,6 +364,19 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [sim-cli](https://github.com/svd-ai-lab/sim-cli) | 面向 COMSOL、Abaqus 与 Ansys 仿真的可重放智能体运行时 | CLI / 插件 | Apache-2.0 |
 | [viznoir](https://github.com/kimimgo/viznoir) | 面向 VTK、CGNS 和 OpenFOAM 结果的无界面 MCP 可视化 | MCP / Python | MIT |
 
+### 其他 CAD、网格与求解器组件
+
+| 项目 | 智能体中的作用 | 接口 | 许可证 |
+|:---|:---|:---:|:---:|
+| [CalculiX](https://github.com/Dhondtguido/CalculiX) | 线性/非线性结构、热与动力学有限元分析 | CLI / 文件 | GPL-2.0 |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | 参数化实体、工程图、装配与 FEM 自动化 | Python / GUI | LGPL-2.1 |
+| [MFEM](https://github.com/MFEM/mfem) | 面向结构和多物理场流程的可扩展有限元后端 | C++ / Python | BSD-3-Clause |
+| [meshio](https://github.com/nschloe/meshio) | 常用有限元与网格格式之间的转换 | Python / CLI | MIT |
+| [OpenFOAM](https://github.com/OpenFOAM/OpenFOAM-dev) | CFD 与多物理场算例生成、执行及结果输出 | CLI / 文件 | GPL-3.0 |
+| [OpenRadioss](https://github.com/OpenRadioss/OpenRadioss) | 碰撞、冲击、跌落和动态事件分析的显式有限元求解器 | CLI / 文件 | AGPL-3.0 |
+| [PyVista](https://github.com/pyvista/pyvista) | 网格分析、场结果检查与三维仿真结果验证 | Python | MIT |
+| [trimesh](https://github.com/mikedh/trimesh) | 网格读取、修复、测量、碰撞与几何验证 | Python | MIT |
+
 本节的“智能体可调用性”视角及部分基础设施候选参考并交叉核验了
 [awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae)。该项目维护了一份覆盖面
 更广、带可调用性排名的开源 CAE、CAD、网格与可视化工具清单。
@@ -425,6 +464,22 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 | [VerilogEval](https://github.com/NVlabs/verilog-eval) | 可复现的大模型 Verilog 生成评测框架 | MIT |
 | [Vitis AI](https://github.com/Xilinx/Vitis-AI) | AMD 器件上的量化、编译、运行时与部署 | Apache-2.0 |
 | [Yosys](https://github.com/YosysHQ/yosys) | 开源 FPGA 流程的 RTL 综合与形式验证工具 | ISC |
+
+### 智能体工具链组件
+
+这些工具可以组成 FPGA 智能体的可执行反馈闭环，覆盖 RTL 解析与检查、仿真、
+形式验证、综合、时序，以及面向器件架构的布局布线。
+
+| 项目 | 智能体中的作用 | 接口 | 许可证 |
+|:---|:---|:---:|:---:|
+| [cocotb](https://github.com/cocotb/cocotb) | Python 测试平台生成、仿真控制与回归检查 | Python / VPI | BSD-3-Clause |
+| [GHDL](https://github.com/ghdl/ghdl) | VHDL 分析、展开、仿真与综合集成 | CLI | GPL-2.0 |
+| [Icarus Verilog](https://github.com/steveicarus/iverilog) | Verilog/SystemVerilog 编译与仿真 | CLI | GPL-2.0 |
+| [OpenPARF](https://github.com/PKU-IDEA/OpenPARF) | 带深度学习工具包的大规模异构 FPGA 布局布线 | Python / C++ | BSD-3-Clause |
+| [Surelog](https://github.com/chipsalliance/Surelog) | SystemVerilog 预处理、解析、展开以及 UHDM/AST 访问 | CLI / C++ / Python | Apache-2.0 |
+| [SymbiYosys](https://github.com/YosysHQ/sby) | 编排基于 Yosys 的有界、无界和覆盖形式验证 | CLI | ISC |
+| [Verible](https://github.com/chipsalliance/verible) | SystemVerilog 解析、lint、格式化与语言服务器检查 | CLI / LSP | Apache-2.0 |
+| [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | FPGA 架构探索及带 VPR 的 Verilog 到布线流程 | CLI | 混合许可证，主体为 MIT |
 
 ### 未明确声明许可证的研究代码
 
