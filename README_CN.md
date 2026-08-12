@@ -202,6 +202,26 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2024 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | 通用 CAD 任务助手 |
 | 2024 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | 文本到参数化 CAD 生成 |
 
+### 参数化 CAD 生成与重建论文
+
+| 年份 | 论文 | 工程流程 |
+|:---:|:---|:---|
+| 2026 | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | 从网格逐步重建参数化 CAD |
+| 2026 | [HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding](https://arxiv.org/abs/2607.11339) | 层次化文本到 CAD 生成 |
+| 2026 | [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) | 从正交视图重建 CAD 建模序列 |
+| 2026 | [UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD](https://arxiv.org/abs/2606.05058) | 多模态 CAD 生成与理解 |
+| 2026 | [CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization](https://arxiv.org/abs/2605.01171) | 从网格恢复可编辑 CAD 程序 |
+| 2026 | [CADReasoner: Iterative Program Editing for CAD Reverse Engineering](https://arxiv.org/abs/2603.29847) | 迭代式 CAD 程序重建与修复 |
+| 2026 | [GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback](https://arxiv.org/abs/2603.27448) | 几何反馈驱动的图像到 CAD 合成 |
+| 2026 | [Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding](https://arxiv.org/abs/2603.11831) | 基于 B-Rep 基元接地的文本到 CAD 生成 |
+| 2026 | [DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces](https://arxiv.org/abs/2603.05607) | 从多模态输入生成可编辑 B-Rep |
+| 2026 | [STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models](https://arxiv.org/abs/2601.12641) | 自然语言到 STEP 模型生成 |
+| 2025 | [From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning for Precise CAD Code Generation](https://arxiv.org/abs/2508.10118) | 精确的多模态 CAD 代码生成 |
+| 2025 | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://arxiv.org/abs/2505.14646) | 图像到 CAD 代码生成 |
+| 2025 | [Text-to-CadQuery: A New Paradigm for CAD Generation with Scalable Large Model Capabilities](https://arxiv.org/abs/2505.06507) | 文本到 CadQuery 程序生成 |
+| 2024 | [TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702) | 点云到 CAD 序列重建 |
+| 2021 | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) | CAD 命令序列生成基线 |
+
 ### 论文
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 |
@@ -225,8 +245,10 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 年份 | 基准 | 测试内容 |
 |:---:|:---|:---|
 | 2026 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | 从简单零件到复杂拓扑的文本到 CAD 生成 |
+| 2026 | [MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation](https://arxiv.org/abs/2605.28579) | 生成 B-Rep 零件的可制造性、功能性与可装配性 |
 | 2026 | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | 随几何复杂度提升的 CAD 程序生成能力 |
 | 2026 | [BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD](https://arxiv.org/abs/2605.10865) | 工业风格 CAD 程序的可执行性与参数结构 |
+| 2026 | [Text-to-CAD Evaluation with CADTests](https://arxiv.org/abs/2605.07807) | 直接在生成几何体上测试功能需求 |
 
 工程 CAD 不能只看视觉相似度，还应评估执行成功率、可编辑特征历史、约束、装配、
 可制造性，以及进入下游分析后的行为。
@@ -239,6 +261,25 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [CADAM](https://github.com/Adam-CAD/CADAM) | 将文本或图像转换为可编辑的参数化 OpenSCAD、STL 和 DXF 工件 | GPL-3.0 |
 | [CAD Skills](https://github.com/earthtojake/text-to-cad) | 用于生成、检查、修改和验证 CAD/CAE/CAM 工件的智能体技能 | MIT |
 | [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | 通过 Python 生成原生几何的对话式 FreeCAD 工作台 | LGPL-2.1 |
+
+### 开源 CAD 研究项目与数据集
+
+| 项目 | 工程用途 | 许可证 |
+|:---|:---|:---:|
+| [CAD-Coder](https://github.com/anniedoris/CAD-Coder) | 面向图像到 CAD 代码生成的视觉语言模型及训练代码 | Apache-2.0 |
+| [CADENA](https://github.com/zhemdi/cadena) | 从网格到参数化 CAD 程序的逐步逆向工程 | MIT |
+| [DeepCAD](https://github.com/ChrisWu1997/DeepCAD) | CAD 命令序列生成基线及数据集工具 | MIT |
+| [HierCAD](https://github.com/Collab-Gen/HierCAD) | 带参数接地的层次化文本到 CAD 生成 | MIT |
+| [SketchGraphs](https://github.com/PrincetonLIPS/SketchGraphs) | 包含几何约束图的 1500 万 CAD 草图数据集 | MIT |
+
+### 许可证受限或不明确的 CAD 研究代码
+
+- [CADFit](https://github.com/ghadinehme/CADFit) 以 CC BY-NC 4.0 发布研究代码，
+  该许可证限制商业使用，因此本清单不将其视为开源软件许可证。
+- [FutureCAD](https://github.com/JohanStackk/FutureCAD)、
+  [SOV-CAD](https://github.com/LukePhong/SOV-CAD) 和
+  [Text-to-CadQuery](https://github.com/Text-to-CadQuery/Text-to-CadQuery)
+  提供了研究代码，但仓库当前没有明确许可证。
 
 ### 开源项目
 
@@ -304,6 +345,11 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部分 CAD 智能体、仿真智能体、
 基准和产业信号候选还参考并交叉核验了
 [Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI)。
+
+参数化 CAD 生成、重建、数据集和评测条目还参考并交叉核验了双语的
+[Awesome AI4CAD Hub](https://jin-s13.github.io/awesome-AI4CAD-hub/)。该自动聚合索引
+适合发现候选，但其中也包含重复项、2020 年以前的工作及不完整元数据，因此本清单
+仍逐项核对原始论文和代码仓库后再收录。
 
 ### 商业图纸审查与工程知识进展信号
 

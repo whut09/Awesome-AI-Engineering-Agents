@@ -217,6 +217,26 @@ simulation, and drawing/BIM review.
 | 2024 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | General CAD task assistant |
 | 2024 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | Text-to-parametric-CAD generation |
 
+### Parametric CAD Generation and Reconstruction Papers
+
+| Year | Paper | Workflow |
+|:---:|:---|:---|
+| 2026 | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | Stepwise mesh-to-parametric-CAD reconstruction |
+| 2026 | [HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding](https://arxiv.org/abs/2607.11339) | Hierarchical text-to-CAD generation |
+| 2026 | [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) | Orthographic-view-to-CAD-sequence reconstruction |
+| 2026 | [UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD](https://arxiv.org/abs/2606.05058) | Multimodal CAD generation and understanding |
+| 2026 | [CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization](https://arxiv.org/abs/2605.01171) | Editable CAD program recovery from meshes |
+| 2026 | [CADReasoner: Iterative Program Editing for CAD Reverse Engineering](https://arxiv.org/abs/2603.29847) | Iterative CAD program reconstruction and repair |
+| 2026 | [GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback](https://arxiv.org/abs/2603.27448) | Geometry-grounded image-to-CAD synthesis |
+| 2026 | [Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding](https://arxiv.org/abs/2603.11831) | Text-to-CAD with B-Rep primitive grounding |
+| 2026 | [DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces](https://arxiv.org/abs/2603.05607) | Editable B-Rep generation from multimodal input |
+| 2026 | [STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models](https://arxiv.org/abs/2601.12641) | Natural-language-to-STEP generation |
+| 2025 | [From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning for Precise CAD Code Generation](https://arxiv.org/abs/2508.10118) | Precise multimodal CAD code generation |
+| 2025 | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://arxiv.org/abs/2505.14646) | Image-to-CAD code generation |
+| 2025 | [Text-to-CadQuery: A New Paradigm for CAD Generation with Scalable Large Model Capabilities](https://arxiv.org/abs/2505.06507) | Text-to-CadQuery program generation |
+| 2024 | [TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702) | Point-cloud-to-CAD-sequence reconstruction |
+| 2021 | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) | CAD command-sequence generation baseline |
+
 ### Papers
 
 | Year | Venue | Paper | Workflow |
@@ -240,8 +260,10 @@ simulation, and drawing/BIM review.
 | Year | Benchmark | What it tests |
 |:---:|:---|:---|
 | 2026 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | Text-to-CAD generation from simple parts to complex topology |
+| 2026 | [MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation](https://arxiv.org/abs/2605.28579) | Manufacturability, functionality, and assemblability of generated B-Rep parts |
 | 2026 | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | CAD program generation across increasing geometric complexity |
 | 2026 | [BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD](https://arxiv.org/abs/2605.10865) | Executability and parametric structure of industrial-style CAD programs |
+| 2026 | [Text-to-CAD Evaluation with CADTests](https://arxiv.org/abs/2605.07807) | Functional requirements tested directly on generated geometry |
 
 Visual similarity is insufficient for engineering CAD. Evaluation should also
 cover execution success, editable feature history, constraints, assemblies,
@@ -255,6 +277,26 @@ manufacturability, and behavior under downstream analysis.
 | [CADAM](https://github.com/Adam-CAD/CADAM) | Converts text or images into editable parametric OpenSCAD, STL, and DXF artifacts | GPL-3.0 |
 | [CAD Skills](https://github.com/earthtojake/text-to-cad) | Agent skills for generating, inspecting, modifying, and validating CAD/CAE/CAM artifacts | MIT |
 | [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | Conversational FreeCAD workbench that generates native geometry through Python | LGPL-2.1 |
+
+### Open-Source CAD Research Projects and Datasets
+
+| Project | Engineering use | License |
+|:---|:---|:---:|
+| [CAD-Coder](https://github.com/anniedoris/CAD-Coder) | Vision-language model and training code for image-to-CAD code generation | Apache-2.0 |
+| [CADENA](https://github.com/zhemdi/cadena) | Stepwise reverse engineering from meshes to parametric CAD programs | MIT |
+| [DeepCAD](https://github.com/ChrisWu1997/DeepCAD) | CAD command-sequence generation baseline and dataset tooling | MIT |
+| [HierCAD](https://github.com/Collab-Gen/HierCAD) | Hierarchical text-to-CAD generation with parameter grounding | MIT |
+| [SketchGraphs](https://github.com/PrincetonLIPS/SketchGraphs) | Dataset of 15 million CAD sketches with geometric constraint graphs | MIT |
+
+### CAD Research Code with Restricted or Unclear Licensing
+
+- [CADFit](https://github.com/ghadinehme/CADFit) publishes research code under
+  CC BY-NC 4.0, which restricts commercial use and is not treated here as an
+  open-source software license.
+- [FutureCAD](https://github.com/JohanStackk/FutureCAD),
+  [SOV-CAD](https://github.com/LukePhong/SOV-CAD), and
+  [Text-to-CadQuery](https://github.com/Text-to-CadQuery/Text-to-CadQuery)
+  provide research code but currently expose no explicit repository license.
 
 ### Open-Source Projects
 
@@ -323,6 +365,13 @@ The AI-versus-foundation distinction, maturity-oriented curation, and several
 CAD-agent, simulation-agent, benchmark, and industry-signal candidates were
 also cross-checked against
 [Awesome-Physical-Engineering-AI](https://github.com/010zx00x1/Awesome-Physical-Engineering-AI).
+
+The parametric-CAD generation, reconstruction, dataset, and evaluation entries
+were additionally cross-checked against the bilingual
+[Awesome AI4CAD Hub](https://jin-s13.github.io/awesome-AI4CAD-hub/), whose
+broader automated index is useful for discovery. Entries here were verified
+against their original papers and repositories because the hub also contains
+duplicates, pre-2020 work, and incomplete metadata.
 
 ### Commercial Drawing Review and Engineering Knowledge Signals
 
