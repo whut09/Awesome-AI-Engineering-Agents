@@ -213,6 +213,34 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [Text2BIM](https://github.com/dcy0577/Text2BIM) | 文本生成 BIM 与建筑设计原型 | MIT |
 | [TopOpt.jl](https://github.com/JuliaTopOpt/TopOpt.jl) | 可微分拓扑优化组件 | MIT |
 
+### 结构仿真的其他 AI/ML 项目
+
+| 项目 | 工程用途 | 许可证 |
+|:---|:---|:---:|
+| [DL4TO](https://github.com/dl4to/dl4to) | 用于三维拓扑优化和线弹性的深度学习与可微分物理 | Apache-2.0 |
+| [NeuralSolver](https://github.com/thuml/Neural-Solver-Library) | 面向规则及一般几何的神经 PDE 求解器基准库 | MIT |
+| [PINNacle](https://github.com/i207M/PINNacle) | 可复现的物理信息神经 PDE 求解基准 | MIT |
+| [The Well](https://github.com/PolymathicAI/the_well) | 用于代理模型和基础模型的大规模物理仿真数据集 | BSD-3-Clause |
+
+### 智能体可调用的 CAE 基础设施
+
+这些项目本身不一定属于 AI 模型。收录它们是因为其 Python、CLI 或 MCP 接口能够
+作为工程智能体的求解、几何建模、网格划分和后处理后端。
+
+| 项目 | 工程用途 | 接口 | 许可证 |
+|:---|:---|:---:|:---:|
+| [build123d](https://github.com/gumyr/build123d) | 面向智能体生成 CAD 的脚本化参数实体建模 | Python | Apache-2.0 |
+| [CadQuery](https://github.com/CadQuery/cadquery) | 参数化 CAD 生成及 STEP/STL 导出 | Python | Apache-2.0 |
+| [DOLFINx](https://github.com/FEniCS/dolfinx) | 并行有限元分析与 PDE 求解 | Python / C++ | LGPL-3.0 |
+| [Netgen](https://github.com/NGSolve/netgen) | 从 STEP、IGES、STL 和 CSG 自动生成四面体网格 | Python / CLI | LGPL-2.1 |
+| [ParaView-MCP](https://github.com/llnl/paraview_mcp) | 智能体控制的仿真可视化与后处理 | MCP / Python | BSD-3-Clause |
+| [SfePy](https://github.com/sfepy/sfepy) | 可脚本化的结构、热与多物理场有限元 | Python | BSD-3-Clause |
+| [viznoir](https://github.com/kimimgo/viznoir) | 面向 VTK、CGNS 和 OpenFOAM 结果的无界面 MCP 可视化 | MCP / Python | MIT |
+
+本节的“智能体可调用性”视角及部分基础设施候选参考并交叉核验了
+[awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae)。该项目维护了一份覆盖面
+更广、带可调用性排名的开源 CAE、CAD、网格与可视化工具清单。
+
 > 壁厚检查、载荷路径验证、公差审查和图纸审批仍是快速发展的工业应用方向。
 > 欢迎贡献带有可复现论文、数据集、插件或基准的相关工作。
 

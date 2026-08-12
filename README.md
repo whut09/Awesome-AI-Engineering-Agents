@@ -226,6 +226,36 @@ simulation, and drawing/BIM review.
 | [Text2BIM](https://github.com/dcy0577/Text2BIM) | Text-to-BIM generation and building-design prototyping | MIT |
 | [TopOpt.jl](https://github.com/JuliaTopOpt/TopOpt.jl) | Differentiable topology-optimization components | MIT |
 
+### Additional AI/ML for Structural Simulation
+
+| Project | Engineering use | License |
+|:---|:---|:---:|
+| [DL4TO](https://github.com/dl4to/dl4to) | Deep learning and differentiable physics for 3D topology optimization and linear elasticity | Apache-2.0 |
+| [NeuralSolver](https://github.com/thuml/Neural-Solver-Library) | Benchmark library for neural PDE solvers on regular and general geometries | MIT |
+| [PINNacle](https://github.com/i207M/PINNacle) | Reproducible benchmark for physics-informed neural PDE solvers | MIT |
+| [The Well](https://github.com/PolymathicAI/the_well) | Large-scale physics-simulation datasets for surrogate and foundation models | BSD-3-Clause |
+
+### Agent-Ready CAE Infrastructure
+
+These projects are not necessarily AI models themselves. They are included
+because their Python, CLI, or MCP interfaces make them practical solver,
+geometry, meshing, and post-processing backends for engineering agents.
+
+| Project | Engineering use | Interface | License |
+|:---|:---|:---:|:---:|
+| [build123d](https://github.com/gumyr/build123d) | Scriptable parametric solid modeling for agent-generated CAD | Python | Apache-2.0 |
+| [CadQuery](https://github.com/CadQuery/cadquery) | Parametric CAD generation and STEP/STL export | Python | Apache-2.0 |
+| [DOLFINx](https://github.com/FEniCS/dolfinx) | Parallel finite-element analysis and PDE solving | Python / C++ | LGPL-3.0 |
+| [Netgen](https://github.com/NGSolve/netgen) | Automatic tetrahedral meshing from STEP, IGES, STL, and CSG | Python / CLI | LGPL-2.1 |
+| [ParaView-MCP](https://github.com/llnl/paraview_mcp) | Agent-controlled simulation visualization and post-processing | MCP / Python | BSD-3-Clause |
+| [SfePy](https://github.com/sfepy/sfepy) | Scriptable structural, thermal, and multiphysics FEM | Python | BSD-3-Clause |
+| [viznoir](https://github.com/kimimgo/viznoir) | Headless MCP visualization for VTK, CGNS, and OpenFOAM results | MCP / Python | MIT |
+
+The agent-callability perspective and several infrastructure candidates in this
+section were cross-checked against
+[awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae), which maintains a
+broader ranked collection of open CAE, CAD, meshing, and visualization tools.
+
 > Wall-thickness checks, load-path validation, tolerance review, and drawing
 > approval are emerging industrial workflows. Contributions with a reproducible
 > paper, dataset, plugin, or benchmark are especially useful here.
