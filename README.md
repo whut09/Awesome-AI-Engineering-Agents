@@ -103,10 +103,10 @@ are relevant to engineering agents.
 
 ### Agentic Optical Design Papers
 
-| Year | Paper | Workflow |
-|:---:|:---|:---|
-| 2026 | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | Multi-agent optimization modeling |
-| 2026 | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | Physics-validated optical design agent |
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | Multi-agent optimization modeling |
+| 2026 | arXiv preprint | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | Physics-validated optical design agent |
 
 ### Open-Source Projects
 
@@ -165,20 +165,20 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 
 ### Agentic EDA and Hardware Papers
 
-| Year | Paper | Workflow |
-|:---:|:---|:---|
-| 2026 | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA scripting agent |
-| 2026 | [EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis](https://arxiv.org/abs/2608.04032) | EDA artifact review |
-| 2026 | [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](https://arxiv.org/abs/2607.17528) | End-to-end RTL-to-GDS agents |
-| 2026 | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | Analog circuit optimization |
-| 2025 | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA flow orchestration |
-| 2025 | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA script generation |
-| 2024 | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS code and directive generation |
-| 2024 | [EDA-Aware RTL Generation with Large Language Models](https://arxiv.org/abs/2412.04485) | RTL generation with synthesis feedback |
-| 2024 | [Automatically Improving LLM-based Verilog Generation using EDA Tool Feedback](https://arxiv.org/abs/2411.11856) | Tool-grounded Verilog repair |
-| 2024 | [IICPilot: An Intelligent Integrated Circuit Backend Design Framework Using Open EDA](https://arxiv.org/abs/2407.12576) | Backend design automation |
-| 2024 | [Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination](https://arxiv.org/abs/2406.06575) | EDA design assistant |
-| 2023 | [ChatEDA: A Large Language Model Powered Autonomous Agent for EDA](https://arxiv.org/abs/2308.10204) | Autonomous EDA assistant |
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA scripting agent |
+| 2026 | arXiv preprint | [EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis](https://arxiv.org/abs/2608.04032) | EDA artifact review |
+| 2026 | arXiv preprint | [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](https://arxiv.org/abs/2607.17528) | End-to-end RTL-to-GDS agents |
+| 2026 | arXiv preprint | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | Analog circuit optimization |
+| 2025 | arXiv preprint | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA flow orchestration |
+| 2025 | arXiv preprint | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA script generation |
+| 2024 | arXiv preprint | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS code and directive generation |
+| 2024 | arXiv preprint | [EDA-Aware RTL Generation with Large Language Models](https://arxiv.org/abs/2412.04485) | RTL generation with synthesis feedback |
+| 2024 | arXiv preprint | [Automatically Improving LLM-based Verilog Generation using EDA Tool Feedback](https://arxiv.org/abs/2411.11856) | Tool-grounded Verilog repair |
+| 2024 | arXiv preprint | [IICPilot: An Intelligent Integrated Circuit Backend Design Framework Using Open EDA](https://arxiv.org/abs/2407.12576) | Backend design automation |
+| 2024 | arXiv preprint | [Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination](https://arxiv.org/abs/2406.06575) | EDA design assistant |
+| 2023 | arXiv preprint | [ChatEDA: A Large Language Model Powered Autonomous Agent for EDA](https://arxiv.org/abs/2308.10204) | Autonomous EDA assistant |
 
 ### Open-Source Projects
 
@@ -221,18 +221,18 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 
 ### New PCB Agent and Multimodal Benchmark Papers
 
-| Year | Paper | Workflow |
-|:---:|:---|:---|
-| 2026 | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB routing reasoning |
-| 2026 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | Tool-interactive PCB agents |
-| 2026 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB layout reasoning |
-| 2026 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB design knowledge evaluation |
-| 2026 | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | Schematic review and reasoning |
-| 2026 | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | Board-level schematic benchmark |
-| 2026 | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | Multi-agent schematic generation |
-| 2025 | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | Analog schematic agent |
-| 2024 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | Netlist-to-schematic conversion |
-| 2024 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | Amplifier schematic design |
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB routing reasoning |
+| 2026 | arXiv preprint | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | Tool-interactive PCB agents |
+| 2026 | arXiv preprint | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB layout reasoning |
+| 2026 | arXiv preprint | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB design knowledge evaluation |
+| 2026 | arXiv preprint | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | Schematic review and reasoning |
+| 2026 | arXiv preprint | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | Board-level schematic benchmark |
+| 2026 | arXiv preprint | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | Multi-agent schematic generation |
+| 2025 | arXiv preprint | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | Analog schematic agent |
+| 2024 | arXiv preprint | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | Netlist-to-schematic conversion |
+| 2024 | arXiv preprint | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | Amplifier schematic design |
 
 ### Commercial EDA Signals
 
@@ -253,49 +253,49 @@ simulation, and drawing/BIM review.
 
 ### Agentic CAD and Structural Design Papers
 
-| Year | Paper | Workflow |
-|:---:|:---|:---|
-| 2026 | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | State-aware CAD repair |
-| 2026 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | Execution-trace CAD repair |
-| 2026 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | Cross-CAD-backend generation |
-| 2026 | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750) | Industrial CAD agent |
-| 2026 | [ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language](https://arxiv.org/abs/2607.05123) | Assembly generation with mating constraints |
-| 2026 | [AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition](https://arxiv.org/abs/2607.02448) | Design for additive manufacturing |
-| 2026 | [Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling](https://arxiv.org/abs/2606.31252) | Parametric assembly modeling |
-| 2026 | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | CAD generation and editing |
-| 2026 | [Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design](https://arxiv.org/abs/2605.19717) | Physics-validated CAD design |
-| 2026 | [Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback](https://arxiv.org/abs/2605.17448) | FEA-in-the-loop CAD optimization |
-| 2026 | [Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data](https://arxiv.org/abs/2604.24479) | Large-scale CAD program synthesis |
-| 2026 | [ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation](https://arxiv.org/abs/2604.10992) | Articulated assembly design |
-| 2026 | [TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning](https://arxiv.org/abs/2604.07960) | Tool-using text-to-CAD agent |
-| 2026 | [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512) | Geometry-validated CAD generation |
-| 2026 | [Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation](https://arxiv.org/abs/2602.03045) | Interactive requirements clarification |
-| 2025 | [CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent](https://arxiv.org/abs/2508.01031) | Conceptual CAD generation |
-| 2025 | [cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning](https://arxiv.org/abs/2505.22914) | CAD reconstruction from images, point clouds, and text |
-| 2025 | [CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation](https://arxiv.org/abs/2505.04481) | Parametric CAD command generation |
-| 2025 | [From Idea to CAD: A Language Model-Driven Multi-Agent System for Collaborative Design](https://arxiv.org/abs/2503.04417) | Collaborative CAD design |
-| 2024 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | General CAD task assistant |
-| 2024 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | Text-to-parametric-CAD generation |
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | State-aware CAD repair |
+| 2026 | arXiv preprint | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | Execution-trace CAD repair |
+| 2026 | arXiv preprint | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | Cross-CAD-backend generation |
+| 2026 | arXiv preprint | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750) | Industrial CAD agent |
+| 2026 | arXiv preprint | [ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language](https://arxiv.org/abs/2607.05123) | Assembly generation with mating constraints |
+| 2026 | arXiv preprint | [AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition](https://arxiv.org/abs/2607.02448) | Design for additive manufacturing |
+| 2026 | arXiv preprint | [Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling](https://arxiv.org/abs/2606.31252) | Parametric assembly modeling |
+| 2026 | arXiv preprint | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | CAD generation and editing |
+| 2026 | arXiv preprint | [Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design](https://arxiv.org/abs/2605.19717) | Physics-validated CAD design |
+| 2026 | arXiv preprint | [Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback](https://arxiv.org/abs/2605.17448) | FEA-in-the-loop CAD optimization |
+| 2026 | arXiv preprint | [Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data](https://arxiv.org/abs/2604.24479) | Large-scale CAD program synthesis |
+| 2026 | arXiv preprint | [ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation](https://arxiv.org/abs/2604.10992) | Articulated assembly design |
+| 2026 | arXiv preprint | [TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning](https://arxiv.org/abs/2604.07960) | Tool-using text-to-CAD agent |
+| 2026 | arXiv preprint | [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512) | Geometry-validated CAD generation |
+| 2026 | arXiv preprint | [Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation](https://arxiv.org/abs/2602.03045) | Interactive requirements clarification |
+| 2025 | arXiv preprint | [CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent](https://arxiv.org/abs/2508.01031) | Conceptual CAD generation |
+| 2025 | arXiv preprint | [cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning](https://arxiv.org/abs/2505.22914) | CAD reconstruction from images, point clouds, and text |
+| 2025 | arXiv preprint | [CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation](https://arxiv.org/abs/2505.04481) | Parametric CAD command generation |
+| 2025 | arXiv preprint | [From Idea to CAD: A Language Model-Driven Multi-Agent System for Collaborative Design](https://arxiv.org/abs/2503.04417) | Collaborative CAD design |
+| 2024 | arXiv preprint | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | General CAD task assistant |
+| 2024 | arXiv preprint | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | Text-to-parametric-CAD generation |
 
 ### Parametric CAD Generation and Reconstruction Papers
 
-| Year | Paper | Workflow |
-|:---:|:---|:---|
-| 2026 | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | Stepwise mesh-to-parametric-CAD reconstruction |
-| 2026 | [HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding](https://arxiv.org/abs/2607.11339) | Hierarchical text-to-CAD generation |
-| 2026 | [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) | Orthographic-view-to-CAD-sequence reconstruction |
-| 2026 | [UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD](https://arxiv.org/abs/2606.05058) | Multimodal CAD generation and understanding |
-| 2026 | [CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization](https://arxiv.org/abs/2605.01171) | Editable CAD program recovery from meshes |
-| 2026 | [CADReasoner: Iterative Program Editing for CAD Reverse Engineering](https://arxiv.org/abs/2603.29847) | Iterative CAD program reconstruction and repair |
-| 2026 | [GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback](https://arxiv.org/abs/2603.27448) | Geometry-grounded image-to-CAD synthesis |
-| 2026 | [Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding](https://arxiv.org/abs/2603.11831) | Text-to-CAD with B-Rep primitive grounding |
-| 2026 | [DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces](https://arxiv.org/abs/2603.05607) | Editable B-Rep generation from multimodal input |
-| 2026 | [STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models](https://arxiv.org/abs/2601.12641) | Natural-language-to-STEP generation |
-| 2025 | [From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning for Precise CAD Code Generation](https://arxiv.org/abs/2508.10118) | Precise multimodal CAD code generation |
-| 2025 | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://arxiv.org/abs/2505.14646) | Image-to-CAD code generation |
-| 2025 | [Text-to-CadQuery: A New Paradigm for CAD Generation with Scalable Large Model Capabilities](https://arxiv.org/abs/2505.06507) | Text-to-CadQuery program generation |
-| 2024 | [TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702) | Point-cloud-to-CAD-sequence reconstruction |
-| 2021 | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) | CAD command-sequence generation baseline |
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | Stepwise mesh-to-parametric-CAD reconstruction |
+| 2026 | arXiv preprint | [HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding](https://arxiv.org/abs/2607.11339) | Hierarchical text-to-CAD generation |
+| 2026 | arXiv preprint | [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) | Orthographic-view-to-CAD-sequence reconstruction |
+| 2026 | arXiv preprint | [UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD](https://arxiv.org/abs/2606.05058) | Multimodal CAD generation and understanding |
+| 2026 | arXiv preprint | [CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization](https://arxiv.org/abs/2605.01171) | Editable CAD program recovery from meshes |
+| 2026 | arXiv preprint | [CADReasoner: Iterative Program Editing for CAD Reverse Engineering](https://arxiv.org/abs/2603.29847) | Iterative CAD program reconstruction and repair |
+| 2026 | arXiv preprint | [GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback](https://arxiv.org/abs/2603.27448) | Geometry-grounded image-to-CAD synthesis |
+| 2026 | arXiv preprint | [Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding](https://arxiv.org/abs/2603.11831) | Text-to-CAD with B-Rep primitive grounding |
+| 2026 | arXiv preprint | [DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces](https://arxiv.org/abs/2603.05607) | Editable B-Rep generation from multimodal input |
+| 2026 | arXiv preprint | [STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models](https://arxiv.org/abs/2601.12641) | Natural-language-to-STEP generation |
+| 2025 | arXiv preprint | [From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning for Precise CAD Code Generation](https://arxiv.org/abs/2508.10118) | Precise multimodal CAD code generation |
+| 2025 | arXiv preprint | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://arxiv.org/abs/2505.14646) | Image-to-CAD code generation |
+| 2025 | arXiv preprint | [Text-to-CadQuery: A New Paradigm for CAD Generation with Scalable Large Model Capabilities](https://arxiv.org/abs/2505.06507) | Text-to-CadQuery program generation |
+| 2024 | arXiv preprint | [TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702) | Point-cloud-to-CAD-sequence reconstruction |
+| 2021 | arXiv preprint | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) | CAD command-sequence generation baseline |
 
 ### Papers
 
@@ -317,13 +317,13 @@ simulation, and drawing/BIM review.
 
 ### CAD Benchmarks and Reality Checks
 
-| Year | Benchmark | What it tests |
-|:---:|:---|:---|
-| 2026 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | Text-to-CAD generation from simple parts to complex topology |
-| 2026 | [MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation](https://arxiv.org/abs/2605.28579) | Manufacturability, functionality, and assemblability of generated B-Rep parts |
-| 2026 | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | CAD program generation across increasing geometric complexity |
-| 2026 | [BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD](https://arxiv.org/abs/2605.10865) | Executability and parametric structure of industrial-style CAD programs |
-| 2026 | [Text-to-CAD Evaluation with CADTests](https://arxiv.org/abs/2605.07807) | Functional requirements tested directly on generated geometry |
+| Year | Venue / source | Benchmark | What it tests |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | Text-to-CAD generation from simple parts to complex topology |
+| 2026 | arXiv preprint | [MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation](https://arxiv.org/abs/2605.28579) | Manufacturability, functionality, and assemblability of generated B-Rep parts |
+| 2026 | arXiv preprint | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | CAD program generation across increasing geometric complexity |
+| 2026 | arXiv preprint | [BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD](https://arxiv.org/abs/2605.10865) | Executability and parametric structure of industrial-style CAD programs |
+| 2026 | arXiv preprint | [Text-to-CAD Evaluation with CADTests](https://arxiv.org/abs/2605.07807) | Functional requirements tested directly on generated geometry |
 
 Visual similarity is insufficient for engineering CAD. Evaluation should also
 cover execution success, editable feature history, constraints, assemblies,
@@ -383,13 +383,13 @@ manufacturability, and behavior under downstream analysis.
 
 ### CAE and Simulation Agent Papers
 
-| Year | Paper | Workflow |
-|:---:|:---|:---|
-| 2025 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | Composable OpenFOAM workflow automation |
-| 2025 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | Autonomous CFD case generation and execution |
-| 2025 | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | End-to-end CFD workflow |
-| 2025 | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM knowledge and case assistance |
-| 2024 | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | Multi-agent OpenFOAM workflow |
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2025 | arXiv preprint | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | Composable OpenFOAM workflow automation |
+| 2025 | arXiv preprint | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | Autonomous CFD case generation and execution |
+| 2025 | arXiv preprint | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | End-to-end CFD workflow |
+| 2025 | arXiv preprint | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM knowledge and case assistance |
+| 2024 | arXiv preprint | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | Multi-agent OpenFOAM workflow |
 
 ### CAE Solver and Feedback-Loop Papers
 
@@ -503,19 +503,19 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 
 ### New FPGA and RTL Agent Papers
 
-| Year | Paper | Workflow |
-|:---:|:---|:---|
-| 2026 | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ to HLS translation |
-| 2026 | [VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route](https://arxiv.org/abs/2607.24998) | FPGA place-and-route optimization |
-| 2026 | [CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-design Research](https://arxiv.org/abs/2606.27350) | Hardware/software co-design agents |
-| 2026 | [HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip](https://arxiv.org/abs/2605.19399) | SoC co-design benchmark |
-| 2026 | [Design Conductor 2.0: An Agent Builds a TurboQuant Inference Accelerator in 80 Hours](https://arxiv.org/abs/2605.05170) | Accelerator design agent |
-| 2026 | [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856) | Multi-agent RTL generation |
-| 2026 | [Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement](https://arxiv.org/abs/2604.14989) | RTL optimization agent |
-| 2026 | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | PPA-aware RTL generation |
-| 2026 | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA design automation |
-| 2025 | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | Algorithm-to-HLS implementation |
-| 2025 | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | Timing-aware HLS optimization |
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ to HLS translation |
+| 2026 | arXiv preprint | [VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route](https://arxiv.org/abs/2607.24998) | FPGA place-and-route optimization |
+| 2026 | arXiv preprint | [CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-design Research](https://arxiv.org/abs/2606.27350) | Hardware/software co-design agents |
+| 2026 | arXiv preprint | [HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip](https://arxiv.org/abs/2605.19399) | SoC co-design benchmark |
+| 2026 | arXiv preprint | [Design Conductor 2.0: An Agent Builds a TurboQuant Inference Accelerator in 80 Hours](https://arxiv.org/abs/2605.05170) | Accelerator design agent |
+| 2026 | arXiv preprint | [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856) | Multi-agent RTL generation |
+| 2026 | arXiv preprint | [Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement](https://arxiv.org/abs/2604.14989) | RTL optimization agent |
+| 2026 | arXiv preprint | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | PPA-aware RTL generation |
+| 2026 | arXiv preprint | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA design automation |
+| 2025 | arXiv preprint | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | Algorithm-to-HLS implementation |
+| 2025 | arXiv preprint | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | Timing-aware HLS optimization |
 
 ### FPGA Toolchain and Closed-Loop Papers
 

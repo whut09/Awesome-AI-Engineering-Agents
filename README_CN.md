@@ -91,10 +91,10 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 ### 智能体光学设计论文
 
-| 年份 | 论文 | 工程流程 |
-|:---:|:---|:---|
-| 2026 | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | 多智能体优化建模 |
-| 2026 | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | 物理验证的光学设计智能体 |
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | 多智能体优化建模 |
+| 2026 | arXiv 预印本 | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | 物理验证的光学设计智能体 |
 
 ### 开源项目
 
@@ -151,20 +151,20 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 ### 智能体 EDA 与硬件设计论文
 
-| 年份 | 论文 | 工程流程 |
-|:---:|:---|:---|
-| 2026 | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA 脚本智能体 |
-| 2026 | [EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis](https://arxiv.org/abs/2608.04032) | EDA 产物分析与审查 |
-| 2026 | [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](https://arxiv.org/abs/2607.17528) | 端到端 RTL-to-GDS 智能体 |
-| 2026 | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | 模拟电路闭环优化 |
-| 2025 | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA 流程编排 |
-| 2025 | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA 脚本生成 |
-| 2024 | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS 代码与指令生成 |
-| 2024 | [EDA-Aware RTL Generation with Large Language Models](https://arxiv.org/abs/2412.04485) | 结合综合反馈的 RTL 生成 |
-| 2024 | [Automatically Improving LLM-based Verilog Generation using EDA Tool Feedback](https://arxiv.org/abs/2411.11856) | 工具反馈驱动的 Verilog 修复 |
-| 2024 | [IICPilot: An Intelligent Integrated Circuit Backend Design Framework Using Open EDA](https://arxiv.org/abs/2407.12576) | 芯片后端设计自动化 |
-| 2024 | [Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination](https://arxiv.org/abs/2406.06575) | EDA 设计助手 |
-| 2023 | [ChatEDA: A Large Language Model Powered Autonomous Agent for EDA](https://arxiv.org/abs/2308.10204) | 自主 EDA 助手 |
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA 脚本智能体 |
+| 2026 | arXiv 预印本 | [EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis](https://arxiv.org/abs/2608.04032) | EDA 产物分析与审查 |
+| 2026 | arXiv 预印本 | [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](https://arxiv.org/abs/2607.17528) | 端到端 RTL-to-GDS 智能体 |
+| 2026 | arXiv 预印本 | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | 模拟电路闭环优化 |
+| 2025 | arXiv 预印本 | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA 流程编排 |
+| 2025 | arXiv 预印本 | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA 脚本生成 |
+| 2024 | arXiv 预印本 | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS 代码与指令生成 |
+| 2024 | arXiv 预印本 | [EDA-Aware RTL Generation with Large Language Models](https://arxiv.org/abs/2412.04485) | 结合综合反馈的 RTL 生成 |
+| 2024 | arXiv 预印本 | [Automatically Improving LLM-based Verilog Generation using EDA Tool Feedback](https://arxiv.org/abs/2411.11856) | 工具反馈驱动的 Verilog 修复 |
+| 2024 | arXiv 预印本 | [IICPilot: An Intelligent Integrated Circuit Backend Design Framework Using Open EDA](https://arxiv.org/abs/2407.12576) | 芯片后端设计自动化 |
+| 2024 | arXiv 预印本 | [Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination](https://arxiv.org/abs/2406.06575) | EDA 设计助手 |
+| 2023 | arXiv 预印本 | [ChatEDA: A Large Language Model Powered Autonomous Agent for EDA](https://arxiv.org/abs/2308.10204) | 自主 EDA 助手 |
 
 ### 开源项目
 
@@ -205,18 +205,18 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 ### PCB 智能体与多模态基准论文
 
-| 年份 | 论文 | 工程流程 |
-|:---:|:---|:---|
-| 2026 | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB 布线推理 |
-| 2026 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | 工具交互式 PCB 智能体 |
-| 2026 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB 布局推理 |
-| 2026 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB 设计知识评测 |
-| 2026 | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | 原理图审查与推理 |
-| 2026 | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | 板级原理图设计基准 |
-| 2026 | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | 多智能体原理图生成 |
-| 2025 | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | 模拟电路原理图智能体 |
-| 2024 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | 网表到原理图转换 |
-| 2024 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | 多级放大器原理图设计 |
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB 布线推理 |
+| 2026 | arXiv 预印本 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | 工具交互式 PCB 智能体 |
+| 2026 | arXiv 预印本 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB 布局推理 |
+| 2026 | arXiv 预印本 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB 设计知识评测 |
+| 2026 | arXiv 预印本 | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | 原理图审查与推理 |
+| 2026 | arXiv 预印本 | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | 板级原理图设计基准 |
+| 2026 | arXiv 预印本 | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | 多智能体原理图生成 |
+| 2025 | arXiv 预印本 | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | 模拟电路原理图智能体 |
+| 2024 | arXiv 预印本 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | 网表到原理图转换 |
+| 2024 | arXiv 预印本 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | 多级放大器原理图设计 |
 
 ### 商业 EDA 进展信号
 
@@ -235,49 +235,49 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 ### 智能体 CAD 与结构设计论文
 
-| 年份 | 论文 | 工程流程 |
-|:---:|:---|:---|
-| 2026 | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | 状态感知的 CAD 修复 |
-| 2026 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | 执行轨迹驱动的 CAD 修复 |
-| 2026 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | 跨 CAD 后端生成 |
-| 2026 | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750) | 工业级 CAD 智能体 |
-| 2026 | [ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language](https://arxiv.org/abs/2607.05123) | 带配合约束的装配体生成 |
-| 2026 | [AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition](https://arxiv.org/abs/2607.02448) | 面向增材制造的设计 |
-| 2026 | [Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling](https://arxiv.org/abs/2606.31252) | 参数化装配建模 |
-| 2026 | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | CAD 生成与编辑 |
-| 2026 | [Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design](https://arxiv.org/abs/2605.19717) | 物理验证的 CAD 设计 |
-| 2026 | [Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback](https://arxiv.org/abs/2605.17448) | 有限元反馈闭环 CAD 优化 |
-| 2026 | [Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data](https://arxiv.org/abs/2604.24479) | 大规模 CAD 程序合成 |
-| 2026 | [ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation](https://arxiv.org/abs/2604.10992) | 可动装配体设计 |
-| 2026 | [TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning](https://arxiv.org/abs/2604.07960) | 工具增强的文本到 CAD 智能体 |
-| 2026 | [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512) | 几何验证的 CAD 生成 |
-| 2026 | [Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation](https://arxiv.org/abs/2602.03045) | 交互式需求澄清 |
-| 2025 | [CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent](https://arxiv.org/abs/2508.01031) | 概念 CAD 生成 |
-| 2025 | [cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning](https://arxiv.org/abs/2505.22914) | 从图像、点云和文本重建 CAD |
-| 2025 | [CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation](https://arxiv.org/abs/2505.04481) | 参数化 CAD 命令生成 |
-| 2025 | [From Idea to CAD: A Language Model-Driven Multi-Agent System for Collaborative Design](https://arxiv.org/abs/2503.04417) | 协同 CAD 设计 |
-| 2024 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | 通用 CAD 任务助手 |
-| 2024 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | 文本到参数化 CAD 生成 |
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | 状态感知的 CAD 修复 |
+| 2026 | arXiv 预印本 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | 执行轨迹驱动的 CAD 修复 |
+| 2026 | arXiv 预印本 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | 跨 CAD 后端生成 |
+| 2026 | arXiv 预印本 | [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750) | 工业级 CAD 智能体 |
+| 2026 | arXiv 预印本 | [ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language](https://arxiv.org/abs/2607.05123) | 带配合约束的装配体生成 |
+| 2026 | arXiv 预印本 | [AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition](https://arxiv.org/abs/2607.02448) | 面向增材制造的设计 |
+| 2026 | arXiv 预印本 | [Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling](https://arxiv.org/abs/2606.31252) | 参数化装配建模 |
+| 2026 | arXiv 预印本 | [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | CAD 生成与编辑 |
+| 2026 | arXiv 预印本 | [Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design](https://arxiv.org/abs/2605.19717) | 物理验证的 CAD 设计 |
+| 2026 | arXiv 预印本 | [Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback](https://arxiv.org/abs/2605.17448) | 有限元反馈闭环 CAD 优化 |
+| 2026 | arXiv 预印本 | [Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data](https://arxiv.org/abs/2604.24479) | 大规模 CAD 程序合成 |
+| 2026 | arXiv 预印本 | [ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation](https://arxiv.org/abs/2604.10992) | 可动装配体设计 |
+| 2026 | arXiv 预印本 | [TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning](https://arxiv.org/abs/2604.07960) | 工具增强的文本到 CAD 智能体 |
+| 2026 | arXiv 预印本 | [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512) | 几何验证的 CAD 生成 |
+| 2026 | arXiv 预印本 | [Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation](https://arxiv.org/abs/2602.03045) | 交互式需求澄清 |
+| 2025 | arXiv 预印本 | [CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent](https://arxiv.org/abs/2508.01031) | 概念 CAD 生成 |
+| 2025 | arXiv 预印本 | [cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning](https://arxiv.org/abs/2505.22914) | 从图像、点云和文本重建 CAD |
+| 2025 | arXiv 预印本 | [CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation](https://arxiv.org/abs/2505.04481) | 参数化 CAD 命令生成 |
+| 2025 | arXiv 预印本 | [From Idea to CAD: A Language Model-Driven Multi-Agent System for Collaborative Design](https://arxiv.org/abs/2503.04417) | 协同 CAD 设计 |
+| 2024 | arXiv 预印本 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | 通用 CAD 任务助手 |
+| 2024 | arXiv 预印本 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | 文本到参数化 CAD 生成 |
 
 ### 参数化 CAD 生成与重建论文
 
-| 年份 | 论文 | 工程流程 |
-|:---:|:---|:---|
-| 2026 | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | 从网格逐步重建参数化 CAD |
-| 2026 | [HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding](https://arxiv.org/abs/2607.11339) | 层次化文本到 CAD 生成 |
-| 2026 | [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) | 从正交视图重建 CAD 建模序列 |
-| 2026 | [UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD](https://arxiv.org/abs/2606.05058) | 多模态 CAD 生成与理解 |
-| 2026 | [CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization](https://arxiv.org/abs/2605.01171) | 从网格恢复可编辑 CAD 程序 |
-| 2026 | [CADReasoner: Iterative Program Editing for CAD Reverse Engineering](https://arxiv.org/abs/2603.29847) | 迭代式 CAD 程序重建与修复 |
-| 2026 | [GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback](https://arxiv.org/abs/2603.27448) | 几何反馈驱动的图像到 CAD 合成 |
-| 2026 | [Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding](https://arxiv.org/abs/2603.11831) | 基于 B-Rep 基元接地的文本到 CAD 生成 |
-| 2026 | [DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces](https://arxiv.org/abs/2603.05607) | 从多模态输入生成可编辑 B-Rep |
-| 2026 | [STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models](https://arxiv.org/abs/2601.12641) | 自然语言到 STEP 模型生成 |
-| 2025 | [From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning for Precise CAD Code Generation](https://arxiv.org/abs/2508.10118) | 精确的多模态 CAD 代码生成 |
-| 2025 | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://arxiv.org/abs/2505.14646) | 图像到 CAD 代码生成 |
-| 2025 | [Text-to-CadQuery: A New Paradigm for CAD Generation with Scalable Large Model Capabilities](https://arxiv.org/abs/2505.06507) | 文本到 CadQuery 程序生成 |
-| 2024 | [TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702) | 点云到 CAD 序列重建 |
-| 2021 | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) | CAD 命令序列生成基线 |
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | 从网格逐步重建参数化 CAD |
+| 2026 | arXiv 预印本 | [HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding](https://arxiv.org/abs/2607.11339) | 层次化文本到 CAD 生成 |
+| 2026 | arXiv 预印本 | [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) | 从正交视图重建 CAD 建模序列 |
+| 2026 | arXiv 预印本 | [UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD](https://arxiv.org/abs/2606.05058) | 多模态 CAD 生成与理解 |
+| 2026 | arXiv 预印本 | [CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization](https://arxiv.org/abs/2605.01171) | 从网格恢复可编辑 CAD 程序 |
+| 2026 | arXiv 预印本 | [CADReasoner: Iterative Program Editing for CAD Reverse Engineering](https://arxiv.org/abs/2603.29847) | 迭代式 CAD 程序重建与修复 |
+| 2026 | arXiv 预印本 | [GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback](https://arxiv.org/abs/2603.27448) | 几何反馈驱动的图像到 CAD 合成 |
+| 2026 | arXiv 预印本 | [Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding](https://arxiv.org/abs/2603.11831) | 基于 B-Rep 基元接地的文本到 CAD 生成 |
+| 2026 | arXiv 预印本 | [DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces](https://arxiv.org/abs/2603.05607) | 从多模态输入生成可编辑 B-Rep |
+| 2026 | arXiv 预印本 | [STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models](https://arxiv.org/abs/2601.12641) | 自然语言到 STEP 模型生成 |
+| 2025 | arXiv 预印本 | [From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning for Precise CAD Code Generation](https://arxiv.org/abs/2508.10118) | 精确的多模态 CAD 代码生成 |
+| 2025 | arXiv 预印本 | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://arxiv.org/abs/2505.14646) | 图像到 CAD 代码生成 |
+| 2025 | arXiv 预印本 | [Text-to-CadQuery: A New Paradigm for CAD Generation with Scalable Large Model Capabilities](https://arxiv.org/abs/2505.06507) | 文本到 CadQuery 程序生成 |
+| 2024 | arXiv 预印本 | [TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702) | 点云到 CAD 序列重建 |
+| 2021 | arXiv 预印本 | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) | CAD 命令序列生成基线 |
 
 ### 论文
 
@@ -299,13 +299,13 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 ### CAD 基准与能力边界
 
-| 年份 | 基准 | 测试内容 |
-|:---:|:---|:---|
-| 2026 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | 从简单零件到复杂拓扑的文本到 CAD 生成 |
-| 2026 | [MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation](https://arxiv.org/abs/2605.28579) | 生成 B-Rep 零件的可制造性、功能性与可装配性 |
-| 2026 | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | 随几何复杂度提升的 CAD 程序生成能力 |
-| 2026 | [BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD](https://arxiv.org/abs/2605.10865) | 工业风格 CAD 程序的可执行性与参数结构 |
-| 2026 | [Text-to-CAD Evaluation with CADTests](https://arxiv.org/abs/2605.07807) | 直接在生成几何体上测试功能需求 |
+| 年份 | 期刊/来源 | 基准 | 测试内容 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | 从简单零件到复杂拓扑的文本到 CAD 生成 |
+| 2026 | arXiv 预印本 | [MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation](https://arxiv.org/abs/2605.28579) | 生成 B-Rep 零件的可制造性、功能性与可装配性 |
+| 2026 | arXiv 预印本 | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | 随几何复杂度提升的 CAD 程序生成能力 |
+| 2026 | arXiv 预印本 | [BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD](https://arxiv.org/abs/2605.10865) | 工业风格 CAD 程序的可执行性与参数结构 |
+| 2026 | arXiv 预印本 | [Text-to-CAD Evaluation with CADTests](https://arxiv.org/abs/2605.07807) | 直接在生成几何体上测试功能需求 |
 
 工程 CAD 不能只看视觉相似度，还应评估执行成功率、可编辑特征历史、约束、装配、
 可制造性，以及进入下游分析后的行为。
@@ -363,13 +363,13 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 ### CAE 与仿真智能体论文
 
-| 年份 | 论文 | 工程流程 |
-|:---:|:---|:---|
-| 2025 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | 可组合的 OpenFOAM 工作流自动化 |
-| 2025 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | 自主生成并执行 CFD 算例 |
-| 2025 | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | 端到端 CFD 工作流 |
-| 2025 | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM 知识与算例辅助 |
-| 2024 | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | 多智能体 OpenFOAM 工作流 |
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2025 | arXiv 预印本 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | 可组合的 OpenFOAM 工作流自动化 |
+| 2025 | arXiv 预印本 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | 自主生成并执行 CFD 算例 |
+| 2025 | arXiv 预印本 | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | 端到端 CFD 工作流 |
+| 2025 | arXiv 预印本 | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM 知识与算例辅助 |
+| 2024 | arXiv 预印本 | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | 多智能体 OpenFOAM 工作流 |
 
 ### CAE 求解器与反馈闭环论文
 
@@ -475,19 +475,19 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 
 ### FPGA 与 RTL 智能体论文
 
-| 年份 | 论文 | 工程流程 |
-|:---:|:---|:---|
-| 2026 | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ 到 HLS 翻译 |
-| 2026 | [VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route](https://arxiv.org/abs/2607.24998) | FPGA 布局布线优化 |
-| 2026 | [CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-design Research](https://arxiv.org/abs/2606.27350) | 软硬件协同设计智能体 |
-| 2026 | [HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip](https://arxiv.org/abs/2605.19399) | SoC 协同设计基准 |
-| 2026 | [Design Conductor 2.0: An Agent Builds a TurboQuant Inference Accelerator in 80 Hours](https://arxiv.org/abs/2605.05170) | 加速器设计智能体 |
-| 2026 | [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856) | 多智能体 RTL 生成 |
-| 2026 | [Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement](https://arxiv.org/abs/2604.14989) | RTL 优化智能体 |
-| 2026 | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | PPA 感知 RTL 生成 |
-| 2026 | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA 设计自动化 |
-| 2025 | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | 算法到 HLS 实现 |
-| 2025 | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | 时序感知 HLS 优化 |
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ 到 HLS 翻译 |
+| 2026 | arXiv 预印本 | [VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route](https://arxiv.org/abs/2607.24998) | FPGA 布局布线优化 |
+| 2026 | arXiv 预印本 | [CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-design Research](https://arxiv.org/abs/2606.27350) | 软硬件协同设计智能体 |
+| 2026 | arXiv 预印本 | [HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip](https://arxiv.org/abs/2605.19399) | SoC 协同设计基准 |
+| 2026 | arXiv 预印本 | [Design Conductor 2.0: An Agent Builds a TurboQuant Inference Accelerator in 80 Hours](https://arxiv.org/abs/2605.05170) | 加速器设计智能体 |
+| 2026 | arXiv 预印本 | [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856) | 多智能体 RTL 生成 |
+| 2026 | arXiv 预印本 | [Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement](https://arxiv.org/abs/2604.14989) | RTL 优化智能体 |
+| 2026 | arXiv 预印本 | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | PPA 感知 RTL 生成 |
+| 2026 | arXiv 预印本 | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA 设计自动化 |
+| 2025 | arXiv 预印本 | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | 算法到 HLS 实现 |
+| 2025 | arXiv 预印本 | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | 时序感知 HLS 优化 |
 
 ### FPGA 工具链与闭环论文
 
