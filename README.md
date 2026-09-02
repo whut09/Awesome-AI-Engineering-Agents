@@ -319,6 +319,20 @@ simulation, and drawing/BIM review.
 | 2024 | arXiv preprint | [TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702) | Point-cloud-to-CAD-sequence reconstruction |
 | 2021 | arXiv preprint | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) | CAD command-sequence generation baseline |
 
+### Parametric CAD Agents, VLMs, and Tool-Augmented Generation
+
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | AAAI | [ReCAD: Reinforcement Learning Enhanced Parametric CAD Model Generation with Vision-Language Models](https://doi.org/10.1609/aaai.v40i8.37544) | RL-enhanced parametric CAD generation |
+| 2026 | CAD'26 | [Iterative Generation of Feature-Based CAD Models Using an LLM with Domain-Specific Constraints](https://doi.org/10.14733/cadconfp.2026.7-13) | Constraint-aware feature-tree generation |
+| 2026 | CAD'26 | [Vision-Language Assisted CAD Querying: ROI Localization and Iterative Program Synthesis for Feature Recognition](https://doi.org/10.14733/cadconfp.2026.100-105) | VLM CAD feature querying |
+| 2026 | Journal of Mechanical Design | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://doi.org/10.1115/1.4071305) | Open VLM for CAD code generation |
+| 2025 | ICCV | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://doi.org/10.1109/ICCV51701.2025.00684) | Tool-using CAD VLM |
+| 2025 | CVPR | [CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation](https://doi.org/10.1109/CVPR52734.2025.01730) | LLM parametric model generation |
+| 2025 | Computer-Aided Design | [CADInstruct: A Multimodal Dataset for Natural Language-Guided CAD Program Synthesis](https://doi.org/10.1016/j.cad.2025.103926) | Dataset for CAD program synthesis |
+| 2025 | DAC | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://doi.org/10.1115/DETC2025-169758) | Vision-language CAD code generation |
+| 2025 | MODELSWARD | [Iterative Diagnosis-Driven Augmented Generation (IDDAG) for Programmatic 3D CAD](https://doi.org/10.5220/0013443500003896) | Execution-diagnosis-driven CAD repair |
+
 ### Papers
 
 | Year | Venue | Paper | Workflow |

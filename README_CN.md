@@ -301,6 +301,20 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2024 | arXiv 预印本 | [TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds](https://arxiv.org/abs/2407.12702) | 点云到 CAD 序列重建 |
 | 2021 | arXiv 预印本 | [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://arxiv.org/abs/2105.09492) | CAD 命令序列生成基线 |
 
+### 参数化 CAD 智能体、VLM 与工具增强生成
+
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | AAAI | [ReCAD: Reinforcement Learning Enhanced Parametric CAD Model Generation with Vision-Language Models](https://doi.org/10.1609/aaai.v40i8.37544) | 强化学习增强的参数化 CAD 生成 |
+| 2026 | CAD'26 | [Iterative Generation of Feature-Based CAD Models Using an LLM with Domain-Specific Constraints](https://doi.org/10.14733/cadconfp.2026.7-13) | 约束感知的特征树生成 |
+| 2026 | CAD'26 | [Vision-Language Assisted CAD Querying: ROI Localization and Iterative Program Synthesis for Feature Recognition](https://doi.org/10.14733/cadconfp.2026.100-105) | VLM CAD 特征查询 |
+| 2026 | Journal of Mechanical Design | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://doi.org/10.1115/1.4071305) | 开源 VLM CAD 代码生成 |
+| 2025 | ICCV | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://doi.org/10.1109/ICCV51701.2025.00684) | 工具调用型 CAD VLM |
+| 2025 | CVPR | [CAD-Llama: Leveraging Large Language Models for Computer-Aided Design Parametric 3D Model Generation](https://doi.org/10.1109/CVPR52734.2025.01730) | 大模型参数化模型生成 |
+| 2025 | Computer-Aided Design | [CADInstruct: A Multimodal Dataset for Natural Language-Guided CAD Program Synthesis](https://doi.org/10.1016/j.cad.2025.103926) | CAD 程序综合数据集 |
+| 2025 | DAC | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://doi.org/10.1115/DETC2025-169758) | 视觉语言 CAD 代码生成 |
+| 2025 | MODELSWARD | [Iterative Diagnosis-Driven Augmented Generation (IDDAG) for Programmatic 3D CAD](https://doi.org/10.5220/0013443500003896) | 执行诊断驱动的 CAD 修复 |
+
 ### 论文
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 |
