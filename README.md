@@ -277,6 +277,17 @@ simulation, and drawing/BIM review.
 | 2024 | arXiv preprint | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | General CAD task assistant |
 | 2024 | arXiv preprint | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | Text-to-parametric-CAD generation |
 
+### Additional CAD Assembly Agents and Representations
+
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [Nova3D: Code-Native Generation of Programmable 3D Assets](https://arxiv.org/abs/2607.22738) | Code-native assets with assembly trees and joints |
+| 2026 | arXiv preprint | [Agent-Aided Design for Dynamic CAD Models](https://arxiv.org/abs/2604.15184) | Dynamic assembly generation with solver and visual feedback |
+| 2026 | arXiv preprint | [PR-CAD: Progressive Refinement for Unified Controllable and Faithful Text-to-CAD Generation with Large Language Models](https://arxiv.org/abs/2604.19773) | Unified CAD generation and editing agent |
+| 2026 | arXiv preprint | [Shape of Thought: Progressive Object Assembly via Visual Chain-of-Thought](https://arxiv.org/abs/2601.21081) | Progressive part-level assembly reasoning |
+| 2025 | arXiv preprint | [HistCAD: A Constraint-Aware Parametric History-Based CAD Representation, Dataset, and Benchmark with Industrial Complexity](https://arxiv.org/abs/2602.19171) | Constraint-aware parametric history representation |
+| 2023 | arXiv preprint | [What's in a Name? Evaluating Assembly-Part Semantic Knowledge in Language Models through User-Provided Names in CAD Files](https://arxiv.org/abs/2304.14275) | Assembly-part semantic retrieval and reasoning |
+
 ### CAD Assembly Generation, Planning, and Joint Reasoning
 
 | Year | Venue / source | Paper | Workflow |
@@ -406,7 +417,7 @@ manufacturability, and behavior under downstream analysis.
 |:---|:---|:---:|:---:|
 | [Open CASCADE Technology](https://github.com/Open-Cascade-SAS/OCCT) | Industrial B-Rep kernel for STEP I/O, Boolean interference, clearance, bounding boxes, and feature analysis | C++ | LGPL-2.1 |
 | [pythonocc-core](https://github.com/tpaviot/pythonocc-core) | Python bindings for headless Open CASCADE geometry validation and measurement services | Python | LGPL-3.0 |
-| [OndselSolver](https://github.com/FreeCAD/OndselSolver) | Constraint-based assembly and multibody solver for mates, joints, and final pose solving | C++ / Python | LGPL |
+| [OndselSolver](https://github.com/FreeCAD/OndselSolver) | Constraint-based assembly and multibody solver for mates, joints, and final pose solving | C++ / Python | LGPL-2.1 |
 | [assimp](https://github.com/assimp/assimp) | Multi-format geometry import and conversion for STEP, STL, OBJ, and related assets | C++ | BSD-3-Clause |
 | [blender-mcp](https://github.com/ahujasid/blender-mcp) | MCP control of Blender scenes and Python for visual inspection and VLM feedback | MCP / Python | MIT |
 
@@ -437,6 +448,9 @@ manufacturability, and behavior under downstream analysis.
   [SOV-CAD](https://github.com/LukePhong/SOV-CAD), and
   [Text-to-CadQuery](https://github.com/Text-to-CadQuery/Text-to-CadQuery)
   provide research code but currently expose no explicit repository license.
+- [Shape-of-Thought](https://github.com/yuhuo03/Shape-of-Thought) provides the
+  official code for progressive object-assembly reasoning, but currently
+  exposes no explicit repository license.
 
 ### Open-Source Projects
 

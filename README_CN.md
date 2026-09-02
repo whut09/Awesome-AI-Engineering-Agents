@@ -259,6 +259,17 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2024 | arXiv 预印本 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | 通用 CAD 任务助手 |
 | 2024 | arXiv 预印本 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | 文本到参数化 CAD 生成 |
 
+### 其他 CAD 装配智能体与表示
+
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Nova3D: Code-Native Generation of Programmable 3D Assets](https://arxiv.org/abs/2607.22738) | 带装配树和关节的代码原生资产 |
+| 2026 | arXiv 预印本 | [Agent-Aided Design for Dynamic CAD Models](https://arxiv.org/abs/2604.15184) | 求解器与视觉反馈驱动的动态装配生成 |
+| 2026 | arXiv 预印本 | [PR-CAD: Progressive Refinement for Unified Controllable and Faithful Text-to-CAD Generation with Large Language Models](https://arxiv.org/abs/2604.19773) | 统一的 CAD 生成与编辑智能体 |
+| 2026 | arXiv 预印本 | [Shape of Thought: Progressive Object Assembly via Visual Chain-of-Thought](https://arxiv.org/abs/2601.21081) | 渐进式零件级装配推理 |
+| 2025 | arXiv 预印本 | [HistCAD: A Constraint-Aware Parametric History-Based CAD Representation, Dataset, and Benchmark with Industrial Complexity](https://arxiv.org/abs/2602.19171) | 约束感知的参数化历史表示 |
+| 2023 | arXiv 预印本 | [What's in a Name? Evaluating Assembly-Part Semantic Knowledge in Language Models through User-Provided Names in CAD Files](https://arxiv.org/abs/2304.14275) | 装配-零件语义检索与推理 |
+
 ### CAD 装配生成、规划与关节推理
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
@@ -387,7 +398,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 |:---|:---|:---:|:---:|
 | [Open CASCADE Technology](https://github.com/Open-Cascade-SAS/OCCT) | 工业级 B-Rep 内核，支持 STEP、布尔干涉、间隙、包围盒和特征分析 | C++ | LGPL-2.1 |
 | [pythonocc-core](https://github.com/tpaviot/pythonocc-core) | Open CASCADE 的 Python 封装，可构建无头几何校验和测量服务 | Python | LGPL-3.0 |
-| [OndselSolver](https://github.com/FreeCAD/OndselSolver) | 支持配合、关节和最终位姿求解的约束装配与多体动力学求解器 | C++ / Python | LGPL |
+| [OndselSolver](https://github.com/FreeCAD/OndselSolver) | 支持配合、关节和最终位姿求解的约束装配与多体动力学求解器 | C++ / Python | LGPL-2.1 |
 | [assimp](https://github.com/assimp/assimp) | STEP、STL、OBJ 等多格式几何导入与转换 | C++ | BSD-3-Clause |
 | [blender-mcp](https://github.com/ahujasid/blender-mcp) | 通过 MCP 和 Python 控制 Blender，用于可视检查和 VLM 反馈 | MCP / Python | MIT |
 
@@ -417,6 +428,8 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
   [SOV-CAD](https://github.com/LukePhong/SOV-CAD) 和
   [Text-to-CadQuery](https://github.com/Text-to-CadQuery/Text-to-CadQuery)
   提供了研究代码，但仓库当前没有明确许可证。
+- [Shape-of-Thought](https://github.com/yuhuo03/Shape-of-Thought) 提供渐进式
+  物体装配推理的官方代码，但仓库当前没有明确许可证。
 
 ### 开源项目
 
