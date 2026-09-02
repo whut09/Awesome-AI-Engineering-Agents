@@ -333,6 +333,19 @@ simulation, and drawing/BIM review.
 | 2025 | DAC | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://doi.org/10.1115/DETC2025-169758) | Vision-language CAD code generation |
 | 2025 | MODELSWARD | [Iterative Diagnosis-Driven Augmented Generation (IDDAG) for Programmatic 3D CAD](https://doi.org/10.5220/0013443500003896) | Execution-diagnosis-driven CAD repair |
 
+### CAD Constraint Solving, Program Synthesis, and B-Rep Learning
+
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | Discover Artificial Intelligence | [Heterogeneous Multi-Expert Collaborative Reinforcement Learning for Automated CAD Program Synthesis from Engineering Drawings](https://doi.org/10.1007/s44163-026-01731-0) | Drawing-to-CAD program synthesis |
+| 2026 | Procedia CIRP | [Automatic Reverse Engineering of Parametric CAD Models from Multi-View 2D Projections Using Deep Learning](https://doi.org/10.1016/j.procir.2026.05.223) | Multi-view parametric reconstruction |
+| 2026 | CAD'26 | [Design and Implementation of a Transparent Geometric Constraint Solver](https://doi.org/10.14733/cadconfp.2026.39-43) | Geometric constraint solving |
+| 2025 | Computer-Aided Design and Applications | [Graph Constructive Geometric Constraint Solving: Challenges and Machine Learning](https://doi.org/10.14733/cadaps.2025.995-1006) | Learning-assisted constraint solving |
+| 2024 | CVPR | [CAD-SIGNet: CAD Language Inference from Point Clouds Using Layer-Wise Sketch Instance Guided Attention](https://doi.org/10.1109/CVPR52733.2024.00451) | Point-cloud-to-CAD language inference |
+| 2023 | IJCAI | [CADParser: A Learning Approach of Sequence Modeling for B-Rep CAD](https://doi.org/10.24963/ijcai.2023/200) | B-Rep sequence modeling |
+| 2023 | CAD'23 | [A Procedure for Identifying Planes and Axes of Symmetry Candidates in B-rep CAD Models](https://doi.org/10.14733/cadconfp.2023.297-301) | B-Rep feature and symmetry detection |
+| 2022 | CAD'22 | [Computer-Aided Detection of Exact Reflection and Axisymmetry in B-rep CAD Models](https://doi.org/10.14733/cadconfp.2022.251-256) | B-Rep interface and symmetry analysis |
+
 ### Papers
 
 | Year | Venue | Paper | Workflow |

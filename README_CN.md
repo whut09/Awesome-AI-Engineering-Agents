@@ -315,6 +315,19 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2025 | DAC | [CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation](https://doi.org/10.1115/DETC2025-169758) | 视觉语言 CAD 代码生成 |
 | 2025 | MODELSWARD | [Iterative Diagnosis-Driven Augmented Generation (IDDAG) for Programmatic 3D CAD](https://doi.org/10.5220/0013443500003896) | 执行诊断驱动的 CAD 修复 |
 
+### CAD 约束求解、程序综合与 B-Rep 学习
+
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | Discover Artificial Intelligence | [Heterogeneous Multi-Expert Collaborative Reinforcement Learning for Automated CAD Program Synthesis from Engineering Drawings](https://doi.org/10.1007/s44163-026-01731-0) | 工程图到 CAD 程序综合 |
+| 2026 | Procedia CIRP | [Automatic Reverse Engineering of Parametric CAD Models from Multi-View 2D Projections Using Deep Learning](https://doi.org/10.1016/j.procir.2026.05.223) | 多视图参数化重建 |
+| 2026 | CAD'26 | [Design and Implementation of a Transparent Geometric Constraint Solver](https://doi.org/10.14733/cadconfp.2026.39-43) | 几何约束求解 |
+| 2025 | Computer-Aided Design and Applications | [Graph Constructive Geometric Constraint Solving: Challenges and Machine Learning](https://doi.org/10.14733/cadaps.2025.995-1006) | 机器学习辅助约束求解 |
+| 2024 | CVPR | [CAD-SIGNet: CAD Language Inference from Point Clouds Using Layer-Wise Sketch Instance Guided Attention](https://doi.org/10.1109/CVPR52733.2024.00451) | 点云到 CAD 语言推理 |
+| 2023 | IJCAI | [CADParser: A Learning Approach of Sequence Modeling for B-Rep CAD](https://doi.org/10.24963/ijcai.2023/200) | B-Rep 序列建模 |
+| 2023 | CAD'23 | [A Procedure for Identifying Planes and Axes of Symmetry Candidates in B-rep CAD Models](https://doi.org/10.14733/cadconfp.2023.297-301) | B-Rep 特征与对称性检测 |
+| 2022 | CAD'22 | [Computer-Aided Detection of Exact Reflection and Axisymmetry in B-rep CAD Models](https://doi.org/10.14733/cadconfp.2022.251-256) | B-Rep 接口与对称性分析 |
+
 ### 论文
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 |
