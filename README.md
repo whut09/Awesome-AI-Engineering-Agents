@@ -277,6 +277,28 @@ simulation, and drawing/BIM review.
 | 2024 | arXiv preprint | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | General CAD task assistant |
 | 2024 | arXiv preprint | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | Text-to-parametric-CAD generation |
 
+### CAD Assembly Generation, Planning, and Joint Reasoning
+
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | Journal of Intelligent Manufacturing | [A Cognitive Behavior Based Autonomous and Integrated CAD Assembly Path Planning Method for Precision Products](https://doi.org/10.1007/s10845-026-02811-9) | Assembly path planning |
+| 2026 | Applied Soft Computing | [Intelligent Generation and Reasoning Method for Aviation Assembly Knowledge Graph Based on Joint Knowledge Embedding Learning](https://doi.org/10.1016/j.asoc.2025.114140) | Assembly knowledge-graph generation and reasoning |
+| 2024 | IEEE CASE | [CAD-Informed Uncertainty-Aware Sequence and Motion Planning for Robotic Assembly](https://doi.org/10.1109/CASE59546.2024.10711666) | CAD-aware assembly sequence and motion planning |
+| 2024 | Computer-Aided Design and Applications | [Liaison-Based Enriched CAD Model Representation for Assembly Tasks](https://doi.org/10.14733/cadaps.2024.1045-1062) | Assembly graph and liaison representation |
+| 2024 | CAD'24 | [Effective GA Operator for Product Assembly Sequence Planning](https://doi.org/10.14733/cadaps.2024.713-728) | Assembly sequence planning |
+| 2024 | IHCIT | [Research on Automatic Generation of Assembly Process Based on Graph Embedding](https://doi.org/10.1117/12.3049686) | Assembly-process graph generation |
+
+### CAD Part Retrieval and Interface Detection
+
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | Computers & Graphics | [SLOT-GNN: A Hierarchical Graph Neural Network for Missing Part Retrieval in CAD Assemblies](https://doi.org/10.1016/j.cag.2026.104686) | Missing-part retrieval in assemblies |
+| 2025 | Journal of Computational Design and Engineering | [CADCL: Reconstruct Parametric CAD Models from B-Rep via Contrastive Learning](https://doi.org/10.1093/jcde/qwaf102) | B-Rep retrieval and parametric reconstruction |
+| 2025 | Journal of WSCG | [CAD-RAG: A Multi-Modal Retrieval Augmented Framework for User Editable 3D CAD Model Generation](https://doi.org/10.24132/jwscg.2025-11) | Retrieval-augmented CAD generation |
+| 2024 | International Conference on Multimedia Retrieval | [Parametric CAD Primitive Retrieval via Multi-Modal Fusion and Deep Hashing](https://doi.org/10.1145/3652583.3658041) | Parametric primitive retrieval |
+| 2024 | International Journal of Advanced Manufacturing Technology | [Retrieval of CAD Part Models Complying with Design Specification Using a Relational Design Rule-Embedded BOM](https://doi.org/10.1007/s00170-024-13990-1) | Specification-aware part retrieval |
+| 2024 | International Journal of Computer Integrated Manufacturing | [A Review and Assessment of 3D CAD Model Retrieval in Machine-Part Design](https://doi.org/10.1080/0951192X.2024.2382196) | CAD retrieval survey |
+
 ### Parametric CAD Generation and Reconstruction Papers
 
 | Year | Venue / source | Paper | Workflow |

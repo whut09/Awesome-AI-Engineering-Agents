@@ -259,6 +259,28 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2024 | arXiv 预印本 | [CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/abs/2412.13810) | 通用 CAD 任务助手 |
 | 2024 | arXiv 预印本 | [Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts](https://arxiv.org/abs/2409.17106) | 文本到参数化 CAD 生成 |
 
+### CAD 装配生成、规划与关节推理
+
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | Journal of Intelligent Manufacturing | [A Cognitive Behavior Based Autonomous and Integrated CAD Assembly Path Planning Method for Precision Products](https://doi.org/10.1007/s10845-026-02811-9) | 装配路径规划 |
+| 2026 | Applied Soft Computing | [Intelligent Generation and Reasoning Method for Aviation Assembly Knowledge Graph Based on Joint Knowledge Embedding Learning](https://doi.org/10.1016/j.asoc.2025.114140) | 装配知识图谱生成与推理 |
+| 2024 | IEEE CASE | [CAD-Informed Uncertainty-Aware Sequence and Motion Planning for Robotic Assembly](https://doi.org/10.1109/CASE59546.2024.10711666) | CAD 感知的装配序列与运动规划 |
+| 2024 | Computer-Aided Design and Applications | [Liaison-Based Enriched CAD Model Representation for Assembly Tasks](https://doi.org/10.14733/cadaps.2024.1045-1062) | 装配图与连接关系表示 |
+| 2024 | CAD'24 | [Effective GA Operator for Product Assembly Sequence Planning](https://doi.org/10.14733/cadaps.2024.713-728) | 装配序列规划 |
+| 2024 | IHCIT | [Research on Automatic Generation of Assembly Process Based on Graph Embedding](https://doi.org/10.1117/12.3049686) | 装配过程图生成 |
+
+### CAD 零件检索与接口检测
+
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | Computers & Graphics | [SLOT-GNN: A Hierarchical Graph Neural Network for Missing Part Retrieval in CAD Assemblies](https://doi.org/10.1016/j.cag.2026.104686) | 装配体缺失零件检索 |
+| 2025 | Journal of Computational Design and Engineering | [CADCL: Reconstruct Parametric CAD Models from B-Rep via Contrastive Learning](https://doi.org/10.1093/jcde/qwaf102) | B-Rep 检索与参数化重建 |
+| 2025 | Journal of WSCG | [CAD-RAG: A Multi-Modal Retrieval Augmented Framework for User Editable 3D CAD Model Generation](https://doi.org/10.24132/jwscg.2025-11) | 检索增强 CAD 生成 |
+| 2024 | International Conference on Multimedia Retrieval | [Parametric CAD Primitive Retrieval via Multi-Modal Fusion and Deep Hashing](https://doi.org/10.1145/3652583.3658041) | 参数化基元检索 |
+| 2024 | International Journal of Advanced Manufacturing Technology | [Retrieval of CAD Part Models Complying with Design Specification Using a Relational Design Rule-Embedded BOM](https://doi.org/10.1007/s00170-024-13990-1) | 规格约束的零件检索 |
+| 2024 | International Journal of Computer Integrated Manufacturing | [A Review and Assessment of 3D CAD Model Retrieval in Machine-Part Design](https://doi.org/10.1080/0951192X.2024.2382196) | CAD 检索综述 |
+
 ### 参数化 CAD 生成与重建论文
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
