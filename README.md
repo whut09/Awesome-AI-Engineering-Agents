@@ -387,6 +387,37 @@ manufacturability, and behavior under downstream analysis.
 | [CAD Skills](https://github.com/earthtojake/text-to-cad) | Agent skills for generating, inspecting, modifying, and validating CAD/CAE/CAM artifacts | MIT |
 | [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | Conversational FreeCAD workbench that generates native geometry through Python | LGPL-2.1 |
 
+### Creo Automation and Assembly Toolchain
+
+| Project | Agent role | Interface | License / status |
+|:---|:---|:---:|:---:|
+| [CREOSON](https://github.com/SimplifiedLogic/creoson) | Remote JSON automation for Creo parts, assemblies, parameters, features, drawings, BOMs, and exports | JSON / HTTP | MIT |
+| [creopyson](https://github.com/Zepmanbc/creopyson) | Python client for CREOSON-based Creo batch pipelines | Python | MIT |
+| [creo-mcp](https://github.com/yangkunyi/creo-mcp) | MCP bridge for opening STEP files, executing Creo-side Python, and querying engineering knowledge | MCP / Python | MIT, alpha |
+| Pro/TOOLKIT | Deep Creo C/C++ API for feature creation, assembly constraints, and model automation | C/C++ API | Proprietary PTC SDK |
+| J-Link / OTK Java | Java automation for Creo components, constraints, parameters, drawings, and BOMs | Java API | Proprietary PTC SDK |
+| PTC Pro/BATCH (`ptcdbatch`) | Headless Creo batch conversion, regeneration, and export scripts | CLI / `.dxc` | Proprietary PTC utility |
+| Pro/PROGRAM | Text-based parametric regeneration for fixed Creo workflows | Creo text program | Proprietary Creo feature |
+| Windchill WCLI | PLM command-line operations for managed Creo objects and workspaces | CLI | Proprietary PTC utility |
+
+### Open CAD Kernels and Assembly Solvers
+
+| Project | Agent role | Interface | License |
+|:---|:---|:---:|:---:|
+| [Open CASCADE Technology](https://github.com/Open-Cascade-SAS/OCCT) | Industrial B-Rep kernel for STEP I/O, Boolean interference, clearance, bounding boxes, and feature analysis | C++ | LGPL-2.1 |
+| [pythonocc-core](https://github.com/tpaviot/pythonocc-core) | Python bindings for headless Open CASCADE geometry validation and measurement services | Python | LGPL-3.0 |
+| [OndselSolver](https://github.com/FreeCAD/OndselSolver) | Constraint-based assembly and multibody solver for mates, joints, and final pose solving | C++ / Python | LGPL |
+| [assimp](https://github.com/assimp/assimp) | Multi-format geometry import and conversion for STEP, STL, OBJ, and related assets | C++ | BSD-3-Clause |
+| [blender-mcp](https://github.com/ahujasid/blender-mcp) | MCP control of Blender scenes and Python for visual inspection and VLM feedback | MCP / Python | MIT |
+
+### Commercial API-Driven CAD Alternatives
+
+| Product | Agent role | Access model | Status |
+|:---|:---|:---:|:---:|
+| [Onshape](https://www.onshape.com/) | Cloud-native part, assembly, constraint, and STEP workflow through REST/JS APIs | REST / JS SDK | Commercial |
+| [Fusion 360](https://www.autodesk.com/products/fusion-360) | Scriptable parametric CAD and manufacturing workflow | Python API / add-in | Commercial |
+| [SOLIDWORKS API](https://www.solidworks.com/) | Desktop CAD, assembly, drawing, and BOM automation | .NET / COM | Commercial |
+
 ### Open-Source CAD Research Projects and Datasets
 
 | Project | Engineering use | License |

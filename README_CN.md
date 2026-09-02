@@ -368,6 +368,37 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [CAD Skills](https://github.com/earthtojake/text-to-cad) | 用于生成、检查、修改和验证 CAD/CAE/CAM 工件的智能体技能 | MIT |
 | [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | 通过 Python 生成原生几何的对话式 FreeCAD 工作台 | LGPL-2.1 |
 
+### Creo 自动化与装配工具链
+
+| 项目 | 智能体作用 | 接口 | 许可证/状态 |
+|:---|:---|:---:|:---:|
+| [CREOSON](https://github.com/SimplifiedLogic/creoson) | 通过远程 JSON 自动操作 Creo 零件、装配、参数、特征、工程图、BOM 和导出 | JSON / HTTP | MIT |
+| [creopyson](https://github.com/Zepmanbc/creopyson) | CREOSON 的 Python 客户端，适合编写 Creo 批处理流水线 | Python | MIT |
+| [creo-mcp](https://github.com/yangkunyi/creo-mcp) | 通过 MCP 打开 STEP、执行 Creo 侧 Python 并查询工程知识 | MCP / Python | MIT，alpha |
+| Pro/TOOLKIT | 用于特征创建、装配约束和模型自动化的 Creo C/C++ 深度 API | C/C++ API | PTC 专有 SDK |
+| J-Link / OTK Java | 自动操作 Creo 组件、约束、参数、工程图和 BOM | Java API | PTC 专有 SDK |
+| PTC Pro/BATCH (`ptcdbatch`) | 无头执行 Creo 批量转换、再生和导出脚本 | CLI / `.dxc` | PTC 专有工具 |
+| Pro/PROGRAM | 面向固定 Creo 流程的文本参数化再生 | Creo 文本程序 | Creo 专有功能 |
+| Windchill WCLI | 操作 Windchill 管理的 Creo 对象与工作区 | CLI | PTC 专有工具 |
+
+### 开源几何内核与装配求解器
+
+| 项目 | 智能体作用 | 接口 | 许可证 |
+|:---|:---|:---:|:---:|
+| [Open CASCADE Technology](https://github.com/Open-Cascade-SAS/OCCT) | 工业级 B-Rep 内核，支持 STEP、布尔干涉、间隙、包围盒和特征分析 | C++ | LGPL-2.1 |
+| [pythonocc-core](https://github.com/tpaviot/pythonocc-core) | Open CASCADE 的 Python 封装，可构建无头几何校验和测量服务 | Python | LGPL-3.0 |
+| [OndselSolver](https://github.com/FreeCAD/OndselSolver) | 支持配合、关节和最终位姿求解的约束装配与多体动力学求解器 | C++ / Python | LGPL |
+| [assimp](https://github.com/assimp/assimp) | STEP、STL、OBJ 等多格式几何导入与转换 | C++ | BSD-3-Clause |
+| [blender-mcp](https://github.com/ahujasid/blender-mcp) | 通过 MCP 和 Python 控制 Blender，用于可视检查和 VLM 反馈 | MCP / Python | MIT |
+
+### 商业 API 驱动 CAD 替代方案
+
+| 产品 | 智能体作用 | 接入方式 | 状态 |
+|:---|:---|:---:|:---:|
+| [Onshape](https://www.onshape.com/) | 通过 REST/JS API 完成云端零件、装配、约束和 STEP 工作流 | REST / JS SDK | 商业软件 |
+| [Fusion 360](https://www.autodesk.com/products/fusion-360) | 可脚本化的参数化 CAD 与制造工作流 | Python API / 插件 | 商业软件 |
+| [SOLIDWORKS API](https://www.solidworks.com/) | 桌面 CAD、装配、工程图和 BOM 自动化 | .NET / COM | 商业软件 |
+
 ### 开源 CAD 研究项目与数据集
 
 | 项目 | 工程用途 | 许可证 |
