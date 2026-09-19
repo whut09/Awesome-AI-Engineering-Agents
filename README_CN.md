@@ -489,6 +489,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 项目 | 工程用途 | 接口 | 许可证 |
 |:---|:---|:---:|:---:|
+| [AgentFEM](https://github.com/haoming-luo/agentfem) | 基于 FEniCSx 的有限元项目创建、执行、应力/位移结果检查与来源核验，支持智能体工作流 | Python / CLI / MCP | Apache-2.0 |
 | [build123d](https://github.com/gumyr/build123d) | 面向智能体生成 CAD 的脚本化参数实体建模 | Python | Apache-2.0 |
 | [CadQuery](https://github.com/CadQuery/cadquery) | 参数化 CAD 生成及 STEP/STL 导出 | Python | Apache-2.0 |
 | [DOLFINx](https://github.com/FEniCS/dolfinx) | 并行有限元分析与 PDE 求解 | Python / C++ | LGPL-3.0 |
