@@ -512,6 +512,7 @@ geometry, meshing, and post-processing backends for engineering agents.
 
 | Project | Engineering use | Interface | License |
 |:---|:---|:---:|:---:|
+| [AgentFEM](https://github.com/haoming-luo/agentfem) | FEniCSx-based finite-element project creation, execution, stress/displacement inspection, and provenance checks for agent workflows | Python / CLI / MCP | Apache-2.0 |
 | [build123d](https://github.com/gumyr/build123d) | Scriptable parametric solid modeling for agent-generated CAD | Python | Apache-2.0 |
 | [CadQuery](https://github.com/CadQuery/cadquery) | Parametric CAD generation and STEP/STL export | Python | Apache-2.0 |
 | [DOLFINx](https://github.com/FEniCS/dolfinx) | Parallel finite-element analysis and PDE solving | Python / C++ | LGPL-3.0 |
