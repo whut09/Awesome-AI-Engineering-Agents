@@ -397,6 +397,7 @@ manufacturability, and behavior under downstream analysis.
 | [CADAM](https://github.com/Adam-CAD/CADAM) | Converts text or images into editable parametric OpenSCAD, STL, and DXF artifacts | GPL-3.0 |
 | [CAD Skills](https://github.com/earthtojake/text-to-cad) | Agent skills for generating, inspecting, modifying, and validating CAD/CAE/CAM artifacts | MIT |
 | [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | Conversational FreeCAD workbench that generates native geometry through Python | LGPL-2.1 |
+| [SolidWorks GPT Plugin](https://github.com/Erfouni/solidworks-GPT-plugin) | Codex agent skills for SolidWorks that confirm units, tolerances and design rules before modeling and gate delivery on rebuild, mass and bounding-box validation | MIT |
 
 ### Creo Automation and Assembly Toolchain
 
