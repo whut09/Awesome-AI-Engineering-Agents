@@ -378,6 +378,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [CADAM](https://github.com/Adam-CAD/CADAM) | 将文本或图像转换为可编辑的参数化 OpenSCAD、STL 和 DXF 工件 | GPL-3.0 |
 | [CAD Skills](https://github.com/earthtojake/text-to-cad) | 用于生成、检查、修改和验证 CAD/CAE/CAM 工件的智能体技能 | MIT |
 | [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | 通过 Python 生成原生几何的对话式 FreeCAD 工作台 | LGPL-2.1 |
+| [SolidWorks GPT Plugin](https://github.com/Erfouni/solidworks-GPT-plugin) | 用于 SolidWorks 设计的 Codex 智能体技能：建模前确认单位、公差和设计规则，交付前进行重建、质量和包围盒验证 | MIT |
 
 ### Creo 自动化与装配工具链
 
