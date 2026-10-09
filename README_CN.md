@@ -3,7 +3,7 @@
 [English](README.md) | [简体中文](README_CN.md)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![更新时间](https://img.shields.io/badge/updated-2026--08-blue)
+![更新时间](https://img.shields.io/badge/updated-2026--10-blue)
 ![许可证](https://img.shields.io/github/license/whut09/Awesome-AI-Engineering-Agents)
 
 **English**
@@ -76,6 +76,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 |
 |:---:|:---:|:---|:---|
+| 2026 | arXiv | [Inverse design of large-scale freeform meta-optics by breaking the memory wall of full-wave simulation](https://arxiv.org/abs/2609.30039) | 大规模自由曲面超构光学逆向设计 |
 | 2026 | arXiv | [End-to-End Differentiable Design of Geometric Waveguide Displays](https://arxiv.org/abs/2601.04370) | 波导显示仿真与优化 |
 | 2025 | DATE | [MAPS: Multi-Fidelity AI-Augmented Photonic Simulation and Inverse Design Infrastructure](https://arxiv.org/abs/2503.01046) | 光子仿真与逆向设计 |
 | 2024 | Advanced Engineering Informatics | [Artificial intelligence in optical lens design](https://doi.org/10.1007/s10462-024-10842-y) | AI 镜头设计综述 |
@@ -93,6 +94,8 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [LensDesigner: A Self-Improving Agent for Optical Lens Design](https://arxiv.org/abs/2609.30450) | 检索种子启动的自进化镜头设计智能体 |
+| 2026 | arXiv 预印本 | [Photonics-GCCE: Group Collaborative-Competitive Evolution Multi-Agent Framework for Universal and Autonomous Optical Design](https://arxiv.org/abs/2609.28045) | 竞争式多智能体光子设计 |
 | 2026 | arXiv 预印本 | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | 多智能体优化建模 |
 | 2026 | arXiv 预印本 | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | 物理验证的光学设计智能体 |
 
@@ -153,10 +156,13 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [When Algorithmic Exploration Becomes Cheap: A Case Study of Agentic Research in EDA](https://arxiv.org/abs/2610.10129) | EDA 算法的智能体化探索 |
+| 2026 | arXiv 预印本 | [Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification](https://arxiv.org/abs/2610.06790) | 仿真后验证与波形调试智能体 |
 | 2026 | arXiv 预印本 | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA 脚本智能体 |
 | 2026 | arXiv 预印本 | [EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis](https://arxiv.org/abs/2608.04032) | EDA 产物分析与审查 |
 | 2026 | arXiv 预印本 | [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](https://arxiv.org/abs/2607.17528) | 端到端 RTL-to-GDS 智能体 |
 | 2026 | arXiv 预印本 | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | 模拟电路闭环优化 |
+| 2026 | arXiv 预印本 | [DRCY: Agentic Hardware Design Reviews](https://arxiv.org/abs/2603.15672) | 生产级 PCB 原理图设计审查 |
 | 2025 | arXiv 预印本 | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA 流程编排 |
 | 2025 | arXiv 预印本 | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA 脚本生成 |
 | 2024 | arXiv 预印本 | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS 代码与指令生成 |
@@ -181,6 +187,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | 自动化 RTL 到 GDS 流程 | Apache-2.0 |
 | [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 布局、布线、时序与物理设计自动化 | BSD-3-Clause |
 | [PCBFlow](https://github.com/NijoP/pcbflow) | 程序化 PCB 生成与布局 | MIT |
+| [PCBWorld](https://github.com/LGAI-Research/PCBWorld) | 基于 KiCad 引擎、带 DRC 反馈的 RL 与 LLM 智能体 PCB 布线环境 | BSD-3-Clause（引擎为 GPLv3） |
 | [SchGen](https://github.com/microsoft/SchGen) | 基于语义代码表示的 PCB 原理图生成 | MIT |
 
 ### 智能体工具链组件
@@ -211,6 +218,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2026 | arXiv 预印本 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | 工具交互式 PCB 智能体 |
 | 2026 | arXiv 预印本 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB 布局推理 |
 | 2026 | arXiv 预印本 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB 设计知识评测 |
+| 2026 | arXiv 预印本 | [pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements](https://arxiv.org/abs/2606.01188) | 自然语言到 KiCad 原理图综合 |
 | 2026 | arXiv 预印本 | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | 原理图审查与推理 |
 | 2026 | arXiv 预印本 | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | 板级原理图设计基准 |
 | 2026 | arXiv 预印本 | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | 多智能体原理图生成 |
@@ -237,6 +245,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling](https://arxiv.org/abs/2609.22688) | 参数化 CAD 建模的视觉智能体框架 |
 | 2026 | arXiv 预印本 | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | 状态感知的 CAD 修复 |
 | 2026 | arXiv 预印本 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | 执行轨迹驱动的 CAD 修复 |
 | 2026 | arXiv 预印本 | [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | 跨 CAD 后端生成 |
@@ -296,6 +305,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence](https://arxiv.org/abs/2609.03811) | 工业级零件与装配体 CAD 生成 |
 | 2026 | arXiv 预印本 | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | 从网格逐步重建参数化 CAD |
 | 2026 | arXiv 预印本 | [HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding](https://arxiv.org/abs/2607.11339) | 层次化文本到 CAD 生成 |
 | 2026 | arXiv 预印本 | [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) | 从正交视图重建 CAD 建模序列 |
@@ -361,6 +371,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 基准 | 测试内容 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design](https://arxiv.org/abs/2609.16251) | 长时程 FreeCAD 计算机操作与可执行工程检查 |
 | 2026 | arXiv 预印本 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | 从简单零件到复杂拓扑的文本到 CAD 生成 |
 | 2026 | arXiv 预印本 | [MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation](https://arxiv.org/abs/2605.28579) | 生成 B-Rep 零件的可制造性、功能性与可装配性 |
 | 2026 | arXiv 预印本 | [CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation](https://arxiv.org/abs/2605.10873) | 随几何复杂度提升的 CAD 程序生成能力 |
@@ -459,6 +470,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](https://arxiv.org/abs/2609.03718) | FoamBench 上单智能体 CAE 框架消融 |
 | 2025 | arXiv 预印本 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | 可组合的 OpenFOAM 工作流自动化 |
 | 2025 | arXiv 预印本 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | 自主生成并执行 CFD 算例 |
 | 2025 | arXiv 预印本 | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | 端到端 CFD 工作流 |
@@ -572,14 +584,18 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [BEHAVE: Functional Behavior Modeling Enables Self-Improving Agents for Hardware Design and Verification](https://arxiv.org/abs/2609.34785) | RTL 设计与验证联合智能体 |
+| 2026 | arXiv 预印本 | [Can Agents Design Better Chips with a Higher Level Abstraction?](https://arxiv.org/abs/2609.21157) | Agent 驱动 HLS 加 RTL 精修 |
 | 2026 | arXiv 预印本 | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ 到 HLS 翻译 |
 | 2026 | arXiv 预印本 | [VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route](https://arxiv.org/abs/2607.24998) | FPGA 布局布线优化 |
 | 2026 | arXiv 预印本 | [CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-design Research](https://arxiv.org/abs/2606.27350) | 软硬件协同设计智能体 |
+| 2026 | arXiv 预印本 | [RTLScout: Joint Agentic Code and Synthesis Optimization for Efficient Digital Circuits](https://arxiv.org/abs/2606.06530) | 智能体 RTL 重写与综合优化 |
 | 2026 | arXiv 预印本 | [HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip](https://arxiv.org/abs/2605.19399) | SoC 协同设计基准 |
 | 2026 | arXiv 预印本 | [Design Conductor 2.0: An Agent Builds a TurboQuant Inference Accelerator in 80 Hours](https://arxiv.org/abs/2605.05170) | 加速器设计智能体 |
 | 2026 | arXiv 预印本 | [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856) | 多智能体 RTL 生成 |
 | 2026 | arXiv 预印本 | [Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement](https://arxiv.org/abs/2604.14989) | RTL 优化智能体 |
 | 2026 | arXiv 预印本 | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | PPA 感知 RTL 生成 |
+| 2026 | arXiv 预印本 | [ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs](https://arxiv.org/abs/2602.10218) | RTL 专用模型结合智能体上下文演化 |
 | 2026 | arXiv 预印本 | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA 设计自动化 |
 | 2025 | arXiv 预印本 | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | 算法到 HLS 实现 |
 | 2025 | arXiv 预印本 | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | 时序感知 HLS 优化 |
@@ -603,6 +619,7 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 
 | 项目 | 工程用途 | 许可证 |
 |:---|:---|:---:|
+| [AHRR](https://github.com/ZijD/AHRR) | Agent 驱动 HLS 设计与 RTL 精修的评测框架及 11 任务 FPGA 基准 | MIT |
 | [Brevitas](https://github.com/Xilinx/brevitas) | 面向 FPGA 部署的量化感知训练 | BSD-3-Clause |
 | [CIRCT](https://github.com/llvm/circt) | 基于 MLIR 的 RTL 与硬件编译基础设施 | Apache-2.0 WITH LLVM exception |
 | [FINN](https://github.com/Xilinx/finn) | 量化神经网络的数据流编译 | BSD-3-Clause |
