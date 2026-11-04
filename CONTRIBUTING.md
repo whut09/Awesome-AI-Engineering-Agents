@@ -37,8 +37,9 @@ Before opening a pull request:
    its short description instead of duplicating the entry.
 4. For papers, use the final publication year and an official proceedings or
    DOI link. Use arXiv when no formal publication is available.
-5. For projects, link to the canonical repository and confirm that it contains
-   an explicit open-source license. Record its SPDX identifier when possible.
+5. For projects, link to the canonical repository and record its license in
+   the table row, with the SPDX identifier when possible. If the repository
+   ships no license, write `None (unlicensed)` instead of dropping the entry.
    Do not list a fork separately unless it has material, maintained changes.
 6. Keep paper tables sorted by year, newest first. Keep project tables sorted
    alphabetically by project name.

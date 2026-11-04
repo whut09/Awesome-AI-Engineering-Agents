@@ -57,9 +57,10 @@ engineering judgment is still essential. The collection therefore prioritizes
 concrete engineering workflow rather than by model family.
 
 > [!NOTE]
-> An open-source project must publish an explicit license. Paper code or
-> datasets without a declared license are listed separately and are not called
-> open source. Always check bundled models, datasets, and vendor EULAs.
+> Record each project's license in its table row, using the SPDX identifier
+> when possible. A repository without a declared license may still be listed
+> with `None (unlicensed)`; treat such code as all-rights-reserved and verify
+> terms before reuse. Always check bundled models, datasets, and vendor EULAs.
 
 > [!IMPORTANT]
 > This is an engineering-agent stack, not an AI-model-only list. Deterministic
@@ -195,6 +196,7 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 |:---|:---|:---:|
 | [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | Analog schematic-to-layout automation | BSD-3-Clause |
 | [Backplane](https://github.com/BackplaneWorks/Backplane) | Agentic hardware workspace with KiCad/FreeCAD viewers and KiCad IPC APIs for agent edits | MIT |
+| [BEHAVE](https://github.com/joel-wu/BEHAVE) | Joint RTL and behavior-model design, verification, and self-improvement agents with an executable simulator | None (unlicensed) |
 | [CircuitLM](https://github.com/Khandakar227/circuitlm) | Multi-agent natural-language-to-schematic generation | MIT |
 | [DeepPCB KiCad plugin](https://github.com/instadeepai/deeppcb-kicad-plugin) | AI-assisted PCB layout workflows in KiCad | Apache-2.0 |
 | [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU-accelerated placement optimization | BSD-3-Clause |
@@ -708,8 +710,8 @@ before opening a pull request.
 1. Add only 2020+ papers, or projects with meaningful 2020+ maintenance.
 2. Put each item in one primary role and one concrete workflow subsection.
 3. Prefer official proceedings, DOI, arXiv, and canonical repositories.
-4. List a project in the open-source table only when its repository exposes an
-   explicit license; otherwise use the research-code note.
+4. List each project's license in the open-source table row. If the repository
+   ships no license, write `None (unlicensed)` instead of dropping the entry.
 5. Keep papers newest first and projects alphabetically sorted within each table.
 6. Include the engineering artifact being generated, analyzed, checked, or
    optimized (for example RTL, PCB routing, stress field, or lens parameters).

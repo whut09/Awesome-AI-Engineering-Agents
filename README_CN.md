@@ -48,9 +48,10 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 仍在积极维护的开源项目，并按照实际工程工作流组织，而不是简单按照模型类别罗列。
 
 > [!NOTE]
-> 开源项目必须提供明确的许可证。没有声明许可证的论文代码或数据集会单独列出，
-> 不视为开源项目。用于商业场景前，请同时核查模型、数据集、第三方资产及厂商
-> EULA 的具体条款。
+> 在开源项目表中注明每个项目的许可证，尽量填写 SPDX 标识。仓库未附带许可证时
+> 仍可收录，许可证列填写 `None (unlicensed)`（无许可证）；此类代码按保留所有
+> 权利处理，复用前请核实条款。用于商业场景前，请同时核查模型、数据集、第三方
+> 资产及厂商 EULA 的具体条款。
 
 > [!IMPORTANT]
 > 本项目整理的是工程智能体技术栈，而不是只收录 AI 模型。只要智能体能够调用
@@ -181,6 +182,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 |:---|:---|:---:|
 | [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | 模拟电路原理图到版图自动化 | BSD-3-Clause |
 | [Backplane](https://github.com/BackplaneWorks/Backplane) | 智能体硬件开发工作台，带 KiCad/FreeCAD 查看器与供智能体编辑的 KiCad IPC API | MIT |
+| [BEHAVE](https://github.com/joel-wu/BEHAVE) | RTL 与行为模型联合设计、验证与自改进智能体，带可执行仿真器 | 无许可证 |
 | [CircuitLM](https://github.com/Khandakar227/circuitlm) | 多智能体自然语言到电路原理图生成 | MIT |
 | [DeepPCB KiCad plugin](https://github.com/instadeepai/deeppcb-kicad-plugin) | KiCad 中的 AI 辅助 PCB 布局工作流 | Apache-2.0 |
 | [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU 加速的布局优化 | BSD-3-Clause |
@@ -676,7 +678,7 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 1. 论文仅收录 2020 年及以后发表的工作；项目应在 2020 年以后仍有实质维护。
 2. 每个条目只归入一个主要岗位和一个明确的工作流。
 3. 优先使用官方论文集、DOI、arXiv 和项目主仓库链接。
-4. 只有明确提供许可证的仓库才能进入开源项目表，否则放入研究代码说明。
+4. 在开源项目表条目中注明许可证；仓库未附带许可证时填写 `None (unlicensed)`（无许可证），不要因此拒收条目。
 5. 论文按年份降序排列，项目在每张表中按名称排序。
 6. 描述应明确指出生成、分析、检查或优化的工程对象，例如 RTL、PCB 布线、
    应力场或镜头参数。
