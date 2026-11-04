@@ -3,7 +3,7 @@
 [English](README.md) | [简体中文](README_CN.md)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![更新时间](https://img.shields.io/badge/updated-2026--10-blue)
+![更新时间](https://img.shields.io/badge/updated-2026--11-blue)
 ![许可证](https://img.shields.io/github/license/whut09/Awesome-AI-Engineering-Agents)
 
 **English**
@@ -76,6 +76,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 |
 |:---:|:---:|:---|:---|
+| 2026 | arXiv | [Deep learning enables large-scale inverse design of free-form metasurfaces](https://arxiv.org/abs/2610.05021) | 代理模型加速的自由曲面超表面拓扑优化 |
 | 2026 | arXiv | [Inverse design of large-scale freeform meta-optics by breaking the memory wall of full-wave simulation](https://arxiv.org/abs/2609.30039) | 大规模自由曲面超构光学逆向设计 |
 | 2026 | arXiv | [End-to-End Differentiable Design of Geometric Waveguide Displays](https://arxiv.org/abs/2601.04370) | 波导显示仿真与优化 |
 | 2025 | DATE | [MAPS: Multi-Fidelity AI-Augmented Photonic Simulation and Inverse Design Infrastructure](https://arxiv.org/abs/2503.01046) | 光子仿真与逆向设计 |
@@ -97,6 +98,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2026 | arXiv 预印本 | [LensDesigner: A Self-Improving Agent for Optical Lens Design](https://arxiv.org/abs/2609.30450) | 检索种子启动的自进化镜头设计智能体 |
 | 2026 | arXiv 预印本 | [Photonics-GCCE: Group Collaborative-Competitive Evolution Multi-Agent Framework for Universal and Autonomous Optical Design](https://arxiv.org/abs/2609.28045) | 竞争式多智能体光子设计 |
 | 2026 | arXiv 预印本 | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | 多智能体优化建模 |
+| 2026 | arXiv 预印本 | [A Self-Evolving Agentic Framework for Metasurface Inverse Design](https://arxiv.org/abs/2604.01480) | 技能进化的超表面逆向设计编码智能体 |
 | 2026 | arXiv 预印本 | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | 物理验证的光学设计智能体 |
 
 ### 开源项目
@@ -156,6 +158,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [The Era of Vibe Tapeout: Dark Age or Golden Age for Analog Circuit Design?](https://arxiv.org/abs/2610.15240) | 模拟电路原理图到版图的流片智能体 |
 | 2026 | arXiv 预印本 | [When Algorithmic Exploration Becomes Cheap: A Case Study of Agentic Research in EDA](https://arxiv.org/abs/2610.10129) | EDA 算法的智能体化探索 |
 | 2026 | arXiv 预印本 | [Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification](https://arxiv.org/abs/2610.06790) | 仿真后验证与波形调试智能体 |
 | 2026 | arXiv 预印本 | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA 脚本智能体 |
@@ -177,6 +180,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 项目 | 工程用途 | 许可证 |
 |:---|:---|:---:|
 | [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | 模拟电路原理图到版图自动化 | BSD-3-Clause |
+| [Backplane](https://github.com/BackplaneWorks/Backplane) | 智能体硬件开发工作台，带 KiCad/FreeCAD 查看器与供智能体编辑的 KiCad IPC API | MIT |
 | [CircuitLM](https://github.com/Khandakar227/circuitlm) | 多智能体自然语言到电路原理图生成 | MIT |
 | [DeepPCB KiCad plugin](https://github.com/instadeepai/deeppcb-kicad-plugin) | KiCad 中的 AI 辅助 PCB 布局工作流 | Apache-2.0 |
 | [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU 加速的布局优化 | BSD-3-Clause |
@@ -215,6 +219,8 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
 | 2026 | arXiv 预印本 | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB 布线推理 |
+| 2026 | arXiv 预印本 | [From Natural Language to Real Schematics: An Automated Workflow for Power Electronics Schematic Synthesis](https://arxiv.org/abs/2610.38201) | 带验证闭环的功率电子 KiCad 原理图综合 |
+| 2026 | arXiv 预印本 | [RAC: A Relational Agent Contract for Constraint-Governed Engineering Tasks](https://arxiv.org/abs/2610.20935) | 契约约束下的 PCB 布局、布线与修复 |
 | 2026 | arXiv 预印本 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | 工具交互式 PCB 智能体 |
 | 2026 | arXiv 预印本 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB 布局推理 |
 | 2026 | arXiv 预印本 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB 设计知识评测 |
@@ -245,6 +251,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Can It Actually Work? Synthesizing Functional CAD Mechanisms](https://arxiv.org/abs/2610.26861) | 仿真验证的功能性 CAD 机构综合 |
 | 2026 | arXiv 预印本 | [Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling](https://arxiv.org/abs/2609.22688) | 参数化 CAD 建模的视觉智能体框架 |
 | 2026 | arXiv 预印本 | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | 状态感知的 CAD 修复 |
 | 2026 | arXiv 预印本 | [TraceCAD: Trace-Guided Repair for Agentic CAD Generation](https://arxiv.org/abs/2608.03062) | 执行轨迹驱动的 CAD 修复 |
@@ -305,6 +312,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Rethinking Human Intent-to-CAD: Parametric CAD Model Generation via Cooperative Multi-Task Alignment and Spatial-Aware Reinforcement Learning](https://arxiv.org/abs/2610.15681) | 草图与文本到参数化 CAD 代码 |
 | 2026 | arXiv 预印本 | [VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence](https://arxiv.org/abs/2609.03811) | 工业级零件与装配体 CAD 生成 |
 | 2026 | arXiv 预印本 | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | 从网格逐步重建参数化 CAD |
 | 2026 | arXiv 预印本 | [HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding](https://arxiv.org/abs/2607.11339) | 层次化文本到 CAD 生成 |
@@ -371,6 +379,8 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 基准 | 测试内容 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra](https://arxiv.org/abs/2610.24451) | 通用 AI 在 CAD 理解、生成、编辑与评估上的实测 |
+| 2026 | arXiv 预印本 | [LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures](https://arxiv.org/abs/2610.04292) | 可建造且可功能的装配结构生成评测 |
 | 2026 | arXiv 预印本 | [CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design](https://arxiv.org/abs/2609.16251) | 长时程 FreeCAD 计算机操作与可执行工程检查 |
 | 2026 | arXiv 预印本 | [Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation](https://arxiv.org/abs/2605.18430) | 从简单零件到复杂拓扑的文本到 CAD 生成 |
 | 2026 | arXiv 预印本 | [MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation](https://arxiv.org/abs/2605.28579) | 生成 B-Rep 零件的可制造性、功能性与可装配性 |
@@ -584,6 +594,8 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation](https://arxiv.org/abs/2610.39570) | 带板上 FPGA 评测的 CPU 设计智能体 |
+| 2026 | arXiv 预印本 | [LATCH: LLM-Assisted Timing Closure Harness for Post-Route FPGA Optimisation](https://arxiv.org/abs/2610.16625) | LLM 辅助 FPGA 布线后时序收敛 |
 | 2026 | arXiv 预印本 | [BEHAVE: Functional Behavior Modeling Enables Self-Improving Agents for Hardware Design and Verification](https://arxiv.org/abs/2609.34785) | RTL 设计与验证联合智能体 |
 | 2026 | arXiv 预印本 | [Can Agents Design Better Chips with a Higher Level Abstraction?](https://arxiv.org/abs/2609.21157) | Agent 驱动 HLS 加 RTL 精修 |
 | 2026 | arXiv 预印本 | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ 到 HLS 翻译 |
@@ -627,6 +639,7 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 | [FPGA-Agent-skills](https://github.com/adeleempurpled290/FPGA-Agent-skills) | HLS、仿真、综合、时序与调试工作流 | GPL-2.0 |
 | [hls4ml](https://github.com/fastmachinelearning/hls4ml) | 将训练好的模型转换为 HLS 实现 | Apache-2.0 |
 | [nextpnr](https://github.com/YosysHQ/nextpnr) | 开源流程中的 FPGA 布局布线后端 | ISC |
+| [RTLScout](https://github.com/huawei-csl/rtlscout) | 带综合反馈的智能体 RTL 重写优化与 Spire HDL | BSD-3-Clause-Clear |
 | [SiliconCompiler](https://github.com/siliconcompiler/siliconcompiler) | 可移植的综合、仿真与 FPGA APR 编排 | Apache-2.0 |
 | [TAPA](https://github.com/tuna/tapa) | 任务并行 HLS 到 RTL，以及软件/RTL 协同仿真 | MIT |
 | [Verilator](https://github.com/verilator/verilator) | 生成 RTL 的高速 SystemVerilog 仿真与检查 | LGPL-3.0 |
