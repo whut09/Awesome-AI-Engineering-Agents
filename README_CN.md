@@ -64,12 +64,42 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 ## 目录
 
+- [更新日志](#更新日志)
 - [光学工程](#光学工程)
 - [硬件与 PCB 设计](#硬件与-pcb-设计)
 - [结构与 CAD 工程](#结构与-cad-工程)
 - [FPGA 工程](#fpga-工程)
 - [贡献](#贡献)
 - [许可证](#许可证)
+
+## 更新日志
+
+按时间倒序列出每次更新新增的论文与开源项目。
+
+- **2026-11-17** — 11 篇论文：智能体驱动的超表面逆向设计流水线
+  （2611.08127）；执行接地 EDA 脚本智能体（2611.19056）、ChipOmni
+  （2611.13020）、ICLayout-Bench（2611.12982）、Micius-Flash（2611.10015）；
+  CAD 静默失败基准（2611.10063）；证据化敏捷硬件（2611.10025）、SVApshot
+  （2611.12712）、面向智能体硬件的形式验证（2611.13705）、Dr. RTL 基准与
+  自改进（2611.13713）、CSCA Verilog 信用分配（2611.11848）。排版调整：
+  各岗位论文表归组——PCB 智能体论文移至硬件论文区，CAE 论文移至结构论文区，
+  拓扑优化小节重新命名。
+- **2026-11-04** — 11 篇论文：超表面 DL 代理（2610.05021）、超表面自进化
+  智能体（2604.01480）、Vibe Tapeout（2610.15240）、功率电子原理图综合
+  （2610.38201）、RAC 契约（2610.20935）、FunCAD（2610.26861）、HiCAD
+  （2610.15681）、GPT-6 Astra CAD 评估（2610.24451）、LMBuild（2610.04292）、
+  FPGA 在环 RISC-V 智能体（2610.39570）、LATCH 时序收敛（2610.16625）。
+  开源项目：Backplane（MIT）、RTLScout（BSD-3-Clause-Clear）、BEHAVE（无
+  许可证）；"必须显式许可证"要求放宽为 `None (unlicensed)` 标注收录。
+- **2026-10-09** — 四个方向 15 篇论文：LensDesigner、Photonics-GCCE、
+  超构光学逆向设计、agentic EDA 探索、BTTF 验证智能体、DRCY 审查、pcbGPT、
+  Vision2CAD、VisCAD、CADWorld、CAE 框架消融、BEHAVE、AHRR、RTLScout、
+  ACE-RTL。开源项目：PCBWorld（BSD-3-Clause）、AHRR（MIT）。
+- **2026-10-04** — SolidWorks GPT 插件（社区 PR #2）。
+- **2026-09-20** — AgentFEM 加入智能体可调用 CAE 基础设施（社区 PR #1）。
+- **2026-09-02** — CAD 装配、约束、B-Rep 与参数化生成论文；Creo 与开源
+  CAD 装配工具链。
+- **2026-08-12** — 双语重写与论文、工具链组件、CAE 资源的首次扩充。
 
 ## 光学工程
 
@@ -96,6 +126,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [An Agent-Driven, Cross-Validated Inverse-Design Pipeline for Dielectric Metasurfaces](https://arxiv.org/abs/2611.08127) | 编码智能体驱动的超表面逆向设计，FDTD 交叉验证 |
 | 2026 | arXiv 预印本 | [LensDesigner: A Self-Improving Agent for Optical Lens Design](https://arxiv.org/abs/2609.30450) | 检索种子启动的自进化镜头设计智能体 |
 | 2026 | arXiv 预印本 | [Photonics-GCCE: Group Collaborative-Competitive Evolution Multi-Agent Framework for Universal and Autonomous Optical Design](https://arxiv.org/abs/2609.28045) | 竞争式多智能体光子设计 |
 | 2026 | arXiv 预印本 | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | 多智能体优化建模 |
@@ -159,6 +190,10 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Run, Read Back, Refine: Observation Fidelity in Execution-Grounded EDA Agents](https://arxiv.org/abs/2611.19056) | 执行接地 EDA 脚本智能体（SKILL/Tcl） |
+| 2026 | arXiv 预印本 | [ChipOmni: A General-Purpose AI Agent for Electronic Design Automation](https://arxiv.org/abs/2611.13020) | 从规格到 GDSII 的闭环 EDA 智能体 |
+| 2026 | arXiv 预印本 | [ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design](https://arxiv.org/abs/2611.12982) | 定制模拟版图智能体基准 |
+| 2026 | arXiv 预印本 | [Micius-Flash: Lightweight Agentic Intelligence for Engineering](https://arxiv.org/abs/2611.10015) | 带 EDA 与 KiCad 工具框架的工程模型 |
 | 2026 | arXiv 预印本 | [The Era of Vibe Tapeout: Dark Age or Golden Age for Analog Circuit Design?](https://arxiv.org/abs/2610.15240) | 模拟电路原理图到版图的流片智能体 |
 | 2026 | arXiv 预印本 | [When Algorithmic Exploration Becomes Cheap: A Case Study of Agentic Research in EDA](https://arxiv.org/abs/2610.10129) | EDA 算法的智能体化探索 |
 | 2026 | arXiv 预印本 | [Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification](https://arxiv.org/abs/2610.06790) | 仿真后验证与波形调试智能体 |
@@ -168,6 +203,24 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2026 | arXiv 预印本 | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | 模拟电路闭环优化 |
 | 2026 | arXiv 预印本 | [DRCY: Agentic Hardware Design Reviews](https://arxiv.org/abs/2603.15672) | 生产级 PCB 原理图设计审查 |
 | 2025 | arXiv 预印本 | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA 流程编排 |
+
+### PCB 智能体与多模态基准论文
+
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB 布线推理 |
+| 2026 | arXiv 预印本 | [From Natural Language to Real Schematics: An Automated Workflow for Power Electronics Schematic Synthesis](https://arxiv.org/abs/2610.38201) | 带验证闭环的功率电子 KiCad 原理图综合 |
+| 2026 | arXiv 预印本 | [RAC: A Relational Agent Contract for Constraint-Governed Engineering Tasks](https://arxiv.org/abs/2610.20935) | 契约约束下的 PCB 布局、布线与修复 |
+| 2026 | arXiv 预印本 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | 工具交互式 PCB 智能体 |
+| 2026 | arXiv 预印本 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB 布局推理 |
+| 2026 | arXiv 预印本 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB 设计知识评测 |
+| 2026 | arXiv 预印本 | [pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements](https://arxiv.org/abs/2606.01188) | 自然语言到 KiCad 原理图综合 |
+| 2026 | arXiv 预印本 | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | 原理图审查与推理 |
+| 2026 | arXiv 预印本 | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | 板级原理图设计基准 |
+| 2026 | arXiv 预印本 | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | 多智能体原理图生成 |
+| 2025 | arXiv 预印本 | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | 模拟电路原理图智能体 |
+| 2024 | arXiv 预印本 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | 网表到原理图转换 |
+| 2024 | arXiv 预印本 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | 多级放大器原理图设计 |
 | 2025 | arXiv 预印本 | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA 脚本生成 |
 | 2024 | arXiv 预印本 | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS 代码与指令生成 |
 | 2024 | arXiv 预印本 | [EDA-Aware RTL Generation with Large Language Models](https://arxiv.org/abs/2412.04485) | 结合综合反馈的 RTL 生成 |
@@ -215,24 +268,6 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
   论文的研究代码，当前未发现明确的仓库许可证。
 - [Pro-CAD](https://github.com/BoYuanVisionary/Pro-CAD)：主动澄清需求并生成
   CAD 的官方代码，当前未发现明确的仓库许可证。
-
-### PCB 智能体与多模态基准论文
-
-| 年份 | 期刊/来源 | 论文 | 工程流程 |
-|:---:|:---|:---|:---|
-| 2026 | arXiv 预印本 | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB 布线推理 |
-| 2026 | arXiv 预印本 | [From Natural Language to Real Schematics: An Automated Workflow for Power Electronics Schematic Synthesis](https://arxiv.org/abs/2610.38201) | 带验证闭环的功率电子 KiCad 原理图综合 |
-| 2026 | arXiv 预印本 | [RAC: A Relational Agent Contract for Constraint-Governed Engineering Tasks](https://arxiv.org/abs/2610.20935) | 契约约束下的 PCB 布局、布线与修复 |
-| 2026 | arXiv 预印本 | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | 工具交互式 PCB 智能体 |
-| 2026 | arXiv 预印本 | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB 布局推理 |
-| 2026 | arXiv 预印本 | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB 设计知识评测 |
-| 2026 | arXiv 预印本 | [pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements](https://arxiv.org/abs/2606.01188) | 自然语言到 KiCad 原理图综合 |
-| 2026 | arXiv 预印本 | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | 原理图审查与推理 |
-| 2026 | arXiv 预印本 | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | 板级原理图设计基准 |
-| 2026 | arXiv 预印本 | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | 多智能体原理图生成 |
-| 2025 | arXiv 预印本 | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | 模拟电路原理图智能体 |
-| 2024 | arXiv 预印本 | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | 网表到原理图转换 |
-| 2024 | arXiv 预印本 | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | 多级放大器原理图设计 |
 
 ### 商业 EDA 进展信号
 
@@ -359,7 +394,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2023 | CAD'23 | [A Procedure for Identifying Planes and Axes of Symmetry Candidates in B-rep CAD Models](https://doi.org/10.14733/cadconfp.2023.297-301) | B-Rep 特征与对称性检测 |
 | 2022 | CAD'22 | [Computer-Aided Detection of Exact Reflection and Axisymmetry in B-rep CAD Models](https://doi.org/10.14733/cadconfp.2022.251-256) | B-Rep 接口与对称性分析 |
 
-### 论文
+### 拓扑优化与结构设计论文
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 |
 |:---:|:---:|:---|:---|
@@ -377,10 +412,33 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | 2022 | SMO | [Accelerated Topology Optimization Design of 3D Structures Based on Deep Learning](https://doi.org/10.1007/s00158-022-03194-0) | 三维结构设计 |
 | 2021 | Nature Machine Intelligence | [Learning Nonlinear Operators via DeepONet](https://doi.org/10.1038/s42256-021-00302-5) | 仿真代理与算子学习 |
 
+### CAE 与仿真智能体论文
+
+| 年份 | 期刊/来源 | 论文 | 工程流程 |
+|:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](https://arxiv.org/abs/2609.03718) | FoamBench 上单智能体 CAE 框架消融 |
+| 2025 | arXiv 预印本 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | 可组合的 OpenFOAM 工作流自动化 |
+| 2025 | arXiv 预印本 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | 自主生成并执行 CFD 算例 |
+| 2025 | arXiv 预印本 | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | 端到端 CFD 工作流 |
+| 2025 | arXiv 预印本 | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM 知识与算例辅助 |
+| 2024 | arXiv 预印本 | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | 多智能体 OpenFOAM 工作流 |
+
+### CAE 求解器与反馈闭环论文
+
+以下论文介绍可作为结构工程智能体执行和校验后端的近期确定性求解能力。
+
+| 年份 | 会议/期刊 | 论文 | 工程流程 |
+|:---:|:---:|:---|:---|
+| 2024 | IJHPCA | [High-Performance Finite Elements with MFEM](https://doi.org/10.1177/10943420241261981) | 可扩展有限元执行后端 |
+| 2023 | CMC | [Fundamental Study on Fracture Analysis of Concrete Materials Using OpenRadioss](https://doi.org/10.1299/jsmecmd.2023.36.OS-0601) | OpenRadioss 混凝土断裂仿真 |
+| 2022 | IJHPCA | [Matrix-Free Approaches for GPU Acceleration of a High-Order Finite Element Hydrodynamics Application Using MFEM, Umpire, and RAJA](https://doi.org/10.1177/10943420221100262) | GPU 加速的仿真反馈 |
+| 2021 | CAMWA | [MFEM: A Modular Finite Element Methods Library](https://doi.org/10.1016/j.camwa.2020.06.009) | 模块化结构与多物理场求解 |
+
 ### CAD 基准与能力边界
 
 | 年份 | 期刊/来源 | 基准 | 测试内容 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Done Is Not Correct: Measuring Silent Failures and Self-Verification Calibration When LLM Agents Take CAD Actions](https://arxiv.org/abs/2611.10063) | CAD 操作静默失败与声明校准基准 |
 | 2026 | arXiv 预印本 | [Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra](https://arxiv.org/abs/2610.24451) | 通用 AI 在 CAD 理解、生成、编辑与评估上的实测 |
 | 2026 | arXiv 预印本 | [LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures](https://arxiv.org/abs/2610.04292) | 可建造且可功能的装配结构生成评测 |
 | 2026 | arXiv 预印本 | [CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design](https://arxiv.org/abs/2609.16251) | 长时程 FreeCAD 计算机操作与可执行工程检查 |
@@ -478,28 +536,6 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 | [PINNacle](https://github.com/i207M/PINNacle) | 可复现的物理信息神经 PDE 求解基准 | MIT |
 | [The Well](https://github.com/PolymathicAI/the_well) | 用于代理模型和基础模型的大规模物理仿真数据集 | BSD-3-Clause |
 
-### CAE 与仿真智能体论文
-
-| 年份 | 期刊/来源 | 论文 | 工程流程 |
-|:---:|:---|:---|:---|
-| 2026 | arXiv 预印本 | [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](https://arxiv.org/abs/2609.03718) | FoamBench 上单智能体 CAE 框架消融 |
-| 2025 | arXiv 预印本 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | 可组合的 OpenFOAM 工作流自动化 |
-| 2025 | arXiv 预印本 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | 自主生成并执行 CFD 算例 |
-| 2025 | arXiv 预印本 | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | 端到端 CFD 工作流 |
-| 2025 | arXiv 预印本 | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM 知识与算例辅助 |
-| 2024 | arXiv 预印本 | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | 多智能体 OpenFOAM 工作流 |
-
-### CAE 求解器与反馈闭环论文
-
-以下论文介绍可作为结构工程智能体执行和校验后端的近期确定性求解能力。
-
-| 年份 | 会议/期刊 | 论文 | 工程流程 |
-|:---:|:---:|:---|:---|
-| 2024 | IJHPCA | [High-Performance Finite Elements with MFEM](https://doi.org/10.1177/10943420241261981) | 可扩展有限元执行后端 |
-| 2023 | CMC | [Fundamental Study on Fracture Analysis of Concrete Materials Using OpenRadioss](https://doi.org/10.1299/jsmecmd.2023.36.OS-0601) | OpenRadioss 混凝土断裂仿真 |
-| 2022 | IJHPCA | [Matrix-Free Approaches for GPU Acceleration of a High-Order Finite Element Hydrodynamics Application Using MFEM, Umpire, and RAJA](https://doi.org/10.1177/10943420221100262) | GPU 加速的仿真反馈 |
-| 2021 | CAMWA | [MFEM: A Modular Finite Element Methods Library](https://doi.org/10.1016/j.camwa.2020.06.009) | 模块化结构与多物理场求解 |
-
 ### 开源 CAE 智能体
 
 | 项目 | 工程用途 | 许可证 |
@@ -574,6 +610,9 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 |
 |:---:|:---:|:---|:---|
+| 2026 | ASP-DAC | [Agentic AI Meets Formal Verification in the Era of Agentic Hardware Development](https://arxiv.org/abs/2611.13705) | 面向智能体硬件的形式验证 |
+| 2026 | arXiv | [Will AI mess my RTL? A snapshot-based approach to verifying AI-written RTL](https://arxiv.org/abs/2611.12712) | AI 生成 RTL 的 SVA 快照回归验证 |
+| 2026 | arXiv | [Between Spark and Silicon: Toward Evidence-Carrying Agile Hardware](https://arxiv.org/abs/2611.10025) | 智能体 RTL 变更的证据化验收 |
 | 2026 | ASP-DAC | [LLM-Assisted Circuit Verification: A Comprehensive Survey](https://www.cse.cuhk.edu.hk/~byu/papers/C312-ASPDAC2026-Verif-slides.pdf) | 电路验证综述 |
 | 2025 | arXiv | [REvolution: An Evolutionary Framework for RTL Generation](https://arxiv.org/abs/2510.21407) | 迭代式 RTL 生成 |
 | 2025 | TODAES | [High-level Synthesis Directives Design Optimization via Large Language Model](https://doi.org/10.1145/3747291) | HLS 指令优化 |
@@ -596,6 +635,8 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 |
 |:---:|:---|:---|:---|
+| 2026 | arXiv 预印本 | [Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents](https://arxiv.org/abs/2611.13713) | 工具接地的 RTL 优化与技能复用 |
+| 2026 | arXiv 预印本 | [Causal Signal Credit Assignment for Verilog Code Generation via Counterfactual Hardware Verification](https://arxiv.org/abs/2611.11848) | 反事实硬件验证的 Verilog 信号级信用分配 |
 | 2026 | arXiv 预印本 | [LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation](https://arxiv.org/abs/2610.39570) | 带板上 FPGA 评测的 CPU 设计智能体 |
 | 2026 | arXiv 预印本 | [LATCH: LLM-Assisted Timing Closure Harness for Post-Route FPGA Optimisation](https://arxiv.org/abs/2610.16625) | LLM 辅助 FPGA 布线后时序收敛 |
 | 2026 | arXiv 预印本 | [BEHAVE: Functional Behavior Modeling Enables Self-Improving Agents for Hardware Design and Verification](https://arxiv.org/abs/2609.34785) | RTL 设计与验证联合智能体 |

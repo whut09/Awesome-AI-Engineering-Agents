@@ -76,12 +76,47 @@ are relevant to engineering agents.
 
 ## Contents
 
+- [Changelog](#changelog)
 - [Optical Engineering](#optical-engineering)
 - [Hardware and PCB Design](#hardware-and-pcb-design)
 - [Structural and CAD Engineering](#structural-and-cad-engineering)
 - [FPGA Engineering](#fpga-engineering)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Changelog
+
+Papers and projects added in each update, newest first.
+
+- **2026-11-17** — 11 papers: agent-driven metasurface inverse-design pipeline
+  (2611.08127); execution-grounded EDA scripting agent (2611.19056), ChipOmni
+  (2611.13020), ICLayout-Bench (2611.12982), Micius-Flash (2611.10015); CAD
+  silent-failure benchmark (2611.10063); evidence-carrying agile hardware
+  (2611.10025), SVApshot (2611.12712), formal verification for agentic
+  hardware (2611.13705), Dr. RTL benchmarking and self-improvement
+  (2611.13713), CSCA Verilog credit assignment (2611.11848). Layout: paper
+  tables now grouped per track — PCB agent papers moved next to the other
+  hardware paper tables, CAE papers moved next to structural papers, and the
+  topology-optimization section retitled.
+- **2026-11-04** — 11 papers: metasurface DL surrogate (2610.05021), self-
+  evolving metasurface agent (2604.01480), vibe tapeout (2610.15240),
+  power-electronics schematic synthesis (2610.38201), RAC contract
+  (2610.20935), FunCAD (2610.26861), HiCAD (2610.15681), GPT-6 Astra CAD
+  assessment (2610.24451), LMBuild (2610.04292), FPGA-in-the-loop RISC-V
+  agents (2610.39570), LATCH timing closure (2610.16625). Open-source:
+  Backplane (MIT), RTLScout (BSD-3-Clause-Clear), BEHAVE (no license). The
+  explicit-license requirement was relaxed to a `None (unlicensed)` marking.
+- **2026-10-09** — 15 papers across all four tracks: LensDesigner,
+  Photonics-GCCE, meta-optics inverse design, agentic-EDA exploration, BTTF
+  verification agents, DRCY reviews, pcbGPT, Vision2CAD, VisCAD, CADWorld,
+  CAE harness ablations, BEHAVE, AHRR, RTLScout, ACE-RTL. Open-source:
+  PCBWorld (BSD-3-Clause), AHRR (MIT).
+- **2026-10-04** — SolidWorks GPT plugin (community PR #2).
+- **2026-09-20** — AgentFEM in agent-ready CAE infrastructure (community PR #1).
+- **2026-09-02** — CAD assembly, constraint, B-Rep, and parametric-generation
+  papers; Creo and open CAD assembly toolchains.
+- **2026-08-12** — Initial bilingual rewrite and expansion of papers, toolchain
+  components, and CAE resources.
 
 ## Optical Engineering
 
@@ -108,6 +143,7 @@ are relevant to engineering agents.
 
 | Year | Venue / source | Paper | Workflow |
 |:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [An Agent-Driven, Cross-Validated Inverse-Design Pipeline for Dielectric Metasurfaces](https://arxiv.org/abs/2611.08127) | Coding-agent metasurface inverse design with FDTD cross-validation |
 | 2026 | arXiv preprint | [LensDesigner: A Self-Improving Agent for Optical Lens Design](https://arxiv.org/abs/2609.30450) | Self-improving lens design agent with retrieval-seeded starts |
 | 2026 | arXiv preprint | [Photonics-GCCE: Group Collaborative-Competitive Evolution Multi-Agent Framework for Universal and Autonomous Optical Design](https://arxiv.org/abs/2609.28045) | Competitive multi-agent photonic design |
 | 2026 | arXiv preprint | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | Multi-agent optimization modeling |
@@ -173,6 +209,10 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 
 | Year | Venue / source | Paper | Workflow |
 |:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [Run, Read Back, Refine: Observation Fidelity in Execution-Grounded EDA Agents](https://arxiv.org/abs/2611.19056) | Execution-grounded EDA scripting across SKILL and Tcl |
+| 2026 | arXiv preprint | [ChipOmni: A General-Purpose AI Agent for Electronic Design Automation](https://arxiv.org/abs/2611.13020) | Closed-loop EDA agent from specification to GDSII |
+| 2026 | arXiv preprint | [ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design](https://arxiv.org/abs/2611.12982) | Custom analog layout agent benchmark |
+| 2026 | arXiv preprint | [Micius-Flash: Lightweight Agentic Intelligence for Engineering](https://arxiv.org/abs/2611.10015) | Engineering model with EDA and KiCad tool harness |
 | 2026 | arXiv preprint | [The Era of Vibe Tapeout: Dark Age or Golden Age for Analog Circuit Design?](https://arxiv.org/abs/2610.15240) | Analog schematic-to-layout tapeout agents |
 | 2026 | arXiv preprint | [When Algorithmic Exploration Becomes Cheap: A Case Study of Agentic Research in EDA](https://arxiv.org/abs/2610.10129) | Agentic EDA algorithm exploration |
 | 2026 | arXiv preprint | [Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification](https://arxiv.org/abs/2610.06790) | Post-simulation verification and waveform debugging agents |
@@ -182,6 +222,24 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 | 2026 | arXiv preprint | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | Analog circuit optimization |
 | 2026 | arXiv preprint | [DRCY: Agentic Hardware Design Reviews](https://arxiv.org/abs/2603.15672) | Production PCB schematic design review |
 | 2025 | arXiv preprint | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA flow orchestration |
+
+### New PCB Agent and Multimodal Benchmark Papers
+
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB routing reasoning |
+| 2026 | arXiv preprint | [From Natural Language to Real Schematics: An Automated Workflow for Power Electronics Schematic Synthesis](https://arxiv.org/abs/2610.38201) | Verified power-electronics KiCad schematic synthesis |
+| 2026 | arXiv preprint | [RAC: A Relational Agent Contract for Constraint-Governed Engineering Tasks](https://arxiv.org/abs/2610.20935) | Contract-governed PCB placement, routing, and repair |
+| 2026 | arXiv preprint | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | Tool-interactive PCB agents |
+| 2026 | arXiv preprint | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB layout reasoning |
+| 2026 | arXiv preprint | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB design knowledge evaluation |
+| 2026 | arXiv preprint | [pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements](https://arxiv.org/abs/2606.01188) | Natural-language PCB schematic synthesis in KiCad |
+| 2026 | arXiv preprint | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | Schematic review and reasoning |
+| 2026 | arXiv preprint | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | Board-level schematic benchmark |
+| 2026 | arXiv preprint | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | Multi-agent schematic generation |
+| 2025 | arXiv preprint | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | Analog schematic agent |
+| 2024 | arXiv preprint | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | Netlist-to-schematic conversion |
+| 2024 | arXiv preprint | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | Amplifier schematic design |
 | 2025 | arXiv preprint | [JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation](https://arxiv.org/abs/2505.14978) | EDA script generation |
 | 2024 | arXiv preprint | [Agentic-HLS: An Agentic Reasoning Based High-Level Synthesis System Using Large Language Models](https://arxiv.org/abs/2412.01604) | HLS code and directive generation |
 | 2024 | arXiv preprint | [EDA-Aware RTL Generation with Large Language Models](https://arxiv.org/abs/2412.04485) | RTL generation with synthesis feedback |
@@ -231,24 +289,6 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 - [Pro-CAD](https://github.com/BoYuanVisionary/Pro-CAD) — official code for
   proactive requirements clarification and text-to-CAD generation; no explicit
   repository license was found.
-
-### New PCB Agent and Multimodal Benchmark Papers
-
-| Year | Venue / source | Paper | Workflow |
-|:---:|:---|:---|:---|
-| 2026 | arXiv preprint | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB routing reasoning |
-| 2026 | arXiv preprint | [From Natural Language to Real Schematics: An Automated Workflow for Power Electronics Schematic Synthesis](https://arxiv.org/abs/2610.38201) | Verified power-electronics KiCad schematic synthesis |
-| 2026 | arXiv preprint | [RAC: A Relational Agent Contract for Constraint-Governed Engineering Tasks](https://arxiv.org/abs/2610.20935) | Contract-governed PCB placement, routing, and repair |
-| 2026 | arXiv preprint | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | Tool-interactive PCB agents |
-| 2026 | arXiv preprint | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB layout reasoning |
-| 2026 | arXiv preprint | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB design knowledge evaluation |
-| 2026 | arXiv preprint | [pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements](https://arxiv.org/abs/2606.01188) | Natural-language PCB schematic synthesis in KiCad |
-| 2026 | arXiv preprint | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | Schematic review and reasoning |
-| 2026 | arXiv preprint | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | Board-level schematic benchmark |
-| 2026 | arXiv preprint | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | Multi-agent schematic generation |
-| 2025 | arXiv preprint | [EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) | Analog schematic agent |
-| 2024 | arXiv preprint | [Schemato: An LLM for Netlist-to-Schematic Conversion](https://arxiv.org/abs/2411.13899) | Netlist-to-schematic conversion |
-| 2024 | arXiv preprint | [AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design](https://arxiv.org/abs/2409.14739) | Amplifier schematic design |
 
 ### Commercial EDA Signals
 
@@ -377,7 +417,7 @@ simulation, and drawing/BIM review.
 | 2023 | CAD'23 | [A Procedure for Identifying Planes and Axes of Symmetry Candidates in B-rep CAD Models](https://doi.org/10.14733/cadconfp.2023.297-301) | B-Rep feature and symmetry detection |
 | 2022 | CAD'22 | [Computer-Aided Detection of Exact Reflection and Axisymmetry in B-rep CAD Models](https://doi.org/10.14733/cadconfp.2022.251-256) | B-Rep interface and symmetry analysis |
 
-### Papers
+### Topology Optimization and Structural Design Papers
 
 | Year | Venue | Paper | Workflow |
 |:---:|:---:|:---|:---|
@@ -395,10 +435,34 @@ simulation, and drawing/BIM review.
 | 2022 | SMO | [Accelerated Topology Optimization Design of 3D Structures Based on Deep Learning](https://doi.org/10.1007/s00158-022-03194-0) | 3D structural design |
 | 2021 | Nature Machine Intelligence | [Learning Nonlinear Operators via DeepONet](https://doi.org/10.1038/s42256-021-00302-5) | Simulation surrogate and operator learning |
 
+### CAE and Simulation Agent Papers
+
+| Year | Venue / source | Paper | Workflow |
+|:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](https://arxiv.org/abs/2609.03718) | Single-agent CAE harness ablations on FoamBench |
+| 2025 | arXiv preprint | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | Composable OpenFOAM workflow automation |
+| 2025 | arXiv preprint | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | Autonomous CFD case generation and execution |
+| 2025 | arXiv preprint | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | End-to-end CFD workflow |
+| 2025 | arXiv preprint | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM knowledge and case assistance |
+| 2024 | arXiv preprint | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | Multi-agent OpenFOAM workflow |
+
+### CAE Solver and Feedback-Loop Papers
+
+These papers document recent deterministic solver capabilities that can serve
+as execution and validation backends for structural-engineering agents.
+
+| Year | Venue | Paper | Workflow |
+|:---:|:---:|:---|:---|
+| 2024 | IJHPCA | [High-Performance Finite Elements with MFEM](https://doi.org/10.1177/10943420241261981) | Scalable finite-element execution backend |
+| 2023 | CMC | [Fundamental Study on Fracture Analysis of Concrete Materials Using OpenRadioss](https://doi.org/10.1299/jsmecmd.2023.36.OS-0601) | OpenRadioss concrete-fracture simulation |
+| 2022 | IJHPCA | [Matrix-Free Approaches for GPU Acceleration of a High-Order Finite Element Hydrodynamics Application Using MFEM, Umpire, and RAJA](https://doi.org/10.1177/10943420221100262) | GPU-accelerated simulation feedback |
+| 2021 | CAMWA | [MFEM: A Modular Finite Element Methods Library](https://doi.org/10.1016/j.camwa.2020.06.009) | Modular structural and multiphysics solving |
+
 ### CAD Benchmarks and Reality Checks
 
 | Year | Venue / source | Benchmark | What it tests |
 |:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [Done Is Not Correct: Measuring Silent Failures and Self-Verification Calibration When LLM Agents Take CAD Actions](https://arxiv.org/abs/2611.10063) | CAD action silent-failure and claim-calibration benchmark |
 | 2026 | arXiv preprint | [Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra](https://arxiv.org/abs/2610.24451) | General-purpose AI across CAD understanding, generation, editing, and evaluation |
 | 2026 | arXiv preprint | [LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures](https://arxiv.org/abs/2610.04292) | Buildable and functional assembled structures |
 | 2026 | arXiv preprint | [CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design](https://arxiv.org/abs/2609.16251) | Long-horizon FreeCAD computer use with executable engineering checks |
@@ -499,29 +563,6 @@ manufacturability, and behavior under downstream analysis.
 | [PINNacle](https://github.com/i207M/PINNacle) | Reproducible benchmark for physics-informed neural PDE solvers | MIT |
 | [The Well](https://github.com/PolymathicAI/the_well) | Large-scale physics-simulation datasets for surrogate and foundation models | BSD-3-Clause |
 
-### CAE and Simulation Agent Papers
-
-| Year | Venue / source | Paper | Workflow |
-|:---:|:---|:---|:---|
-| 2026 | arXiv preprint | [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](https://arxiv.org/abs/2609.03718) | Single-agent CAE harness ablations on FoamBench |
-| 2025 | arXiv preprint | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | Composable OpenFOAM workflow automation |
-| 2025 | arXiv preprint | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | Autonomous CFD case generation and execution |
-| 2025 | arXiv preprint | [ChatCFD: An LLM-Driven Agent for End-to-End CFD Automation with Structured Knowledge and Reasoning](https://arxiv.org/abs/2506.02019) | End-to-end CFD workflow |
-| 2025 | arXiv preprint | [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327) | OpenFOAM knowledge and case assistance |
-| 2024 | arXiv preprint | [MetaOpenFOAM: an LLM-based multi-agent framework for CFD](https://arxiv.org/abs/2407.21320) | Multi-agent OpenFOAM workflow |
-
-### CAE Solver and Feedback-Loop Papers
-
-These papers document recent deterministic solver capabilities that can serve
-as execution and validation backends for structural-engineering agents.
-
-| Year | Venue | Paper | Workflow |
-|:---:|:---:|:---|:---|
-| 2024 | IJHPCA | [High-Performance Finite Elements with MFEM](https://doi.org/10.1177/10943420241261981) | Scalable finite-element execution backend |
-| 2023 | CMC | [Fundamental Study on Fracture Analysis of Concrete Materials Using OpenRadioss](https://doi.org/10.1299/jsmecmd.2023.36.OS-0601) | OpenRadioss concrete-fracture simulation |
-| 2022 | IJHPCA | [Matrix-Free Approaches for GPU Acceleration of a High-Order Finite Element Hydrodynamics Application Using MFEM, Umpire, and RAJA](https://doi.org/10.1177/10943420221100262) | GPU-accelerated simulation feedback |
-| 2021 | CAMWA | [MFEM: A Modular Finite Element Methods Library](https://doi.org/10.1016/j.camwa.2020.06.009) | Modular structural and multiphysics solving |
-
 ### Open-Source CAE Agents
 
 | Project | Engineering use | License |
@@ -603,6 +644,9 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 
 | Year | Venue | Paper | Workflow |
 |:---:|:---:|:---|:---|
+| 2026 | ASP-DAC | [Agentic AI Meets Formal Verification in the Era of Agentic Hardware Development](https://arxiv.org/abs/2611.13705) | Formal verification for agentic hardware |
+| 2026 | arXiv | [Will AI mess my RTL? A snapshot-based approach to verifying AI-written RTL](https://arxiv.org/abs/2611.12712) | SVA snapshot regression for AI-written RTL |
+| 2026 | arXiv | [Between Spark and Silicon: Toward Evidence-Carrying Agile Hardware](https://arxiv.org/abs/2611.10025) | Evidence-carrying acceptance of agent RTL changes |
 | 2026 | ASP-DAC | [LLM-Assisted Circuit Verification: A Comprehensive Survey](https://www.cse.cuhk.edu.hk/~byu/papers/C312-ASPDAC2026-Verif-slides.pdf) | Verification survey |
 | 2025 | arXiv | [REvolution: An Evolutionary Framework for RTL Generation](https://arxiv.org/abs/2510.21407) | Iterative RTL generation |
 | 2025 | TODAES | [High-level Synthesis Directives Design Optimization via Large Language Model](https://doi.org/10.1145/3747291) | HLS directive optimization |
@@ -625,6 +669,8 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 
 | Year | Venue / source | Paper | Workflow |
 |:---:|:---|:---|:---|
+| 2026 | arXiv preprint | [Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents](https://arxiv.org/abs/2611.13713) | Tool-grounded RTL optimization and skill reuse |
+| 2026 | arXiv preprint | [Causal Signal Credit Assignment for Verilog Code Generation via Counterfactual Hardware Verification](https://arxiv.org/abs/2611.11848) | Signal-level credit assignment for Verilog training |
 | 2026 | arXiv preprint | [LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation](https://arxiv.org/abs/2610.39570) | CPU design agents with on-board FPGA evaluation |
 | 2026 | arXiv preprint | [LATCH: LLM-Assisted Timing Closure Harness for Post-Route FPGA Optimisation](https://arxiv.org/abs/2610.16625) | LLM-assisted FPGA timing closure |
 | 2026 | arXiv preprint | [BEHAVE: Functional Behavior Modeling Enables Self-Improving Agents for Hardware Design and Verification](https://arxiv.org/abs/2609.34785) | Joint RTL design and verification agents |
