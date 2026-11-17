@@ -41,8 +41,10 @@ Before opening a pull request:
    the table row, with the SPDX identifier when possible. If the repository
    ships no license, write `None (unlicensed)` instead of dropping the entry.
    Do not list a fork separately unless it has material, maintained changes.
-6. Keep paper tables sorted by year, newest first. Keep project tables sorted
-   alphabetically by project name.
+6. Keep every table sorted by the Added column, newest first; keep the
+   previous order (papers year-descending, projects alphabetical) among rows
+   added on the same date. Keep the Added date identical across both language
+   versions of an entry.
 7. Write a factual, one-line description without promotional language.
 8. Check that every new link resolves and that Markdown tables render correctly.
 

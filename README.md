@@ -92,15 +92,15 @@ are relevant to engineering agents.
 | 2026 | arXiv | [Deep learning enables large-scale inverse design of free-form metasurfaces](https://arxiv.org/abs/2610.05021) | Surrogate-accelerated free-form metasurface topology optimization | 2026-11-04 |
 | 2026 | arXiv | [Inverse design of large-scale freeform meta-optics by breaking the memory wall of full-wave simulation](https://arxiv.org/abs/2609.30039) | Large-scale freeform meta-optics inverse design | 2026-10-09 |
 | 2026 | arXiv | [End-to-End Differentiable Design of Geometric Waveguide Displays](https://arxiv.org/abs/2601.04370) | Waveguide-display simulation and optimization | 2026-08-12 |
+| 2024 | SIGGRAPH Asia | [End-to-End Hybrid Refractive-Diffractive Lens Design with Differentiable Ray-Wave Model](https://doi.org/10.1145/3680528.3687640) | Hybrid refractive-diffractive lens optimization | 2026-08-12 |
+| 2024 | Optics Express | [End-to-End Automatic Lens Design with a Differentiable Diffraction Model](https://doi.org/10.1364/OE.540590) | Diffraction-aware lens optimization | 2026-08-12 |
+| 2022 | TCI | [dO: A Differentiable Engine for Deep Lens Design of Computational Imaging Systems](https://doi.org/10.1109/TCI.2022.3212837) | Differentiable geometric-optics engine | 2026-08-12 |
+| 2021 | TOG | [End-to-End Complex Lens Design with Differentiable Ray Tracing](https://doi.org/10.1145/3450626.3459674) | Learned compound-lens design | 2026-08-12 |
 | 2025 | DATE | [MAPS: Multi-Fidelity AI-Augmented Photonic Simulation and Inverse Design Infrastructure](https://arxiv.org/abs/2503.01046) | Photonic simulation and inverse design | 2026-08-11 |
 | 2024 | Advanced Engineering Informatics | [Artificial intelligence in optical lens design](https://doi.org/10.1007/s10462-024-10842-y) | Lens-design survey | 2026-08-11 |
 | 2024 | arXiv | [TorchOptics: An open-source Python library for differentiable Fourier optics](https://arxiv.org/abs/2411.18591) | Differentiable wave optics | 2026-08-11 |
 | 2024 | Nature Communications | [Curriculum learning for ab initio deep learned refractive optics](https://doi.org/10.1038/s41467-024-50835-7) | Automatic lens design | 2026-08-11 |
-| 2024 | SIGGRAPH Asia | [End-to-End Hybrid Refractive-Diffractive Lens Design with Differentiable Ray-Wave Model](https://doi.org/10.1145/3680528.3687640) | Hybrid refractive-diffractive lens optimization | 2026-08-12 |
-| 2024 | Optics Express | [End-to-End Automatic Lens Design with a Differentiable Diffraction Model](https://doi.org/10.1364/OE.540590) | Diffraction-aware lens optimization | 2026-08-12 |
 | 2023 | ASPLOS | [LightRidge: An End-to-end Agile Design Framework for Diffractive Optical Neural Networks](https://doi.org/10.1145/3623278.3624757) | Diffractive optical neural networks | 2026-08-11 |
-| 2022 | TCI | [dO: A Differentiable Engine for Deep Lens Design of Computational Imaging Systems](https://doi.org/10.1109/TCI.2022.3212837) | Differentiable geometric-optics engine | 2026-08-12 |
-| 2021 | TOG | [End-to-End Complex Lens Design with Differentiable Ray Tracing](https://doi.org/10.1145/3450626.3459674) | Learned compound-lens design | 2026-08-12 |
 | 2020 | TOG | [Neural Holography with Camera-in-the-loop Training](https://doi.org/10.1145/3414685.3417802) | Hologram generation and calibration | 2026-08-11 |
 | 2020 | CVPR | [Deep Optics for Single-Shot High-Dynamic-Range Imaging](https://doi.org/10.1109/CVPR42600.2020.00145) | Learned optical coding | 2026-08-11 |
 
@@ -109,10 +109,10 @@ are relevant to engineering agents.
 | Year | Venue / source | Paper | Workflow | Added |
 |:---:|:---|:---|:---| :---: |
 | 2026 | arXiv preprint | [An Agent-Driven, Cross-Validated Inverse-Design Pipeline for Dielectric Metasurfaces](https://arxiv.org/abs/2611.08127) | Coding-agent metasurface inverse design with FDTD cross-validation | 2026-11-17 |
+| 2026 | arXiv preprint | [A Self-Evolving Agentic Framework for Metasurface Inverse Design](https://arxiv.org/abs/2604.01480) | Skill-evolving coding agent for metasurface inverse design | 2026-11-04 |
 | 2026 | arXiv preprint | [LensDesigner: A Self-Improving Agent for Optical Lens Design](https://arxiv.org/abs/2609.30450) | Self-improving lens design agent with retrieval-seeded starts | 2026-10-09 |
 | 2026 | arXiv preprint | [Photonics-GCCE: Group Collaborative-Competitive Evolution Multi-Agent Framework for Universal and Autonomous Optical Design](https://arxiv.org/abs/2609.28045) | Competitive multi-agent photonic design | 2026-10-09 |
 | 2026 | arXiv preprint | [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) | Multi-agent optimization modeling | 2026-08-12 |
-| 2026 | arXiv preprint | [A Self-Evolving Agentic Framework for Metasurface Inverse Design](https://arxiv.org/abs/2604.01480) | Skill-evolving coding agent for metasurface inverse design | 2026-11-04 |
 | 2026 | arXiv preprint | [OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design](https://arxiv.org/abs/2602.23761) | Physics-validated optical design agent | 2026-08-11 |
 
 ### Open-Source Projects
@@ -150,19 +150,19 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 
 | Year | Venue | Paper | Workflow | Added |
 |:---:|:---:|:---|:---| :---: |
-| 2026 | arXiv | [SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations](https://arxiv.org/abs/2605.30345) | Schematic generation | 2026-08-11 |
-| 2026 | arXiv | [PCBSchemaGen: Constraint-Guided Schematic Design via LLM](https://arxiv.org/abs/2602.00510) | Constraint-guided schematic design | 2026-08-11 |
-| 2026 | ICLR | [PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing](https://jdzhu19.github.io/publication/conference_2026iclr_li/conference_2026ICLR_Li.pdf) | PCB placement and routing benchmark | 2026-08-11 |
 | 2026 | ESWA | [Automation of PCB Autorouting via World-Model Reinforcement Learning and Freerouting Integration](https://doi.org/10.1016/j.eswa.2026.131424) | Freerouting-grounded PCB routing loop | 2026-08-12 |
-| 2024 | IEEE | [AI-Optimized Placement and Routing for PCB Design](https://ieeexplore.ieee.org/document/10568665) | PCB placement and routing | 2026-08-11 |
 | 2024 | MLCAD | [OpenROAD-Assistant: An Open-Source Large Language Model for Physical Design Tasks](https://doi.org/10.1145/3670474.3685960) | OpenROAD knowledge and script assistance | 2026-08-12 |
 | 2024 | MLCAD | [An ML-aided Approach to Automatically Generate Schematic Symbols in PCB EDA Tools](https://doi.org/10.1145/3670474.3685944) | PCB schematic-symbol generation | 2026-08-12 |
 | 2024 | ICCCAS | [Reinforcement Learning-Based Placement Method for Printed Circuit Board](https://doi.org/10.1109/ICCCAS62034.2024.10652635) | PCB component placement | 2026-08-12 |
+| 2023 | ISPD | [Goal Driven PCB Synthesis Using Machine Learning and CloudScale Compute](https://doi.org/10.1145/3569052.3578907) | Constraint-driven PCB synthesis | 2026-08-12 |
+| 2026 | arXiv | [SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations](https://arxiv.org/abs/2605.30345) | Schematic generation | 2026-08-11 |
+| 2026 | arXiv | [PCBSchemaGen: Constraint-Guided Schematic Design via LLM](https://arxiv.org/abs/2602.00510) | Constraint-guided schematic design | 2026-08-11 |
+| 2026 | ICLR | [PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing](https://jdzhu19.github.io/publication/conference_2026iclr_li/conference_2026ICLR_Li.pdf) | PCB placement and routing benchmark | 2026-08-11 |
+| 2024 | IEEE | [AI-Optimized Placement and Routing for PCB Design](https://ieeexplore.ieee.org/document/10568665) | PCB placement and routing | 2026-08-11 |
 | 2024 | arXiv | [LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation](https://arxiv.org/abs/2401.12224) | EDA survey | 2026-08-11 |
 | 2024 | arXiv | [CadVLM: Bridging Language and Vision in the Generation of Parametric CAD](https://arxiv.org/abs/2409.17457) | Drawing and CAD understanding | 2026-08-11 |
 | 2023 | TCAD | [TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks](https://ieeexplore.ieee.org/abstract/document/10042057) | Thermal-aware routing | 2026-08-11 |
 | 2023 | ASP-DAC | [DPRoute: Deep Learning Framework for Package Routing](https://doi.org/10.1145/3566097.3567902) | Package and board routing | 2026-08-11 |
-| 2023 | ISPD | [Goal Driven PCB Synthesis Using Machine Learning and CloudScale Compute](https://doi.org/10.1145/3569052.3578907) | Constraint-driven PCB synthesis | 2026-08-12 |
 | 2023 | NeurIPS Workshop | [CAD-LLM: Large Language Model for CAD Generation](https://neurips.cc/virtual/2023/75064) | Text-to-CAD | 2026-08-11 |
 | 2022 | DAC | [Automated Accelerator Optimization Aided by Graph Neural Networks](https://doi.org/10.1145/3489517.3530409) | Hardware design-space exploration | 2026-08-11 |
 | 2022 | ML4CAD | [A Thermal Machine Learning Solver for Chip Simulation](https://doi.org/10.1145/3551901.3556484) | Thermal simulation | 2026-08-11 |
@@ -181,24 +181,24 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 | 2026 | arXiv preprint | [The Era of Vibe Tapeout: Dark Age or Golden Age for Analog Circuit Design?](https://arxiv.org/abs/2610.15240) | Analog schematic-to-layout tapeout agents | 2026-11-04 |
 | 2026 | arXiv preprint | [When Algorithmic Exploration Becomes Cheap: A Case Study of Agentic Research in EDA](https://arxiv.org/abs/2610.10129) | Agentic EDA algorithm exploration | 2026-10-09 |
 | 2026 | arXiv preprint | [Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification](https://arxiv.org/abs/2610.06790) | Post-simulation verification and waveform debugging agents | 2026-10-09 |
+| 2026 | arXiv preprint | [DRCY: Agentic Hardware Design Reviews](https://arxiv.org/abs/2603.15672) | Production PCB schematic design review | 2026-10-09 |
 | 2026 | arXiv preprint | [ZhuLong: Execution-Grounded LLM Agent for EDA Scripting with Offline API Self-Exploration](https://arxiv.org/abs/2608.07925) | EDA scripting agent | 2026-08-12 |
 | 2026 | arXiv preprint | [EDATracer: An Agentic Framework for Large-Scale EDA Artifact Analysis](https://arxiv.org/abs/2608.04032) | EDA artifact review | 2026-08-12 |
 | 2026 | arXiv preprint | [Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows](https://arxiv.org/abs/2607.17528) | End-to-end RTL-to-GDS agents | 2026-08-12 |
 | 2026 | arXiv preprint | [SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows](https://arxiv.org/abs/2607.03701) | Analog circuit optimization | 2026-08-12 |
-| 2026 | arXiv preprint | [DRCY: Agentic Hardware Design Reviews](https://arxiv.org/abs/2603.15672) | Production PCB schematic design review | 2026-10-09 |
 | 2025 | arXiv preprint | [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) | EDA flow orchestration | 2026-08-12 |
 
 ### New PCB Agent and Multimodal Benchmark Papers
 
 | Year | Venue / source | Paper | Workflow | Added |
 |:---:|:---|:---|:---| :---: |
-| 2026 | arXiv preprint | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB routing reasoning | 2026-08-12 |
 | 2026 | arXiv preprint | [From Natural Language to Real Schematics: An Automated Workflow for Power Electronics Schematic Synthesis](https://arxiv.org/abs/2610.38201) | Verified power-electronics KiCad schematic synthesis | 2026-11-04 |
 | 2026 | arXiv preprint | [RAC: A Relational Agent Contract for Constraint-Governed Engineering Tasks](https://arxiv.org/abs/2610.20935) | Contract-governed PCB placement, routing, and repair | 2026-11-04 |
+| 2026 | arXiv preprint | [pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements](https://arxiv.org/abs/2606.01188) | Natural-language PCB schematic synthesis in KiCad | 2026-10-09 |
+| 2026 | arXiv preprint | [OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing](https://arxiv.org/abs/2608.04434) | PCB routing reasoning | 2026-08-12 |
 | 2026 | arXiv preprint | [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915) | Tool-interactive PCB agents | 2026-08-12 |
 | 2026 | arXiv preprint | [OmniLayout: A Schematic-Coupled Multimodal Benchmark for Constraint-Aware Geometric Reasoning in PCB Layout](https://arxiv.org/abs/2607.03261) | PCB layout reasoning | 2026-08-12 |
 | 2026 | arXiv preprint | [PCB-QA: Evaluating LLMs over the First Printed Circuit Board Design Question-Answer Dataset](https://arxiv.org/abs/2606.23704) | PCB design knowledge evaluation | 2026-08-12 |
-| 2026 | arXiv preprint | [pcbGPT: Automatic PCB Schematic Synthesis from Natural Language Requirements](https://arxiv.org/abs/2606.01188) | Natural-language PCB schematic synthesis in KiCad | 2026-10-09 |
 | 2026 | arXiv preprint | [OmniSch: A Multimodal PCB Schematic Benchmark for Structured Diagram Visual Reasoning](https://arxiv.org/abs/2604.00270) | Schematic review and reasoning | 2026-08-12 |
 | 2026 | arXiv preprint | [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102) | Board-level schematic benchmark | 2026-08-12 |
 | 2026 | arXiv preprint | [CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts](https://arxiv.org/abs/2601.04505) | Multi-agent schematic generation | 2026-08-12 |
@@ -217,20 +217,20 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 
 | Project | Engineering use | License | Added |
 |:---|:---|:---:| :---: |
-| [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | Analog schematic-to-layout automation | BSD-3-Clause | 2026-08-11 |
 | [Backplane](https://github.com/BackplaneWorks/Backplane) | Agentic hardware workspace with KiCad/FreeCAD viewers and KiCad IPC APIs for agent edits | MIT | 2026-11-04 |
 | [BEHAVE](https://github.com/joel-wu/BEHAVE) | Joint RTL and behavior-model design, verification, and self-improvement agents with an executable simulator | None (unlicensed) | 2026-11-04 |
+| [PCBWorld](https://github.com/LGAI-Research/PCBWorld) | KiCad-grounded RL and LLM agent environment for PCB routing with engine DRC feedback | BSD-3-Clause (engine GPLv3) | 2026-10-09 |
 | [CircuitLM](https://github.com/Khandakar227/circuitlm) | Multi-agent natural-language-to-schematic generation | MIT | 2026-08-12 |
+| [KiCad MCP](https://github.com/lamaalrajih/kicad-mcp) | Agent access to KiCad schematics, boards, footprints, and design checks | MIT | 2026-08-12 |
+| [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | Analog schematic-to-layout automation | BSD-3-Clause | 2026-08-11 |
 | [DeepPCB KiCad plugin](https://github.com/instadeepai/deeppcb-kicad-plugin) | AI-assisted PCB layout workflows in KiCad | Apache-2.0 | 2026-08-11 |
 | [DREAMPlace](https://github.com/limbo018/DREAMPlace) | GPU-accelerated placement optimization | BSD-3-Clause | 2026-08-11 |
 | [KiCad](https://github.com/KiCad/kicad-source-mirror) | Schematic capture, PCB layout, DRC, and 3D inspection foundation | GPL-3.0 | 2026-08-11 |
 | [KiCad Copilot](https://github.com/biosshot/kicad-copilot) | LLM assistant for KiCad projects | MIT | 2026-08-11 |
-| [KiCad MCP](https://github.com/lamaalrajih/kicad-mcp) | Agent access to KiCad schematics, boards, footprints, and design checks | MIT | 2026-08-12 |
 | [MAGICAL](https://github.com/magical-eda/MAGICAL) | Machine-learning-assisted analog layout | BSD-3-Clause | 2026-08-11 |
 | [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | Automated RTL-to-GDS design flow | Apache-2.0 | 2026-08-11 |
 | [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | Placement, routing, timing, and physical-design automation | BSD-3-Clause | 2026-08-11 |
 | [PCBFlow](https://github.com/NijoP/pcbflow) | Programmatic PCB generation and layout | MIT | 2026-08-11 |
-| [PCBWorld](https://github.com/LGAI-Research/PCBWorld) | KiCad-grounded RL and LLM agent environment for PCB routing with engine DRC feedback | BSD-3-Clause (engine GPLv3) | 2026-10-09 |
 | [SchGen](https://github.com/microsoft/SchGen) | Semantic-grounded-code PCB schematic generation | MIT | 2026-08-11 |
 
 ### Agent Toolchain Components
@@ -445,11 +445,11 @@ manufacturability, and behavior under downstream analysis.
 
 | Project | Engineering use | License | Added |
 |:---|:---|:---:| :---: |
+| [SolidWorks GPT Plugin](https://github.com/Erfouni/solidworks-GPT-plugin) | Codex agent skills for SolidWorks that confirm units, tolerances and design rules before modeling and gate delivery on rebuild, mass and bounding-box validation | MIT | 2026-10-04 |
 | [AgentSCAD](https://github.com/Kevoyuan/AgentSCAD) | Generates and repairs OpenSCAD models with geometry and manufacturability validation | MIT | 2026-08-12 |
 | [CADAM](https://github.com/Adam-CAD/CADAM) | Converts text or images into editable parametric OpenSCAD, STL, and DXF artifacts | GPL-3.0 | 2026-08-12 |
 | [CAD Skills](https://github.com/earthtojake/text-to-cad) | Agent skills for generating, inspecting, modifying, and validating CAD/CAE/CAM artifacts | MIT | 2026-08-12 |
 | [FreeCAD AI](https://github.com/ghbalf/freecad-ai) | Conversational FreeCAD workbench that generates native geometry through Python | LGPL-2.1 | 2026-08-12 |
-| [SolidWorks GPT Plugin](https://github.com/Erfouni/solidworks-GPT-plugin) | Codex agent skills for SolidWorks that confirm units, tolerances and design rules before modeling and gate delivery on rebuild, mass and bounding-box validation | MIT | 2026-10-04 |
 
 ### Creo Automation and Assembly Toolchain
 
@@ -640,16 +640,16 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 | 2026 | arXiv preprint | [LATCH: LLM-Assisted Timing Closure Harness for Post-Route FPGA Optimisation](https://arxiv.org/abs/2610.16625) | LLM-assisted FPGA timing closure | 2026-11-04 |
 | 2026 | arXiv preprint | [BEHAVE: Functional Behavior Modeling Enables Self-Improving Agents for Hardware Design and Verification](https://arxiv.org/abs/2609.34785) | Joint RTL design and verification agents | 2026-10-09 |
 | 2026 | arXiv preprint | [Can Agents Design Better Chips with a Higher Level Abstraction?](https://arxiv.org/abs/2609.21157) | Agent-based HLS with post-HLS RTL refinement | 2026-10-09 |
+| 2026 | arXiv preprint | [RTLScout: Joint Agentic Code and Synthesis Optimization for Efficient Digital Circuits](https://arxiv.org/abs/2606.06530) | Agentic RTL rewriting and synthesis optimization | 2026-10-09 |
+| 2026 | arXiv preprint | [ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs](https://arxiv.org/abs/2602.10218) | RTL-specialized LLM with agentic debugging | 2026-10-09 |
 | 2026 | arXiv preprint | [HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation](https://arxiv.org/abs/2608.06791) | C/C++ to HLS translation | 2026-08-12 |
 | 2026 | arXiv preprint | [VPR-Evolve: Multi-Agent-Driven Algorithm Evolution for FPGA Place and Route](https://arxiv.org/abs/2607.24998) | FPGA place-and-route optimization | 2026-08-12 |
 | 2026 | arXiv preprint | [CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-design Research](https://arxiv.org/abs/2606.27350) | Hardware/software co-design agents | 2026-08-12 |
-| 2026 | arXiv preprint | [RTLScout: Joint Agentic Code and Synthesis Optimization for Efficient Digital Circuits](https://arxiv.org/abs/2606.06530) | Agentic RTL rewriting and synthesis optimization | 2026-10-09 |
 | 2026 | arXiv preprint | [HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip](https://arxiv.org/abs/2605.19399) | SoC co-design benchmark | 2026-08-12 |
 | 2026 | arXiv preprint | [Design Conductor 2.0: An Agent Builds a TurboQuant Inference Accelerator in 80 Hours](https://arxiv.org/abs/2605.05170) | Accelerator design agent | 2026-08-12 |
 | 2026 | arXiv preprint | [ChipCraftBrain: Validation-First RTL Generation via Multi-Agent Orchestration](https://arxiv.org/abs/2604.19856) | Multi-agent RTL generation | 2026-08-12 |
 | 2026 | arXiv preprint | [Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement](https://arxiv.org/abs/2604.14989) | RTL optimization agent | 2026-08-12 |
 | 2026 | arXiv preprint | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | PPA-aware RTL generation | 2026-08-12 |
-| 2026 | arXiv preprint | [ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs](https://arxiv.org/abs/2602.10218) | RTL-specialized LLM with agentic debugging | 2026-10-09 |
 | 2026 | arXiv preprint | [LAAFD: LLM-based Agents for Accelerated FPGA Design](https://arxiv.org/abs/2602.06085) | FPGA design automation | 2026-08-12 |
 | 2025 | arXiv preprint | [A2H-MAS: An Algorithm-to-HLS Multi-Agent System for Automated and Reliable FPGA Implementation](https://arxiv.org/abs/2508.10904) | Algorithm-to-HLS implementation | 2026-08-12 |
 | 2025 | arXiv preprint | [TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) | Timing-aware HLS optimization | 2026-08-12 |
@@ -674,6 +674,7 @@ agents.
 
 | Project | Engineering use | License | Added |
 |:---|:---|:---:| :---: |
+| [RTLScout](https://github.com/huawei-csl/rtlscout) | Agentic RTL rewriting with synthesis-feedback optimization and the Spire HDL | BSD-3-Clause-Clear | 2026-11-04 |
 | [AHRR](https://github.com/ZijD/AHRR) | Agent-based HLS design with post-HLS RTL refinement harness and 11-task FPGA benchmark | MIT | 2026-10-09 |
 | [Brevitas](https://github.com/Xilinx/brevitas) | Quantization-aware training for FPGA deployment | BSD-3-Clause | 2026-08-11 |
 | [CIRCT](https://github.com/llvm/circt) | MLIR-based RTL and hardware compilation infrastructure | Apache-2.0 WITH LLVM exception | 2026-08-11 |
@@ -682,7 +683,6 @@ agents.
 | [FPGA-Agent-skills](https://github.com/adeleempurpled290/FPGA-Agent-skills) | Guided HLS, simulation, synthesis, timing, and debug skills | GPL-2.0 | 2026-08-11 |
 | [hls4ml](https://github.com/fastmachinelearning/hls4ml) | Converts trained models to HLS implementations | Apache-2.0 | 2026-08-11 |
 | [nextpnr](https://github.com/YosysHQ/nextpnr) | FPGA place-and-route backend used by open flows | ISC | 2026-08-11 |
-| [RTLScout](https://github.com/huawei-csl/rtlscout) | Agentic RTL rewriting with synthesis-feedback optimization and the Spire HDL | BSD-3-Clause-Clear | 2026-11-04 |
 | [SiliconCompiler](https://github.com/siliconcompiler/siliconcompiler) | Portable synthesis, simulation, and FPGA APR orchestration | Apache-2.0 | 2026-08-11 |
 | [TAPA](https://github.com/tuna/tapa) | Task-parallel HLS to RTL and software/RTL co-simulation | MIT | 2026-08-11 |
 | [Verilator](https://github.com/verilator/verilator) | Fast SystemVerilog simulation and linting for generated RTL | LGPL-3.0 | 2026-08-11 |
@@ -723,7 +723,8 @@ before opening a pull request.
 3. Prefer official proceedings, DOI, arXiv, and canonical repositories.
 4. List each project's license in the open-source table row. If the repository
    ships no license, write `None (unlicensed)` instead of dropping the entry.
-5. Keep papers newest first and projects alphabetically sorted within each table.
+5. Sort rows by the Added column, newest first; among rows added on the same
+   date, keep papers year-descending and projects alphabetical.
 6. Include the engineering artifact being generated, analyzed, checked, or
    optimized (for example RTL, PCB routing, stress field, or lens parameters).
 
