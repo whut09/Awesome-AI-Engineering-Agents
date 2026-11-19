@@ -386,6 +386,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 | 收录日期 |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv 预印本 | [AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing](https://arxiv.org/abs/2602.17607) | 从自然语言描述出发，自动设计、实现并验证经典数值 PDE 求解器 | 2026-11-19 |
 | 2026 | arXiv 预印本 | [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](https://arxiv.org/abs/2609.03718) | FoamBench 上单智能体 CAE 框架消融 | 2026-10-09 |
 | 2025 | arXiv 预印本 | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | 可组合的 OpenFOAM 工作流自动化 | 2026-08-12 |
 | 2025 | arXiv 预印本 | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | 自主生成并执行 CFD 算例 | 2026-08-12 |

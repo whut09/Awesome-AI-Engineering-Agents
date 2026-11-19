@@ -404,6 +404,7 @@ simulation, and drawing/BIM review.
 
 | Year | Venue / source | Paper | Workflow | Added |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv preprint | [AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing](https://arxiv.org/abs/2602.17607) | Multi-agent design, coding, and residual-based verification of classical numerical PDE solvers | 2026-11-19 |
 | 2026 | arXiv preprint | [What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](https://arxiv.org/abs/2609.03718) | Single-agent CAE harness ablations on FoamBench | 2026-10-09 |
 | 2025 | arXiv preprint | [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) | Composable OpenFOAM workflow automation | 2026-08-12 |
 | 2025 | arXiv preprint | [CFDagent: A Language-Guided, Zero-Shot Multi-Agent System for Complex Flow Simulation](https://arxiv.org/abs/2507.23693) | Autonomous CFD case generation and execution | 2026-08-12 |
