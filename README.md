@@ -174,6 +174,8 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 
 | Year | Venue / source | Paper | Workflow | Added |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv preprint | [SiliconGym: A Versatile Reinforcement Learning Environment for Agentic EDA](https://arxiv.org/abs/2611.25658) | Cross-task RL environment for hardware design and verification | 2026-11-21 |
+| 2026 | arXiv preprint | [PVTSizing 2.0: A Fast and Reliable Analog Circuit Sizing Operator for Agentic EDA Workflows](https://arxiv.org/abs/2611.22328) | Agentic analog sizing with PVT-corner optimizer | 2026-11-21 |
 | 2026 | arXiv preprint | [Run, Read Back, Refine: Observation Fidelity in Execution-Grounded EDA Agents](https://arxiv.org/abs/2611.19056) | Execution-grounded EDA scripting across SKILL and Tcl | 2026-11-17 |
 | 2026 | arXiv preprint | [ChipOmni: A General-Purpose AI Agent for Electronic Design Automation](https://arxiv.org/abs/2611.13020) | Closed-loop EDA agent from specification to GDSII | 2026-11-17 |
 | 2026 | arXiv preprint | [ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design](https://arxiv.org/abs/2611.12982) | Custom analog layout agent benchmark | 2026-11-17 |
@@ -217,6 +219,9 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 
 | Project | Engineering use | License | Added |
 |:---|:---|:---:| :---: |
+| [Copper](https://github.com/claynicholson/copper-kicad-mcp) | MCP server with 31 tools for KiCad schematic, parts, routing, ERC/DRC, and fab-file export | MIT | 2026-11-21 |
+| [Copperhead](https://github.com/copperheadhq/copperhead) | Spec- and verification-gated AI agent for KiCad PCB design, documentation, and ERC/DRC checks | Apache-2.0 | 2026-11-21 |
+| [KiCad Happy](https://github.com/aklofas/kicad-happy) | Agent skills and analyzers for KiCad schematic/PCB review, EMC, SPICE, sourcing, and fabrication | MIT | 2026-11-21 |
 | [Backplane](https://github.com/BackplaneWorks/Backplane) | Agentic hardware workspace with KiCad/FreeCAD viewers and KiCad IPC APIs for agent edits | MIT | 2026-11-04 |
 | [BEHAVE](https://github.com/joel-wu/BEHAVE) | Joint RTL and behavior-model design, verification, and self-improvement agents with an executable simulator | None (unlicensed) | 2026-11-04 |
 | [PCBWorld](https://github.com/LGAI-Research/PCBWorld) | KiCad-grounded RL and LLM agent environment for PCB routing with engine DRC feedback | BSD-3-Clause (engine GPLv3) | 2026-10-09 |
@@ -276,6 +281,7 @@ simulation, and drawing/BIM review.
 
 | Year | Venue / source | Paper | Workflow | Added |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv preprint | [AI agents can redesign engineering parts with more than a thousand CAD parameters and nonlinear simulations](https://arxiv.org/abs/2611.26003) | Simulation-driven redesign of 1650-parameter CAD parts | 2026-11-21 |
 | 2026 | arXiv preprint | [Can It Actually Work? Synthesizing Functional CAD Mechanisms](https://arxiv.org/abs/2610.26861) | Simulation-verified functional CAD mechanism synthesis | 2026-11-04 |
 | 2026 | arXiv preprint | [Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling](https://arxiv.org/abs/2609.22688) | Visual agent harness for parametric CAD modeling | 2026-10-09 |
 | 2026 | arXiv preprint | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | State-aware CAD repair | 2026-08-12 |
@@ -337,6 +343,7 @@ simulation, and drawing/BIM review.
 
 | Year | Venue / source | Paper | Workflow | Added |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv preprint | [CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use](https://arxiv.org/abs/2610.09127) | Tool-coordinated parametric CAD reconstruction from meshes | 2026-11-21 |
 | 2026 | arXiv preprint | [Rethinking Human Intent-to-CAD: Parametric CAD Model Generation via Cooperative Multi-Task Alignment and Spatial-Aware Reinforcement Learning](https://arxiv.org/abs/2610.15681) | Sketch-and-text to parametric CAD code | 2026-11-04 |
 | 2026 | arXiv preprint | [VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence](https://arxiv.org/abs/2609.03811) | Industrial part-level and assembly-level CAD generation | 2026-10-09 |
 | 2026 | arXiv preprint | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | Stepwise mesh-to-parametric-CAD reconstruction | 2026-08-12 |
@@ -609,6 +616,7 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 
 | Year | Venue | Paper | Workflow | Added |
 |:---:|:---:|:---|:---| :---: |
+| 2026 | ICLAD | [Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity](https://arxiv.org/abs/2611.23905) | Inference-time scaling for UVM testbench synthesis | 2026-11-21 |
 | 2026 | ASP-DAC | [Agentic AI Meets Formal Verification in the Era of Agentic Hardware Development](https://arxiv.org/abs/2611.13705) | Formal verification for agentic hardware | 2026-11-17 |
 | 2026 | arXiv | [Will AI mess my RTL? A snapshot-based approach to verifying AI-written RTL](https://arxiv.org/abs/2611.12712) | SVA snapshot regression for AI-written RTL | 2026-11-17 |
 | 2026 | arXiv | [Between Spark and Silicon: Toward Evidence-Carrying Agile Hardware](https://arxiv.org/abs/2611.10025) | Evidence-carrying acceptance of agent RTL changes | 2026-11-17 |
@@ -634,6 +642,7 @@ place-and-route, timing prediction, and bitstream-oriented agent workflows.
 
 | Year | Venue / source | Paper | Workflow | Added |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv preprint | [Meta-RTL: Evolving Agent Harnesses for RTL Optimization](https://arxiv.org/abs/2611.25891) | Evolved RTL optimization harnesses | 2026-11-21 |
 | 2026 | arXiv preprint | [Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents](https://arxiv.org/abs/2611.13713) | Tool-grounded RTL optimization and skill reuse | 2026-11-17 |
 | 2026 | arXiv preprint | [Causal Signal Credit Assignment for Verilog Code Generation via Counterfactual Hardware Verification](https://arxiv.org/abs/2611.11848) | Signal-level credit assignment for Verilog training | 2026-11-17 |
 | 2026 | arXiv preprint | [LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation](https://arxiv.org/abs/2610.39570) | CPU design agents with on-board FPGA evaluation | 2026-11-04 |

@@ -160,6 +160,8 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 | 收录日期 |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv 预印本 | [SiliconGym: A Versatile Reinforcement Learning Environment for Agentic EDA](https://arxiv.org/abs/2611.25658) | 跨任务硬件设计与验证 RL 环境 | 2026-11-21 |
+| 2026 | arXiv 预印本 | [PVTSizing 2.0: A Fast and Reliable Analog Circuit Sizing Operator for Agentic EDA Workflows](https://arxiv.org/abs/2611.22328) | 带 PVT 工艺角优化器的模拟电路智能体尺寸设计 | 2026-11-21 |
 | 2026 | arXiv 预印本 | [Run, Read Back, Refine: Observation Fidelity in Execution-Grounded EDA Agents](https://arxiv.org/abs/2611.19056) | 执行接地 EDA 脚本智能体（SKILL/Tcl） | 2026-11-17 |
 | 2026 | arXiv 预印本 | [ChipOmni: A General-Purpose AI Agent for Electronic Design Automation](https://arxiv.org/abs/2611.13020) | 从规格到 GDSII 的闭环 EDA 智能体 | 2026-11-17 |
 | 2026 | arXiv 预印本 | [ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design](https://arxiv.org/abs/2611.12982) | 定制模拟版图智能体基准 | 2026-11-17 |
@@ -203,6 +205,9 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 项目 | 工程用途 | 许可证 | 收录日期 |
 |:---|:---|:---:| :---: |
+| [Copper](https://github.com/claynicholson/copper-kicad-mcp) | 31 个 KiCad MCP 工具：原理图、元件、布线、ERC/DRC 与制造文件导出 | MIT | 2026-11-21 |
+| [Copperhead](https://github.com/copperheadhq/copperhead) | 规格与验证双门禁的 KiCad PCB 设计、文档与 ERC/DRC 智能体 | Apache-2.0 | 2026-11-21 |
+| [KiCad Happy](https://github.com/aklofas/kicad-happy) | KiCad 原理图/PCB 审查、EMC、SPICE、选型与制造准备的技能与分析器 | MIT | 2026-11-21 |
 | [Backplane](https://github.com/BackplaneWorks/Backplane) | 智能体硬件开发工作台，带 KiCad/FreeCAD 查看器与供智能体编辑的 KiCad IPC API | MIT | 2026-11-04 |
 | [BEHAVE](https://github.com/joel-wu/BEHAVE) | RTL 与行为模型联合设计、验证与自改进智能体，带可执行仿真器 | 无许可证 | 2026-11-04 |
 | [PCBWorld](https://github.com/LGAI-Research/PCBWorld) | 基于 KiCad 引擎、带 DRC 反馈的 RL 与 LLM 智能体 PCB 布线环境 | BSD-3-Clause（引擎为 GPLv3） | 2026-10-09 |
@@ -258,6 +263,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 | 收录日期 |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv 预印本 | [AI agents can redesign engineering parts with more than a thousand CAD parameters and nonlinear simulations](https://arxiv.org/abs/2611.26003) | 1650 个 CAD 参数的仿真驱动零件重设计 | 2026-11-21 |
 | 2026 | arXiv 预印本 | [Can It Actually Work? Synthesizing Functional CAD Mechanisms](https://arxiv.org/abs/2610.26861) | 仿真验证的功能性 CAD 机构综合 | 2026-11-04 |
 | 2026 | arXiv 预印本 | [Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling](https://arxiv.org/abs/2609.22688) | 参数化 CAD 建模的视觉智能体框架 | 2026-10-09 |
 | 2026 | arXiv 预印本 | [RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation](https://arxiv.org/abs/2608.05714) | 状态感知的 CAD 修复 | 2026-08-12 |
@@ -319,6 +325,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 | 收录日期 |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv 预印本 | [CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use](https://arxiv.org/abs/2610.09127) | 多工具协同的网格到参数化 CAD 重建 | 2026-11-21 |
 | 2026 | arXiv 预印本 | [Rethinking Human Intent-to-CAD: Parametric CAD Model Generation via Cooperative Multi-Task Alignment and Spatial-Aware Reinforcement Learning](https://arxiv.org/abs/2610.15681) | 草图与文本到参数化 CAD 代码 | 2026-11-04 |
 | 2026 | arXiv 预印本 | [VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence](https://arxiv.org/abs/2609.03811) | 工业级零件与装配体 CAD 生成 | 2026-10-09 |
 | 2026 | arXiv 预印本 | [CADENA: Stepwise CAD Reverse Engineering](https://arxiv.org/abs/2608.00799) | 从网格逐步重建参数化 CAD | 2026-08-12 |
@@ -580,6 +587,7 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 
 | 年份 | 会议/期刊 | 论文 | 工程流程 | 收录日期 |
 |:---:|:---:|:---|:---| :---: |
+| 2026 | ICLAD | [Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity](https://arxiv.org/abs/2611.23905) | UVM 测试平台合成的推理时扩展 | 2026-11-21 |
 | 2026 | ASP-DAC | [Agentic AI Meets Formal Verification in the Era of Agentic Hardware Development](https://arxiv.org/abs/2611.13705) | 面向智能体硬件的形式验证 | 2026-11-17 |
 | 2026 | arXiv | [Will AI mess my RTL? A snapshot-based approach to verifying AI-written RTL](https://arxiv.org/abs/2611.12712) | AI 生成 RTL 的 SVA 快照回归验证 | 2026-11-17 |
 | 2026 | arXiv | [Between Spark and Silicon: Toward Evidence-Carrying Agile Hardware](https://arxiv.org/abs/2611.10025) | 智能体 RTL 变更的证据化验收 | 2026-11-17 |
@@ -605,6 +613,7 @@ AI 与传统基础工具的区分、基于成熟度的筛选方式，以及部�
 
 | 年份 | 期刊/来源 | 论文 | 工程流程 | 收录日期 |
 |:---:|:---|:---|:---| :---: |
+| 2026 | arXiv 预印本 | [Meta-RTL: Evolving Agent Harnesses for RTL Optimization](https://arxiv.org/abs/2611.25891) | 可进化的 RTL 优化智能体框架 | 2026-11-21 |
 | 2026 | arXiv 预印本 | [Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents](https://arxiv.org/abs/2611.13713) | 工具接地的 RTL 优化与技能复用 | 2026-11-17 |
 | 2026 | arXiv 预印本 | [Causal Signal Credit Assignment for Verilog Code Generation via Counterfactual Hardware Verification](https://arxiv.org/abs/2611.11848) | 反事实硬件验证的 Verilog 信号级信用分配 | 2026-11-17 |
 | 2026 | arXiv 预印本 | [LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation](https://arxiv.org/abs/2610.39570) | 带板上 FPGA 评测的 CPU 设计智能体 | 2026-11-04 |
