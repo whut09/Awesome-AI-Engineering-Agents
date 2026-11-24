@@ -219,6 +219,7 @@ generation and implementation are in [FPGA Engineering](#fpga-engineering).
 
 | Project | Engineering use | License | Added |
 |:---|:---|:---:| :---: |
+| [pcb-layout-llm](https://github.com/Ssbullock/pcb-layout-llm) | Fine-tuned Qwen2.5-Coder-32B LoRA (SFT + GRPO) for KiCad PCB architectural planning, routing-strategy generation, and a 23-board blind benchmark | None (unlicensed) | 2026-11-24 |
 | [Copper](https://github.com/claynicholson/copper-kicad-mcp) | MCP server with 31 tools for KiCad schematic, parts, routing, ERC/DRC, and fab-file export | MIT | 2026-11-21 |
 | [Copperhead](https://github.com/copperheadhq/copperhead) | Spec- and verification-gated AI agent for KiCad PCB design, documentation, and ERC/DRC checks | Apache-2.0 | 2026-11-21 |
 | [KiCad Happy](https://github.com/aklofas/kicad-happy) | Agent skills and analyzers for KiCad schematic/PCB review, EMC, SPICE, sourcing, and fabrication | MIT | 2026-11-21 |

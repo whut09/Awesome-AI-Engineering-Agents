@@ -205,6 +205,7 @@ RTL 生成、功能验证、HLS、综合、时序收敛以及 FPGA 布局布线�
 
 | 项目 | 工程用途 | 许可证 | 收录日期 |
 |:---|:---|:---:| :---: |
+| [pcb-layout-llm](https://github.com/Ssbullock/pcb-layout-llm) | 微调 Qwen2.5-Coder-32B LoRA（SFT + GRPO），用于 KiCad PCB 架构规划、布线策略生成与 23 板盲测基准 | 无许可证 | 2026-11-24 |
 | [Copper](https://github.com/claynicholson/copper-kicad-mcp) | 31 个 KiCad MCP 工具：原理图、元件、布线、ERC/DRC 与制造文件导出 | MIT | 2026-11-21 |
 | [Copperhead](https://github.com/copperheadhq/copperhead) | 规格与验证双门禁的 KiCad PCB 设计、文档与 ERC/DRC 智能体 | Apache-2.0 | 2026-11-21 |
 | [KiCad Happy](https://github.com/aklofas/kicad-happy) | KiCad 原理图/PCB 审查、EMC、SPICE、选型与制造准备的技能与分析器 | MIT | 2026-11-21 |
